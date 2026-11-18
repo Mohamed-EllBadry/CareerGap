@@ -50,7 +50,7 @@ with output_file.open("w", encoding="utf-8") as file:
 
 print(f"Saved {len(job_links)} job links to {output_file}")
 
-# subprocess.run(
-#     [sys.executable, str(Path(__file__).with_name("CheckJobLinks.py"))],
-#     check=True,
-# )
+subprocess.run(
+    [sys.executable, str(Path(__file__).with_name("CheckJobLinks.py"))],
+    check=True,
+)
