@@ -1,0 +1,10 @@
+# Cursor SDK
+
+The Cursor SDK lets you run the same agent from your own code. The TypeScript package `@cursor/sdk` and a Python SDK create an agent with `Agent.create()`, send it prompts and stream the events. You choose a local runtime that works on files in your machine, or a cloud runtime that runs in a Cursor-hosted VM.
+
+Visit the following resources to learn more:
+
+- [@official@TypeScript SDK](https://cursor.com/docs/sdk/typescript)
+- [@official@Python SDK](https://cursor.com/docs/sdk/python)
+- [@article@What the Cursor SDK is for, and when an automation is enough](https://www.spotdev.co.uk/blog/cursor-sdk-internal-agents)
+- [@video@I tested Cursor's Agents SDK, and it blew my mind](https://www.youtube.com/watch?v=5yojWE-DsWU)

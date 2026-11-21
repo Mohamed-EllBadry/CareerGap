@@ -1,0 +1,10 @@
+# Lists in Python
+
+Lists are fundamental data structures in Python used to store an ordered collection of items. These items can be of different data types (numbers, strings, or even other lists), and lists are mutable, meaning you can change their contents after they are created by adding, removing, or modifying elements. They are defined using square brackets `[]` and elements are separated by commas.
+
+Visit the following resources to learn more:
+
+- [@official@Python Official Documentation on Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
+- [@article@Python for Beginners: Lists](https://thenewstack.io/python-for-beginners-lists/)
+- [@article@Python Remove from List: Full Guide + Examples](https://roadmap.sh/python/remove-item-from-list)
+- [@video@Lists in Python](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjSgal6OIEfzK4upXvkHSxW)

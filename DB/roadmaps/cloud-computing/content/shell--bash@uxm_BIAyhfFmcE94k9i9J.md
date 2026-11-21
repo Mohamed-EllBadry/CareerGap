@@ -1,0 +1,9 @@
+# Shell / Bash
+
+Bash is the default shell on most Linux systems and the primary language for writing automation scripts in cloud environments. It is used to chain commands, manage files, interact with CLIs, and automate repetitive tasks. Cloud practitioners use Bash daily when working with tools like the AWS CLI, kubectl, or Terraform.
+
+Visit the following resources to learn more:
+
+- [@roadmap@Visit the Dedicated Shell/Bash Roadmap](https://roadmap.sh/shell-bash)
+- [@video@The Complete Bash Scripting Course](https://www.youtube.com/watch?v=Sx9zG7wa4FA&t=1s)
+- [@video@Shell Scripting Crash Course - Beginner Level](https://www.youtube.com/watch?v=v-F3YLd6oMw)
