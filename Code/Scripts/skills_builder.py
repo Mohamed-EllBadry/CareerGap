@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 Reads roadmap.sh content files (markdown) + the roadmap structure (nodes/edges),
-orders the skills using Option C: Hybrid Topological Edge Order guided by
-pedagogical fundamental-to-advanced learning phases, attaches dedicated frameworks
-to every primary track, and writes structured JSON output files.
+orders skills by roadmap dependencies with pedagogical phases as tie-breakers,
+separates actual frameworks from related learning topics, extracts matching Markdown
+content, and writes structured JSON output files.
 
 Usage:
     python skills_builder.py --roadmap-slug frontend,backend
@@ -39,7 +39,7 @@ VISIT_RE = re.compile(r"^\s*Visit the following resources", re.IGNORECASE)
 TRACK_CACHE = {}
 
 
-# ---------- COMPREHENSIVE TRACK FRAMEWORKS & SPECIALIZATIONS ----------
+# ---------- ACTUAL SOFTWARE FRAMEWORKS BY TRACK ----------
 
 TRACK_FRAMEWORKS = {
     "frontend": [
@@ -47,65 +47,31 @@ TRACK_FRAMEWORKS = {
         {"framework_id": "vue",           "framework_name": "Vue.js",                  "source_roadmap": "vue"},
         {"framework_id": "angular",       "framework_name": "Angular",                 "source_roadmap": "angular"},
         {"framework_id": "nextjs",        "framework_name": "Next.js",                 "source_roadmap": "nextjs"},
-        {"framework_id": "typescript",    "framework_name": "TypeScript",              "source_roadmap": "typescript"},
-        {"framework_id": "javascript",    "framework_name": "JavaScript",              "source_roadmap": "javascript"},
-        {"framework_id": "html",          "framework_name": "HTML",                    "source_roadmap": "html"},
-        {"framework_id": "css",           "framework_name": "CSS",                     "source_roadmap": "css"},
-        {"framework_id": "design-system", "framework_name": "Design System",            "source_roadmap": "design-system"},
-        {"framework_id": "seo",           "framework_name": "SEO & Web Performance",    "source_roadmap": "seo"},
-        {"framework_id": "wordpress",     "framework_name": "WordPress CMS",           "source_roadmap": "wordpress"},
-        {"framework_id": "svelte",        "framework_name": "Svelte",                  "source_roadmap": None},
-        {"framework_id": "solidjs",       "framework_name": "Solid JS",                "source_roadmap": None},
+        {"framework_id": "svelte",        "framework_name": "Svelte",                  "source_roadmap": None, "content_source_roadmap": "frontend"},
+        {"framework_id": "solidjs",       "framework_name": "Solid JS",                "source_roadmap": None, "content_source_roadmap": "frontend"},
     ],
     "frontend-beginner": [
-        {"framework_id": "html",                "framework_name": "HTML",                    "source_roadmap": "html"},
-        {"framework_id": "css",                 "framework_name": "CSS",                     "source_roadmap": "css"},
-        {"framework_id": "javascript",          "framework_name": "JavaScript",              "source_roadmap": "javascript"},
-        {"framework_id": "git-github-beginner", "framework_name": "Git & GitHub Beginner",   "source_roadmap": "git-github-beginner"},
     ],
     "backend": [
-        {"framework_id": "nodejs",        "framework_name": "Node.js",                 "source_roadmap": "nodejs"},
-        {"framework_id": "python",        "framework_name": "Python",                  "source_roadmap": "python"},
         {"framework_id": "django",        "framework_name": "Django",                  "source_roadmap": "django"},
-        {"framework_id": "java",          "framework_name": "Java",                    "source_roadmap": "java"},
         {"framework_id": "spring-boot",   "framework_name": "Spring Boot",             "source_roadmap": "spring-boot"},
-        {"framework_id": "golang",        "framework_name": "Go",                      "source_roadmap": "golang"},
-        {"framework_id": "rust",          "framework_name": "Rust",                    "source_roadmap": "rust"},
-        {"framework_id": "cpp",           "framework_name": "C++",                     "source_roadmap": "cpp"},
-        {"framework_id": "c",             "framework_name": "C",                       "source_roadmap": "c"},
         {"framework_id": "aspnet-core",   "framework_name": "ASP.NET Core",            "source_roadmap": "aspnet-core"},
-        {"framework_id": "php",           "framework_name": "PHP",                     "source_roadmap": "php"},
         {"framework_id": "laravel",       "framework_name": "Laravel",                 "source_roadmap": "laravel"},
-        {"framework_id": "ruby",          "framework_name": "Ruby",                    "source_roadmap": "ruby"},
         {"framework_id": "ruby-on-rails", "framework_name": "Ruby on Rails",           "source_roadmap": "ruby-on-rails"},
-        {"framework_id": "scala",         "framework_name": "Scala",                   "source_roadmap": "scala"},
-        {"framework_id": "graphql",       "framework_name": "GraphQL",                 "source_roadmap": "graphql"},
-        {"framework_id": "api-design",    "framework_name": "API Design",              "source_roadmap": "api-design"},
     ],
     "backend-beginner": [
-        {"framework_id": "python",              "framework_name": "Python",                  "source_roadmap": "python"},
-        {"framework_id": "nodejs",              "framework_name": "Node.js",                 "source_roadmap": "nodejs"},
-        {"framework_id": "sql",                 "framework_name": "SQL",                     "source_roadmap": "sql"},
-        {"framework_id": "git-github-beginner", "framework_name": "Git & GitHub Beginner",   "source_roadmap": "git-github-beginner"},
     ],
     "full-stack": [
         {"framework_id": "react",         "framework_name": "React",                   "source_roadmap": "react"},
         {"framework_id": "nextjs",        "framework_name": "Next.js",                 "source_roadmap": "nextjs"},
         {"framework_id": "vue",           "framework_name": "Vue.js",                  "source_roadmap": "vue"},
-        {"framework_id": "nodejs",        "framework_name": "Node.js",                 "source_roadmap": "nodejs"},
-        {"framework_id": "python",        "framework_name": "Python",                  "source_roadmap": "python"},
         {"framework_id": "django",        "framework_name": "Django",                  "source_roadmap": "django"},
-        {"framework_id": "java",          "framework_name": "Java",                    "source_roadmap": "java"},
         {"framework_id": "spring-boot",   "framework_name": "Spring Boot",             "source_roadmap": "spring-boot"},
         {"framework_id": "aspnet-core",   "framework_name": "ASP.NET Core",            "source_roadmap": "aspnet-core"},
         {"framework_id": "laravel",       "framework_name": "Laravel",                 "source_roadmap": "laravel"},
         {"framework_id": "ruby-on-rails", "framework_name": "Ruby on Rails",           "source_roadmap": "ruby-on-rails"},
-        {"framework_id": "graphql",       "framework_name": "GraphQL",                 "source_roadmap": "graphql"},
-        {"framework_id": "wordpress",     "framework_name": "WordPress CMS",           "source_roadmap": "wordpress"},
     ],
     "android": [
-        {"framework_id": "kotlin",       "framework_name": "Kotlin",                  "source_roadmap": "kotlin"},
-        {"framework_id": "java",         "framework_name": "Java",                    "source_roadmap": "java"},
         {"framework_id": "flutter",      "framework_name": "Flutter",                 "source_roadmap": "flutter"},
         {"framework_id": "react-native", "framework_name": "React Native",             "source_roadmap": "react-native"},
     ],
@@ -115,172 +81,326 @@ TRACK_FRAMEWORKS = {
         {"framework_id": "react-native", "framework_name": "React Native",             "source_roadmap": "react-native"},
     ],
     "devops": [
-        {"framework_id": "docker",          "framework_name": "Docker",                  "source_roadmap": "docker"},
-        {"framework_id": "kubernetes",      "framework_name": "Kubernetes",              "source_roadmap": "kubernetes"},
-        {"framework_id": "terraform",       "framework_name": "Terraform",               "source_roadmap": "terraform"},
-        {"framework_id": "aws",             "framework_name": "AWS",                     "source_roadmap": "aws"},
-        {"framework_id": "cloud-computing", "framework_name": "Cloud Computing",         "source_roadmap": "cloud-computing"},
-        {"framework_id": "cloudflare",      "framework_name": "Cloudflare",              "source_roadmap": "cloudflare"},
-        {"framework_id": "linux",           "framework_name": "Linux",                   "source_roadmap": "linux"},
-        {"framework_id": "shell-bash",      "framework_name": "Shell / Bash",            "source_roadmap": "shell-bash"},
-        {"framework_id": "git-github",      "framework_name": "Git & GitHub",            "source_roadmap": "git-github"},
     ],
     "devops-beginner": [
-        {"framework_id": "linux",               "framework_name": "Linux",                   "source_roadmap": "linux"},
-        {"framework_id": "shell-bash",          "framework_name": "Shell / Bash",            "source_roadmap": "shell-bash"},
-        {"framework_id": "git-github-beginner", "framework_name": "Git & GitHub Beginner",   "source_roadmap": "git-github-beginner"},
-        {"framework_id": "docker",              "framework_name": "Docker",                  "source_roadmap": "docker"},
     ],
     "devsecops": [
-        {"framework_id": "docker",         "framework_name": "Docker",                  "source_roadmap": "docker"},
-        {"framework_id": "kubernetes",     "framework_name": "Kubernetes",              "source_roadmap": "kubernetes"},
-        {"framework_id": "cyber-security", "framework_name": "Cyber Security",          "source_roadmap": "cyber-security"},
-        {"framework_id": "terraform",      "framework_name": "Terraform",               "source_roadmap": "terraform"},
-        {"framework_id": "linux",          "framework_name": "Linux",                   "source_roadmap": "linux"},
     ],
     "data-engineer": [
-        {"framework_id": "python",         "framework_name": "Python",                  "source_roadmap": "python"},
-        {"framework_id": "sql",            "framework_name": "SQL",                     "source_roadmap": "sql"},
-        {"framework_id": "postgresql-dba", "framework_name": "PostgreSQL DBA",          "source_roadmap": "postgresql-dba"},
-        {"framework_id": "mongodb",        "framework_name": "MongoDB",                 "source_roadmap": "mongodb"},
-        {"framework_id": "redis",          "framework_name": "Redis",                   "source_roadmap": "redis"},
-        {"framework_id": "elasticsearch",  "framework_name": "Elasticsearch",           "source_roadmap": "elasticsearch"},
-        {"framework_id": "scala",          "framework_name": "Scala",                   "source_roadmap": "scala"},
-        {"framework_id": "docker",         "framework_name": "Docker",                  "source_roadmap": "docker"},
     ],
     "data-analyst": [
-        {"framework_id": "sql",                  "framework_name": "SQL",                     "source_roadmap": "sql"},
-        {"framework_id": "python-data-analysis", "framework_name": "Python Data Analysis",   "source_roadmap": "python-data-analysis"},
-        {"framework_id": "python",               "framework_name": "Python",                  "source_roadmap": "python"},
-        {"framework_id": "power-bi",             "framework_name": "Power BI",                "source_roadmap": "power-bi"},
-        {"framework_id": "r-programming",        "framework_name": "R Programming",           "source_roadmap": "r-programming"},
     ],
     "bi-analyst": [
-        {"framework_id": "power-bi",             "framework_name": "Power BI",                "source_roadmap": "power-bi"},
-        {"framework_id": "sql",                  "framework_name": "SQL",                     "source_roadmap": "sql"},
-        {"framework_id": "python-data-analysis", "framework_name": "Python Data Analysis",   "source_roadmap": "python-data-analysis"},
-        {"framework_id": "r-programming",        "framework_name": "R Programming",           "source_roadmap": "r-programming"},
     ],
     "ai-data-scientist": [
-        {"framework_id": "python",               "framework_name": "Python",                  "source_roadmap": "python"},
-        {"framework_id": "python-data-analysis", "framework_name": "Python Data Analysis",   "source_roadmap": "python-data-analysis"},
-        {"framework_id": "sql",                  "framework_name": "SQL",                     "source_roadmap": "sql"},
-        {"framework_id": "r-programming",        "framework_name": "R Programming",           "source_roadmap": "r-programming"},
-        {"framework_id": "mlops",                "framework_name": "MLOps",                   "source_roadmap": "mlops"},
+        {"framework_id": "pytorch",    "framework_name": "PyTorch",    "source_roadmap": None, "content_source_roadmap": "machine-learning"},
+        {"framework_id": "tensorflow", "framework_name": "TensorFlow", "source_roadmap": None, "content_source_roadmap": "machine-learning"},
+        {"framework_id": "keras",      "framework_name": "Keras",      "source_roadmap": None, "content_source_roadmap": "machine-learning"},
     ],
     "machine-learning": [
-        {"framework_id": "python",               "framework_name": "Python",                  "source_roadmap": "python"},
-        {"framework_id": "python-data-analysis", "framework_name": "Python Data Analysis",   "source_roadmap": "python-data-analysis"},
-        {"framework_id": "sql",                  "framework_name": "SQL",                     "source_roadmap": "sql"},
-        {"framework_id": "mlops",                "framework_name": "MLOps",                   "source_roadmap": "mlops"},
+        {"framework_id": "pytorch",    "framework_name": "PyTorch",    "source_roadmap": None, "content_source_roadmap": "machine-learning"},
+        {"framework_id": "tensorflow", "framework_name": "TensorFlow", "source_roadmap": None, "content_source_roadmap": "machine-learning"},
+        {"framework_id": "keras",      "framework_name": "Keras",      "source_roadmap": None, "content_source_roadmap": "machine-learning"},
     ],
     "ai-engineer": [
-        {"framework_id": "ai-agents",            "framework_name": "AI Agents",               "source_roadmap": "ai-agents"},
-        {"framework_id": "prompt-engineering",   "framework_name": "Prompt Engineering",      "source_roadmap": "prompt-engineering"},
-        {"framework_id": "inference-engineering","framework_name": "Inference Engineering",   "source_roadmap": "inference-engineering"},
-        {"framework_id": "mlops",                "framework_name": "MLOps",                   "source_roadmap": "mlops"},
-        {"framework_id": "ai-red-teaming",       "framework_name": "AI Red Teaming",          "source_roadmap": "ai-red-teaming"},
-        {"framework_id": "python",               "framework_name": "Python",                  "source_roadmap": "python"},
-        {"framework_id": "openclaw",             "framework_name": "OpenClaw Agent Platform", "source_roadmap": "openclaw"},
     ],
     "ai-product-builder": [
-        {"framework_id": "prompt-engineering", "framework_name": "Prompt Engineering",      "source_roadmap": "prompt-engineering"},
-        {"framework_id": "ai-agents",          "framework_name": "AI Agents",               "source_roadmap": "ai-agents"},
-        {"framework_id": "cursor",             "framework_name": "Cursor AI",               "source_roadmap": "cursor"},
-        {"framework_id": "claude-code",        "framework_name": "Claude Code",             "source_roadmap": "claude-code"},
-        {"framework_id": "codex",              "framework_name": "Codex AI",                "source_roadmap": "codex"},
-        {"framework_id": "vibe-coding",        "framework_name": "Vibe Coding",             "source_roadmap": "vibe-coding"},
     ],
     "qa": [
-        {"framework_id": "python",     "framework_name": "Python",                  "source_roadmap": "python"},
-        {"framework_id": "javascript", "framework_name": "JavaScript",              "source_roadmap": "javascript"},
-        {"framework_id": "typescript", "framework_name": "TypeScript",              "source_roadmap": "typescript"},
-        {"framework_id": "api-design", "framework_name": "API Design",              "source_roadmap": "api-design"},
-        {"framework_id": "git-github", "framework_name": "Git & GitHub",            "source_roadmap": "git-github"},
     ],
     "cyber-security": [
-        {"framework_id": "linux",            "framework_name": "Linux",                   "source_roadmap": "linux"},
-        {"framework_id": "network-engineer", "framework_name": "Network Engineer",         "source_roadmap": "network-engineer"},
-        {"framework_id": "python",           "framework_name": "Python",                  "source_roadmap": "python"},
-        {"framework_id": "shell-bash",        "framework_name": "Shell / Bash",            "source_roadmap": "shell-bash"},
-        {"framework_id": "devsecops",        "framework_name": "DevSecOps",               "source_roadmap": "devsecops"},
     ],
     "game-developer": [
-        {"framework_id": "cpp",                        "framework_name": "C++",                        "source_roadmap": "cpp"},
-        {"framework_id": "c",                          "framework_name": "C",                          "source_roadmap": "c"},
-        {"framework_id": "rust",                       "framework_name": "Rust",                       "source_roadmap": "rust"},
-        {"framework_id": "server-side-game-developer", "framework_name": "Server-Side Game Developer", "source_roadmap": "server-side-game-developer"},
     ],
     "server-side-game-developer": [
-        {"framework_id": "cpp",    "framework_name": "C++",     "source_roadmap": "cpp"},
-        {"framework_id": "rust",   "framework_name": "Rust",    "source_roadmap": "rust"},
-        {"framework_id": "golang", "framework_name": "Go",      "source_roadmap": "golang"},
-        {"framework_id": "nodejs", "framework_name": "Node.js", "source_roadmap": "nodejs"},
     ],
     "blockchain": [
-        {"framework_id": "rust",       "framework_name": "Rust",       "source_roadmap": "rust"},
-        {"framework_id": "golang",     "framework_name": "Go",         "source_roadmap": "golang"},
-        {"framework_id": "typescript", "framework_name": "TypeScript", "source_roadmap": "typescript"},
-        {"framework_id": "javascript", "framework_name": "JavaScript", "source_roadmap": "javascript"},
     ],
     "software-architect": [
-        {"framework_id": "system-design", "framework_name": "System Design", "source_roadmap": "system-design"},
-        {"framework_id": "api-design",    "framework_name": "API Design",    "source_roadmap": "api-design"},
-        {"framework_id": "design-system", "framework_name": "Design System", "source_roadmap": "design-system"},
-        {"framework_id": "code-review",   "framework_name": "Code Review",   "source_roadmap": "code-review"},
     ],
     "software-design-architecture": [
-        {"framework_id": "system-design", "framework_name": "System Design", "source_roadmap": "system-design"},
-        {"framework_id": "api-design",    "framework_name": "API Design",    "source_roadmap": "api-design"},
-        {"framework_id": "code-review",   "framework_name": "Code Review",   "source_roadmap": "code-review"},
     ],
     "network-engineer": [
-        {"framework_id": "linux",          "framework_name": "Linux",          "source_roadmap": "linux"},
-        {"framework_id": "shell-bash",      "framework_name": "Shell / Bash",   "source_roadmap": "shell-bash"},
-        {"framework_id": "python",         "framework_name": "Python",         "source_roadmap": "python"},
-        {"framework_id": "cyber-security", "framework_name": "Cyber Security", "source_roadmap": "cyber-security"},
     ],
     "product-manager": [
-        {"framework_id": "design-system",   "framework_name": "Design System",   "source_roadmap": "design-system"},
-        {"framework_id": "technical-writer", "framework_name": "Technical Writer", "source_roadmap": "technical-writer"},
-        {"framework_id": "seo",              "framework_name": "SEO & Growth",    "source_roadmap": "seo"},
     ],
     "product-design": [
-        {"framework_id": "ux-design",     "framework_name": "UX Design",     "source_roadmap": "ux-design"},
-        {"framework_id": "design-system", "framework_name": "Design System", "source_roadmap": "design-system"},
     ],
     "ux-design": [
-        {"framework_id": "design-system", "framework_name": "Design System", "source_roadmap": "design-system"},
-        {"framework_id": "product-design", "framework_name": "Product Design", "source_roadmap": "product-design"},
     ],
     "engineering-manager": [
-        {"framework_id": "code-review",     "framework_name": "Code Review",     "source_roadmap": "code-review"},
-        {"framework_id": "technical-writer", "framework_name": "Technical Writer", "source_roadmap": "technical-writer"},
     ],
     "devrel": [
-        {"framework_id": "technical-writer", "framework_name": "Technical Writer", "source_roadmap": "technical-writer"},
-        {"framework_id": "git-github",       "framework_name": "Git & GitHub",       "source_roadmap": "git-github"},
     ],
     "forward-deployed-engineer": [
-        {"framework_id": "python",     "framework_name": "Python",     "source_roadmap": "python"},
-        {"framework_id": "docker",     "framework_name": "Docker",     "source_roadmap": "docker"},
-        {"framework_id": "ai-agents",  "framework_name": "AI Agents",  "source_roadmap": "ai-agents"},
-        {"framework_id": "api-design", "framework_name": "API Design", "source_roadmap": "api-design"},
     ],
     "computer-science": [
-        {"framework_id": "datastructures-and-algorithms", "framework_name": "Data Structures & Algorithms", "source_roadmap": "datastructures-and-algorithms"},
-        {"framework_id": "leetcode",                      "framework_name": "LeetCode",                      "source_roadmap": "leetcode"},
-        {"framework_id": "c",                             "framework_name": "C",                             "source_roadmap": "c"},
-        {"framework_id": "cpp",                           "framework_name": "C++",                           "source_roadmap": "cpp"},
-        {"framework_id": "python",                        "framework_name": "Python",                        "source_roadmap": "python"},
     ],
     "datastructures-and-algorithms": [
-        {"framework_id": "leetcode", "framework_name": "LeetCode", "source_roadmap": "leetcode"},
-        {"framework_id": "python",   "framework_name": "Python",   "source_roadmap": "python"},
-        {"framework_id": "cpp",      "framework_name": "C++",      "source_roadmap": "cpp"},
-        {"framework_id": "java",     "framework_name": "Java",     "source_roadmap": "java"},
     ],
 }
+
+RELATED_TOPICS = {'frontend': [{'related_id': 'typescript', 'related_name': 'TypeScript', 'source_roadmap': 'typescript'},
+              {'related_id': 'javascript', 'related_name': 'JavaScript', 'source_roadmap': 'javascript'},
+              {'related_id': 'html', 'related_name': 'HTML', 'source_roadmap': 'html'},
+              {'related_id': 'css', 'related_name': 'CSS', 'source_roadmap': 'css'},
+              {'related_id': 'design-system',
+               'related_name': 'Design System',
+               'source_roadmap': 'design-system'},
+              {'related_id': 'seo', 'related_name': 'SEO & Web Performance', 'source_roadmap': 'seo'},
+              {'related_id': 'wordpress', 'related_name': 'WordPress CMS', 'source_roadmap': 'wordpress'}],
+ 'frontend-beginner': [{'related_id': 'html', 'related_name': 'HTML', 'source_roadmap': 'html'},
+                       {'related_id': 'css', 'related_name': 'CSS', 'source_roadmap': 'css'},
+                       {'related_id': 'javascript',
+                        'related_name': 'JavaScript',
+                        'source_roadmap': 'javascript'},
+                       {'related_id': 'git-github-beginner',
+                        'related_name': 'Git & GitHub Beginner',
+                        'source_roadmap': 'git-github-beginner'}],
+ 'backend': [{'related_id': 'nodejs', 'related_name': 'Node.js', 'source_roadmap': 'nodejs'},
+             {'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+             {'related_id': 'java', 'related_name': 'Java', 'source_roadmap': 'java'},
+             {'related_id': 'golang', 'related_name': 'Go', 'source_roadmap': 'golang'},
+             {'related_id': 'rust', 'related_name': 'Rust', 'source_roadmap': 'rust'},
+             {'related_id': 'cpp', 'related_name': 'C++', 'source_roadmap': 'cpp'},
+             {'related_id': 'c', 'related_name': 'C', 'source_roadmap': 'c'},
+             {'related_id': 'php', 'related_name': 'PHP', 'source_roadmap': 'php'},
+             {'related_id': 'ruby', 'related_name': 'Ruby', 'source_roadmap': 'ruby'},
+             {'related_id': 'scala', 'related_name': 'Scala', 'source_roadmap': 'scala'},
+             {'related_id': 'graphql', 'related_name': 'GraphQL', 'source_roadmap': 'graphql'},
+             {'related_id': 'api-design', 'related_name': 'API Design', 'source_roadmap': 'api-design'}],
+ 'backend-beginner': [{'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+                      {'related_id': 'nodejs', 'related_name': 'Node.js', 'source_roadmap': 'nodejs'},
+                      {'related_id': 'sql', 'related_name': 'SQL', 'source_roadmap': 'sql'},
+                      {'related_id': 'git-github-beginner',
+                       'related_name': 'Git & GitHub Beginner',
+                       'source_roadmap': 'git-github-beginner'}],
+ 'full-stack': [{'related_id': 'nodejs', 'related_name': 'Node.js', 'source_roadmap': 'nodejs'},
+                {'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+                {'related_id': 'java', 'related_name': 'Java', 'source_roadmap': 'java'},
+                {'related_id': 'graphql', 'related_name': 'GraphQL', 'source_roadmap': 'graphql'},
+                {'related_id': 'wordpress',
+                 'related_name': 'WordPress CMS',
+                 'source_roadmap': 'wordpress'}],
+ 'android': [{'related_id': 'kotlin', 'related_name': 'Kotlin', 'source_roadmap': 'kotlin'},
+             {'related_id': 'java', 'related_name': 'Java', 'source_roadmap': 'java'}],
+ 'ios': [],
+ 'devops': [{'related_id': 'docker', 'related_name': 'Docker', 'source_roadmap': 'docker'},
+            {'related_id': 'kubernetes', 'related_name': 'Kubernetes', 'source_roadmap': 'kubernetes'},
+            {'related_id': 'terraform', 'related_name': 'Terraform', 'source_roadmap': 'terraform'},
+            {'related_id': 'aws', 'related_name': 'AWS', 'source_roadmap': 'aws'},
+            {'related_id': 'cloud-computing',
+             'related_name': 'Cloud Computing',
+             'source_roadmap': 'cloud-computing'},
+            {'related_id': 'cloudflare', 'related_name': 'Cloudflare', 'source_roadmap': 'cloudflare'},
+            {'related_id': 'linux', 'related_name': 'Linux', 'source_roadmap': 'linux'},
+            {'related_id': 'shell-bash', 'related_name': 'Shell / Bash', 'source_roadmap': 'shell-bash'},
+            {'related_id': 'git-github', 'related_name': 'Git & GitHub', 'source_roadmap': 'git-github'}],
+ 'devops-beginner': [{'related_id': 'linux', 'related_name': 'Linux', 'source_roadmap': 'linux'},
+                     {'related_id': 'shell-bash',
+                      'related_name': 'Shell / Bash',
+                      'source_roadmap': 'shell-bash'},
+                     {'related_id': 'git-github-beginner',
+                      'related_name': 'Git & GitHub Beginner',
+                      'source_roadmap': 'git-github-beginner'},
+                     {'related_id': 'docker', 'related_name': 'Docker', 'source_roadmap': 'docker'}],
+ 'devsecops': [{'related_id': 'docker', 'related_name': 'Docker', 'source_roadmap': 'docker'},
+               {'related_id': 'kubernetes', 'related_name': 'Kubernetes', 'source_roadmap': 'kubernetes'},
+               {'related_id': 'cyber-security',
+                'related_name': 'Cyber Security',
+                'source_roadmap': 'cyber-security'},
+               {'related_id': 'terraform', 'related_name': 'Terraform', 'source_roadmap': 'terraform'},
+               {'related_id': 'linux', 'related_name': 'Linux', 'source_roadmap': 'linux'}],
+ 'data-engineer': [{'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+                   {'related_id': 'sql', 'related_name': 'SQL', 'source_roadmap': 'sql'},
+                   {'related_id': 'postgresql-dba',
+                    'related_name': 'PostgreSQL DBA',
+                    'source_roadmap': 'postgresql-dba'},
+                   {'related_id': 'mongodb', 'related_name': 'MongoDB', 'source_roadmap': 'mongodb'},
+                   {'related_id': 'redis', 'related_name': 'Redis', 'source_roadmap': 'redis'},
+                   {'related_id': 'elasticsearch',
+                    'related_name': 'Elasticsearch',
+                    'source_roadmap': 'elasticsearch'},
+                   {'related_id': 'scala', 'related_name': 'Scala', 'source_roadmap': 'scala'},
+                   {'related_id': 'docker', 'related_name': 'Docker', 'source_roadmap': 'docker'}],
+ 'data-analyst': [{'related_id': 'sql', 'related_name': 'SQL', 'source_roadmap': 'sql'},
+                  {'related_id': 'python-data-analysis',
+                   'related_name': 'Python Data Analysis',
+                   'source_roadmap': 'python-data-analysis'},
+                  {'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+                  {'related_id': 'power-bi', 'related_name': 'Power BI', 'source_roadmap': 'power-bi'},
+                  {'related_id': 'r-programming',
+                   'related_name': 'R Programming',
+                   'source_roadmap': 'r-programming'}],
+ 'bi-analyst': [{'related_id': 'power-bi', 'related_name': 'Power BI', 'source_roadmap': 'power-bi'},
+                {'related_id': 'sql', 'related_name': 'SQL', 'source_roadmap': 'sql'},
+                {'related_id': 'python-data-analysis',
+                 'related_name': 'Python Data Analysis',
+                 'source_roadmap': 'python-data-analysis'},
+                {'related_id': 'r-programming',
+                 'related_name': 'R Programming',
+                 'source_roadmap': 'r-programming'}],
+ 'ai-data-scientist': [{'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+                       {'related_id': 'python-data-analysis',
+                        'related_name': 'Python Data Analysis',
+                        'source_roadmap': 'python-data-analysis'},
+                       {'related_id': 'sql', 'related_name': 'SQL', 'source_roadmap': 'sql'},
+                       {'related_id': 'r-programming',
+                        'related_name': 'R Programming',
+                        'source_roadmap': 'r-programming'},
+                       {'related_id': 'mlops', 'related_name': 'MLOps', 'source_roadmap': 'mlops'}],
+ 'machine-learning': [{'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+                      {'related_id': 'python-data-analysis',
+                       'related_name': 'Python Data Analysis',
+                       'source_roadmap': 'python-data-analysis'},
+                      {'related_id': 'sql', 'related_name': 'SQL', 'source_roadmap': 'sql'},
+                      {'related_id': 'mlops', 'related_name': 'MLOps', 'source_roadmap': 'mlops'}],
+ 'ai-engineer': [{'related_id': 'ai-agents', 'related_name': 'AI Agents', 'source_roadmap': 'ai-agents'},
+                 {'related_id': 'prompt-engineering',
+                  'related_name': 'Prompt Engineering',
+                  'source_roadmap': 'prompt-engineering'},
+                 {'related_id': 'inference-engineering',
+                  'related_name': 'Inference Engineering',
+                  'source_roadmap': 'inference-engineering'},
+                 {'related_id': 'mlops', 'related_name': 'MLOps', 'source_roadmap': 'mlops'},
+                 {'related_id': 'ai-red-teaming',
+                  'related_name': 'AI Red Teaming',
+                  'source_roadmap': 'ai-red-teaming'},
+                 {'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+                 {'related_id': 'openclaw',
+                  'related_name': 'OpenClaw Agent Platform',
+                  'source_roadmap': 'openclaw'}],
+ 'ai-product-builder': [{'related_id': 'prompt-engineering',
+                         'related_name': 'Prompt Engineering',
+                         'source_roadmap': 'prompt-engineering'},
+                        {'related_id': 'ai-agents',
+                         'related_name': 'AI Agents',
+                         'source_roadmap': 'ai-agents'},
+                        {'related_id': 'cursor', 'related_name': 'Cursor AI', 'source_roadmap': 'cursor'},
+                        {'related_id': 'claude-code',
+                         'related_name': 'Claude Code',
+                         'source_roadmap': 'claude-code'},
+                        {'related_id': 'codex', 'related_name': 'Codex AI', 'source_roadmap': 'codex'},
+                        {'related_id': 'vibe-coding',
+                         'related_name': 'Vibe Coding',
+                         'source_roadmap': 'vibe-coding'}],
+ 'qa': [{'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+        {'related_id': 'javascript', 'related_name': 'JavaScript', 'source_roadmap': 'javascript'},
+        {'related_id': 'typescript', 'related_name': 'TypeScript', 'source_roadmap': 'typescript'},
+        {'related_id': 'api-design', 'related_name': 'API Design', 'source_roadmap': 'api-design'},
+        {'related_id': 'git-github', 'related_name': 'Git & GitHub', 'source_roadmap': 'git-github'}],
+ 'cyber-security': [{'related_id': 'linux', 'related_name': 'Linux', 'source_roadmap': 'linux'},
+                    {'related_id': 'network-engineer',
+                     'related_name': 'Network Engineer',
+                     'source_roadmap': 'network-engineer'},
+                    {'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+                    {'related_id': 'shell-bash',
+                     'related_name': 'Shell / Bash',
+                     'source_roadmap': 'shell-bash'},
+                    {'related_id': 'devsecops',
+                     'related_name': 'DevSecOps',
+                     'source_roadmap': 'devsecops'}],
+ 'game-developer': [{'related_id': 'cpp', 'related_name': 'C++', 'source_roadmap': 'cpp'},
+                    {'related_id': 'c', 'related_name': 'C', 'source_roadmap': 'c'},
+                    {'related_id': 'rust', 'related_name': 'Rust', 'source_roadmap': 'rust'},
+                    {'related_id': 'server-side-game-developer',
+                     'related_name': 'Server-Side Game Developer',
+                     'source_roadmap': 'server-side-game-developer'}],
+ 'server-side-game-developer': [{'related_id': 'cpp', 'related_name': 'C++', 'source_roadmap': 'cpp'},
+                                {'related_id': 'rust', 'related_name': 'Rust', 'source_roadmap': 'rust'},
+                                {'related_id': 'golang', 'related_name': 'Go', 'source_roadmap': 'golang'},
+                                {'related_id': 'nodejs',
+                                 'related_name': 'Node.js',
+                                 'source_roadmap': 'nodejs'}],
+ 'blockchain': [{'related_id': 'rust', 'related_name': 'Rust', 'source_roadmap': 'rust'},
+                {'related_id': 'golang', 'related_name': 'Go', 'source_roadmap': 'golang'},
+                {'related_id': 'typescript', 'related_name': 'TypeScript', 'source_roadmap': 'typescript'},
+                {'related_id': 'javascript', 'related_name': 'JavaScript', 'source_roadmap': 'javascript'}],
+ 'software-architect': [{'related_id': 'system-design',
+                         'related_name': 'System Design',
+                         'source_roadmap': 'system-design'},
+                        {'related_id': 'api-design',
+                         'related_name': 'API Design',
+                         'source_roadmap': 'api-design'},
+                        {'related_id': 'design-system',
+                         'related_name': 'Design System',
+                         'source_roadmap': 'design-system'},
+                        {'related_id': 'code-review',
+                         'related_name': 'Code Review',
+                         'source_roadmap': 'code-review'}],
+ 'software-design-architecture': [{'related_id': 'system-design',
+                                   'related_name': 'System Design',
+                                   'source_roadmap': 'system-design'},
+                                  {'related_id': 'api-design',
+                                   'related_name': 'API Design',
+                                   'source_roadmap': 'api-design'},
+                                  {'related_id': 'code-review',
+                                   'related_name': 'Code Review',
+                                   'source_roadmap': 'code-review'}],
+ 'network-engineer': [{'related_id': 'linux', 'related_name': 'Linux', 'source_roadmap': 'linux'},
+                      {'related_id': 'shell-bash',
+                       'related_name': 'Shell / Bash',
+                       'source_roadmap': 'shell-bash'},
+                      {'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'},
+                      {'related_id': 'cyber-security',
+                       'related_name': 'Cyber Security',
+                       'source_roadmap': 'cyber-security'}],
+ 'product-manager': [{'related_id': 'design-system',
+                      'related_name': 'Design System',
+                      'source_roadmap': 'design-system'},
+                     {'related_id': 'technical-writer',
+                      'related_name': 'Technical Writer',
+                      'source_roadmap': 'technical-writer'},
+                     {'related_id': 'seo', 'related_name': 'SEO & Growth', 'source_roadmap': 'seo'}],
+ 'product-design': [{'related_id': 'ux-design', 'related_name': 'UX Design', 'source_roadmap': 'ux-design'},
+                    {'related_id': 'design-system',
+                     'related_name': 'Design System',
+                     'source_roadmap': 'design-system'}],
+ 'ux-design': [{'related_id': 'design-system',
+                'related_name': 'Design System',
+                'source_roadmap': 'design-system'},
+               {'related_id': 'product-design',
+                'related_name': 'Product Design',
+                'source_roadmap': 'product-design'}],
+ 'engineering-manager': [{'related_id': 'code-review',
+                          'related_name': 'Code Review',
+                          'source_roadmap': 'code-review'},
+                         {'related_id': 'technical-writer',
+                          'related_name': 'Technical Writer',
+                          'source_roadmap': 'technical-writer'}],
+ 'devrel': [{'related_id': 'technical-writer',
+             'related_name': 'Technical Writer',
+             'source_roadmap': 'technical-writer'},
+            {'related_id': 'git-github', 'related_name': 'Git & GitHub', 'source_roadmap': 'git-github'}],
+ 'forward-deployed-engineer': [{'related_id': 'python',
+                                'related_name': 'Python',
+                                'source_roadmap': 'python'},
+                               {'related_id': 'docker',
+                                'related_name': 'Docker',
+                                'source_roadmap': 'docker'},
+                               {'related_id': 'ai-agents',
+                                'related_name': 'AI Agents',
+                                'source_roadmap': 'ai-agents'},
+                               {'related_id': 'api-design',
+                                'related_name': 'API Design',
+                                'source_roadmap': 'api-design'}],
+ 'computer-science': [{'related_id': 'datastructures-and-algorithms',
+                       'related_name': 'Data Structures & Algorithms',
+                       'source_roadmap': 'datastructures-and-algorithms'},
+                      {'related_id': 'leetcode', 'related_name': 'LeetCode', 'source_roadmap': 'leetcode'},
+                      {'related_id': 'c', 'related_name': 'C', 'source_roadmap': 'c'},
+                      {'related_id': 'cpp', 'related_name': 'C++', 'source_roadmap': 'cpp'},
+                      {'related_id': 'python', 'related_name': 'Python', 'source_roadmap': 'python'}],
+ 'datastructures-and-algorithms': [{'related_id': 'leetcode',
+                                    'related_name': 'LeetCode',
+                                    'source_roadmap': 'leetcode'},
+                                   {'related_id': 'python',
+                                    'related_name': 'Python',
+                                    'source_roadmap': 'python'},
+                                   {'related_id': 'cpp', 'related_name': 'C++', 'source_roadmap': 'cpp'},
+                                   {'related_id': 'java',
+                                    'related_name': 'Java',
+                                    'source_roadmap': 'java'}]}
 
 PRIMARY_TRACKS = list(TRACK_FRAMEWORKS.keys())
 CACHE_DIR = Path(__file__).resolve().parent.parent / "json" / ".cache_roadmaps"
@@ -336,6 +456,8 @@ def index_content_files(content_dir):
 
 
 def parse_content(text):
+    # roadmap content can wrap a Markdown link title onto a second line.
+    text = re.sub(r"\n\s*\]\s*\(", "](", text)
     desc_lines, links = [], []
     for line in text.splitlines():
         if line.startswith("# ") and not desc_lines and not links:
@@ -360,6 +482,7 @@ STACK_MAX_SCORE = 45
 TOPIC_BELOW_MAX_GAP = 45
 
 STATS = {}
+BUILD_ERRORS = []
 
 
 def node_pos(node):
@@ -604,44 +727,124 @@ def get_pedagogical_tier(label):
     return 4.0
 
 
-def compute_hybrid_order(top_level, edges, all_nodes):
-    id_to_entry = {node["id"]: (pos, node, members) for pos, node, members in top_level}
-    topic_ids = set(id_to_entry.keys())
+def dependency_order(entries, dependencies, id_getter, key):
+    """Topologically order entries, using pedagogical/layout priority for ties.
 
-    dag = defaultdict(set)
-    in_degree = defaultdict(int)
-    for tid in topic_ids:
-        in_degree[tid] = 0
+    Strongly connected groups are kept together and sorted by the same tie-breaker;
+    their internal edges are reported as unavoidable ordering conflicts.
+    """
+    by_id = {id_getter(entry): entry for entry in entries}
+    graph = {entry_id: set() for entry_id in by_id}
+    self_edges = set()
+    for source, target in dependencies:
+        if source not in by_id or target not in by_id:
+            continue
+        if source == target:
+            self_edges.add(source)
+        else:
+            graph[source].add(target)
 
-    for e in edges:
-        s, t = e.get("source"), e.get("target")
-        if s in topic_ids and t in topic_ids and s != t:
-            sy = node_pos(all_nodes.get(s, {}))[1]
-            ty = node_pos(all_nodes.get(t, {}))[1]
-            if ty >= sy - 150:
-                if t not in dag[s]:
-                    dag[s].add(t)
-                    in_degree[t] += 1
+    index = 0
+    stack = []
+    on_stack = set()
+    indexes, lowlink = {}, {}
+    components = []
 
-    ranks = {tid: get_pedagogical_tier(node_label(id_to_entry[tid][1])) for tid in topic_ids}
+    def visit(node):
+        nonlocal index
+        indexes[node] = lowlink[node] = index
+        index += 1
+        stack.append(node)
+        on_stack.add(node)
+        for nxt in sorted(graph[node]):
+            if nxt not in indexes:
+                visit(nxt)
+                lowlink[node] = min(lowlink[node], lowlink[nxt])
+            elif nxt in on_stack:
+                lowlink[node] = min(lowlink[node], indexes[nxt])
+        if lowlink[node] == indexes[node]:
+            component = []
+            while True:
+                nxt = stack.pop()
+                on_stack.remove(nxt)
+                component.append(nxt)
+                if nxt == node:
+                    break
+            components.append(component)
 
-    q = deque([tid for tid in topic_ids if in_degree[tid] == 0])
-    current_in = dict(in_degree)
-    while q:
-        curr = q.popleft()
-        for nxt in dag[curr]:
-            ranks[nxt] = max(ranks[nxt], ranks[curr] + 0.1)
-            current_in[nxt] -= 1
-            if current_in[nxt] == 0:
-                q.append(nxt)
+    for node in sorted(by_id):
+        if node not in indexes:
+            visit(node)
 
-    def sort_key(entry):
+    component_of = {node: i for i, component in enumerate(components) for node in component}
+    component_graph = {i: set() for i in range(len(components))}
+    indegree = {i: 0 for i in component_graph}
+    for source, targets in graph.items():
+        a = component_of[source]
+        for target in targets:
+            b = component_of[target]
+            if a != b and b not in component_graph[a]:
+                component_graph[a].add(b)
+                indegree[b] += 1
+
+    def component_key(component_id):
+        return min(key(by_id[node]) for node in components[component_id])
+
+    ready = [i for i, degree in indegree.items() if degree == 0]
+    ordered = []
+    cycle_nodes = sum(
+        len(component) for component in components
+        if len(component) > 1 or any(node in self_edges for node in component)
+    )
+    cycle_conflicts = []
+    for component in components:
+        members = set(component)
+        preferred = sorted(component, key=lambda node: key(by_id[node]))
+        preferred_rank = {node: i for i, node in enumerate(preferred)}
+        for source in component:
+            for target in graph[source]:
+                if target in members and source != target and preferred_rank[source] >= preferred_rank[target]:
+                    cycle_conflicts.append((source, target))
+    while ready:
+        ready.sort(key=component_key)
+        component_id = ready.pop(0)
+        ordered.extend(sorted((by_id[node] for node in components[component_id]), key=key))
+        for nxt in component_graph[component_id]:
+            indegree[nxt] -= 1
+            if indegree[nxt] == 0:
+                ready.append(nxt)
+    return ordered, cycle_nodes, cycle_conflicts
+
+
+def compute_hybrid_order(top_level, edges, all_nodes, stats=None):
+    """Respect roadmap dependency edges; use learning tier and layout only for ties."""
+    group_for_node = {}
+    for _, node, members in top_level:
+        group_id = node["id"]
+        group_for_node[group_id] = group_id
+        for member in members:
+            group_for_node[member["_adj"]] = group_id
+            group_for_node[member["id"]] = group_id
+
+    dependencies = set()
+    for edge in edges:
+        source = group_for_node.get(edge.get("source"))
+        target = group_for_node.get(edge.get("target"))
+        if source and target and source != target:
+            dependencies.add((source, target))
+
+    def priority(entry):
         _, node, _ = entry
-        nid = node["id"]
         x, y = node_pos(node)
-        return (ranks[nid], y, x)
+        return (get_pedagogical_tier(node_label(node)), y, x, node_label(node).lower())
 
-    return sorted(top_level, key=sort_key)
+    ordered, cycles, conflicts = dependency_order(
+        top_level, dependencies, id_getter=lambda entry: entry[1]["id"], key=priority
+    )
+    if stats is not None and cycles:
+        stats["dependency cycle nodes"] += cycles
+        stats["dependency cycle edges resolved"] += len(conflicts)
+    return ordered, conflicts
 
 
 SUB_PRIORITY_PATTERNS = [
@@ -660,19 +863,34 @@ def sub_skill_priority(label):
     return 1
 
 
-def sort_sub_skills(members):
+def sort_sub_skills(members, edges=(), stats=None):
     seen_labels = set()
     unique_members = []
-    for m in members:
-        lbl = node_label(m).lower()
-        if lbl and lbl not in seen_labels:
-            seen_labels.add(lbl)
-            unique_members.append(m)
+    for member in members:
+        label = node_label(member).lower()
+        if label and label not in seen_labels:
+            seen_labels.add(label)
+            unique_members.append(member)
 
-    return sorted(
-        unique_members,
-        key=lambda n: (sub_skill_priority(node_label(n)), node_pos(n)[1], node_pos(n)[0]),
+    item_for_node = {member["_adj"]: member["id"] for member in unique_members}
+    dependencies = set()
+    for edge in edges:
+        source = item_for_node.get(edge.get("source"))
+        target = item_for_node.get(edge.get("target"))
+        if source and target and source != target:
+            dependencies.add((source, target))
+
+    def priority(node):
+        x, y = node_pos(node)
+        return (sub_skill_priority(node_label(node)), y, x, node_label(node).lower())
+
+    ordered, cycles, conflicts = dependency_order(
+        unique_members, dependencies, id_getter=lambda node: node["id"], key=priority
     )
+    if stats is not None and cycles:
+        stats["sub-skill dependency cycle nodes"] += cycles
+        stats["sub-skill cycle edges resolved"] += len(conflicts)
+    return ordered, conflicts
 
 
 # ---------- BUILDING THE OUTPUT ----------
@@ -697,6 +915,14 @@ def build_skill(node, files, extra_links=()):
         if data.get("href"):
             rsc.append({"title": node_label(r) or data["href"], "url": data["href"], "content": None})
 
+    unique_resources, seen_resources = [], set()
+    for resource in rsc:
+        marker = (resource.get("title"), resource.get("url"), resource.get("content"))
+        if marker not in seen_resources:
+            seen_resources.add(marker)
+            unique_resources.append(resource)
+    rsc = unique_resources
+
     return {
         "skill_id": node_id,
         "skill_name": name,
@@ -704,6 +930,47 @@ def build_skill(node, files, extra_links=()):
         "rsc": rsc,
     }
 
+
+def normalize_topic_name(value):
+    return re.sub(r"[^a-z0-9]+", "", (value or "").lower())
+
+
+def extract_framework_content(framework, roadmaps_dir, json_dir):
+    """Extract just the framework's matching node content from a broader roadmap."""
+    source_slug = framework.get("content_source_roadmap")
+    if not source_slug:
+        return []
+    roadmap = fetch_roadmap(source_slug, json_dir)
+    files = index_content_files(roadmaps_dir / source_slug / "content")
+    wanted = {
+        normalize_topic_name(framework.get("framework_name")),
+        normalize_topic_name(framework.get("framework_id")),
+    }
+    candidates = []
+    for node in roadmap.get("nodes", []):
+        if normalize_topic_name(node_label(node)) in wanted and node.get("id") in files:
+            candidates.append(build_skill(node, files))
+    if not candidates:
+        return []
+
+    # Some roadmaps contain duplicate nodes for the same topic. Keep the richest
+    # description and merge their unique links instead of duplicating the topic.
+    best = max(candidates, key=lambda item: (len(item.get("skill_content") or ""), len(item.get("rsc", []))))
+    resources, seen = [], set()
+    for candidate in candidates:
+        for resource in candidate.get("rsc", []):
+            marker = (resource.get("title"), resource.get("url"), resource.get("content"))
+            if marker not in seen:
+                seen.add(marker)
+                resources.append(resource)
+    return [{
+        "skill_id": best["skill_id"],
+        "skill_name": framework["framework_name"],
+        "skill_content": best.get("skill_content"),
+        "rsc": resources,
+        "skill_order_in_track": 1,
+        "sub_skills": [],
+    }]
 
 def build_track(slug, roadmaps_dir, json_dir, embed_frameworks=True, visited=None):
     """Builds an ordered track with skills, sub-skills, and embedded frameworks."""
@@ -745,7 +1012,16 @@ def build_track(slug, roadmaps_dir, json_dir, embed_frameworks=True, visited=Non
         top_y = min([box(label)[1]] + [box(m)[1] for m in members])
         top_level.append(((top_y, node_pos(label)[0]), label, members))
 
-    ordered_top_level = compute_hybrid_order(top_level, edges, all_nodes)
+    ordered_top_level, top_conflicts = compute_hybrid_order(top_level, edges, all_nodes, stats)
+
+    dependency_conflicts = []
+    top_labels = {node["id"]: node_label(node) for _, node, _ in top_level}
+    for source, target in top_conflicts:
+        dependency_conflicts.append({
+            "ignored_edge": {"source": top_labels.get(source, source), "target": top_labels.get(target, target)},
+            "chosen_order": [top_labels.get(target, target), top_labels.get(source, source)],
+            "reason": "Roadmap dependencies form a cycle; pedagogical priority and diagram position break the tie.",
+        })
 
     skills = []
     for order, (_, node, members) in enumerate(ordered_top_level, start=1):
@@ -753,7 +1029,15 @@ def build_track(slug, roadmaps_dir, json_dir, embed_frameworks=True, visited=Non
         skill["skill_order_in_track"] = order
         skill["sub_skills"] = []
 
-        for sub_order, sub in enumerate(sort_sub_skills(members), start=1):
+        ordered_members, sub_conflicts = sort_sub_skills(members, edges, stats)
+        member_labels = {member["id"]: node_label(member) for member in ordered_members}
+        for source, target in sub_conflicts:
+            dependency_conflicts.append({
+                "ignored_edge": {"source": member_labels.get(source, source), "target": member_labels.get(target, target)},
+                "chosen_order": [member_labels.get(target, target), member_labels.get(source, source)],
+                "reason": "Sub-skill dependencies form a cycle; learning priority and diagram position break the tie.",
+            })
+        for sub_order, sub in enumerate(ordered_members, start=1):
             sub_skill = build_skill(sub, files, owners.get(sub["id"], ()))
             sub_skill["skill_order_in_parent"] = sub_order
             skill["sub_skills"].append(sub_skill)
@@ -765,7 +1049,14 @@ def build_track(slug, roadmaps_dir, json_dir, embed_frameworks=True, visited=Non
         (title.get("page") or title.get("card")) if isinstance(title, dict) else title
     ) or slug.replace("-", " ").title()
 
-    track = {"track_id": slug, "track_name": track_name, "skills": skills}
+    track = {
+        "track_id": slug,
+        "track_name": track_name,
+        "skills": skills,
+        "frameworks": [],
+        "related_topics": [],
+        "dependency_conflicts": dependency_conflicts,
+    }
 
     frameworks = []
     if embed_frameworks:
@@ -779,12 +1070,44 @@ def build_track(slug, roadmaps_dir, json_dir, embed_frameworks=True, visited=Non
                         embed_frameworks=False, visited=next_visited
                     )
                     fw_skills = fw_track["skills"]
+                    if not fw_skills:
+                        BUILD_ERRORS.append(f"{slug}/{fw['framework_id']}: source roadmap produced no skills")
                 except Exception as err:
-                    print(f"WARN {slug}/{fw['framework_id']}: {err}")
-            frameworks.append({**fw, "skills": fw_skills})
+                    message = f"{slug}/{fw['framework_id']}: {err}"
+                    BUILD_ERRORS.append(message)
+                    print(f"WARN {message}")
+            elif fw.get("content_source_roadmap"):
+                try:
+                    fw_skills = extract_framework_content(fw, roadmaps_dir, json_dir)
+                    if not fw_skills:
+                        BUILD_ERRORS.append(f"{slug}/{fw['framework_id']}: matching Markdown content not found")
+                except Exception as err:
+                    message = f"{slug}/{fw['framework_id']}: {err}"
+                    BUILD_ERRORS.append(message)
+                    print(f"WARN {message}")
+            frameworks.append({**fw, "content_source_roadmap": fw.get("content_source_roadmap"), "skills": fw_skills})
 
-    if frameworks:
-        track["frameworks"] = frameworks
+    track["frameworks"] = frameworks
+
+    related_topics = []
+    if embed_frameworks:
+        next_visited = visited | {slug}
+        for related in RELATED_TOPICS.get(slug, []):
+            related_skills = []
+            try:
+                related_track = build_track(
+                    related["source_roadmap"], roadmaps_dir, json_dir,
+                    embed_frameworks=False, visited=next_visited
+                )
+                related_skills = related_track["skills"]
+                if related.get("source_roadmap") and not related_skills:
+                    BUILD_ERRORS.append(f"{slug}/{related['related_id']}: source roadmap produced no skills")
+            except Exception as err:
+                message = f"{slug}/{related['related_id']}: {err}"
+                BUILD_ERRORS.append(message)
+                print(f"WARN {message}")
+            related_topics.append({**related, "skills": related_skills})
+    track["related_topics"] = related_topics
 
     TRACK_CACHE[cache_key] = track
     return copy.deepcopy(track)
@@ -830,16 +1153,26 @@ def main():
     print(f"Building {len(slugs)} track(s)...")
 
     tracks = []
+    failures = []
+    BUILD_ERRORS.clear()
     for slug in slugs:
         try:
             track = build_track(slug, roadmaps_dir, args.json_dir)
             tracks.append(track)
             subs = sum(len(t["sub_skills"]) for t in track["skills"])
             fws = len(track.get("frameworks", []))
+            related = len(track.get("related_topics", []))
             how = ", ".join(f"{k} {v}" for k, v in STATS.get(slug, {}).items())
-            print(f"OK   {slug:25}: {len(track['skills']):2d} skills, {subs:2d} sub-skills, {fws:2d} frameworks [{how}]")
+            print(f"OK   {slug:25}: {len(track['skills']):2d} skills, {subs:2d} sub-skills, {fws:2d} frameworks, {related:2d} related topics [{how}]")
         except Exception as err:
+            failures.append(slug)
             print(f"FAIL {slug:25}: {err}")
+
+    if failures or BUILD_ERRORS:
+        details = "; ".join(BUILD_ERRORS)
+        if failures:
+            details = "; ".join(filter(None, [details, "failed tracks: " + ", ".join(failures)]))
+        sys.exit("Build incomplete; no output files written. " + details)
 
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
