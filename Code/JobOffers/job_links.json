@@ -145,6 +145,11 @@
     "url": "https://wuzzuf.net/jobs/p/2bwmubxau7wt-software-engineer-egyptian-packaging-and-plastic-systems-corp-cairo-egypt"
   },
   {
+    "job_id": "vtqxjdl9q9ux",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/vtqxjdl9q9ux-it-specialist-odoo-erp-technical-support-bella-donna-for-kitting-and-ready-made-garments-cairo-egypt"
+  },
+  {
     "job_id": "awqqjxtk33b6",
     "platform": "wuzzuf",
     "url": "https://wuzzuf.net/jobs/p/awqqjxtk33b6-oracle-developer-national-technology-cairo-egypt"
@@ -200,6 +205,11 @@
     "url": "https://wuzzuf.net/jobs/p/ztrhghb16pzv-front-end-developer-oya-giza-egypt"
   },
   {
+    "job_id": "s2qjxmgnj8wx",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/s2qjxmgnj8wx-full-stack-developer-halocard-cairo-egypt"
+  },
+  {
     "job_id": "n5ccbsuoen31",
     "platform": "wuzzuf",
     "url": "https://wuzzuf.net/jobs/p/n5ccbsuoen31-senior-network-engineer-nahdet-misr-publishing-group-giza-egypt"
@@ -225,9 +235,19 @@
     "url": "https://wuzzuf.net/jobs/p/rhm0yxsyzt1k-qa-analyst-rescounts-cairo-egypt"
   },
   {
+    "job_id": "mu6c9p6ykmn5",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/mu6c9p6ykmn5-senior-odoo-functional-consultant-integration-technology-giza-egypt"
+  },
+  {
     "job_id": "hi8zjk2keocc",
     "platform": "wuzzuf",
     "url": "https://wuzzuf.net/jobs/p/hi8zjk2keocc-it-specialist-pro-tec-egypt-cairo-egypt"
+  },
+  {
+    "job_id": "zenpitxcqwhr",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/zenpitxcqwhr-odoo-sales-representative-giza-egypt"
   },
   {
     "job_id": "f4b4oki1lmbj",
@@ -478,6 +498,11 @@
     "job_id": "mhghlipeqzkp",
     "platform": "wuzzuf",
     "url": "https://wuzzuf.net/jobs/p/mhghlipeqzkp-computer-technician-lap-tech-cairo-egypt"
+  },
+  {
+    "job_id": "ciksczrkvbvx",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/ciksczrkvbvx-technical-support-specialist-beni-suef-eelu-beni-suef-egypt"
   },
   {
     "job_id": "qaymx5jwvn9e",
@@ -1003,6 +1028,11 @@
     "job_id": "g1zzbpzy2cz2",
     "platform": "wuzzuf",
     "url": "https://wuzzuf.net/jobs/p/g1zzbpzy2cz2-senior-technical-talent-acquisition-specialist-revival-cairo-egypt"
+  },
+  {
+    "job_id": "h4kedk3kev6a",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/h4kedk3kev6a-technical-support-specialist-alexandria-eelu-alexandria-egypt"
   },
   {
     "job_id": "2kwz7lokgu7c",
@@ -1545,9 +1575,129 @@
     "url": "https://wuzzuf.net/jobs/p/7jkhc0bc9ozg-senior-python-developer-nile-bits-llc-giza-egypt"
   },
   {
+    "job_id": "ld1kl4mtu7kx",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/ld1kl4mtu7kx-ui-ux-designer-yzh-cairo-egypt"
+  },
+  {
+    "job_id": "feb5mew5qxgv",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/feb5mew5qxgv-software-engineer-medexera-cairo-egypt"
+  },
+  {
+    "job_id": "y2ckx0ghlyhl",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/y2ckx0ghlyhl-software-developer-evision-cairo-egypt"
+  },
+  {
+    "job_id": "8xt2fry7ev52",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/8xt2fry7ev52-technical-support-application-support-engineer-evision-cairo-egypt"
+  },
+  {
+    "job_id": "12x1qo2z9wu8",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/12x1qo2z9wu8-senior-full-stack-developer-net-core-angular-exab-cairo-egypt"
+  },
+  {
+    "job_id": "m49w7rujhudo",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/m49w7rujhudo-sales-teamleader-encooders-technologies-cairo-egypt"
+  },
+  {
+    "job_id": "ubiicr7kk7ux",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/ubiicr7kk7ux-support-specialist-innotech-cairo-egypt"
+  },
+  {
+    "job_id": "qvvs4cjh92hp",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/qvvs4cjh92hp-senior-oracle-developer-gb-corp-giza-egypt"
+  },
+  {
+    "job_id": "i68reluoweqd",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/i68reluoweqd-network-security-senior-officer-cairo-egypt"
+  },
+  {
+    "job_id": "so0iisbrp8l0",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/so0iisbrp8l0-senior-outsystems-developer-link-development-cairo-egypt"
+  },
+  {
+    "job_id": "mjq3wvlljnms",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/mjq3wvlljnms-software-tester-cairo-egypt"
+  },
+  {
+    "job_id": "15p9ju2klohj",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/15p9ju2klohj-trainee-react-native-developer-vertex-technologies-cairo-egypt"
+  },
+  {
+    "job_id": "zalfntgx4bsx",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/zalfntgx4bsx-network-presales-engineer-ecosas-international-giza-egypt"
+  },
+  {
+    "job_id": "5cfcg36wbygq",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/5cfcg36wbygq-middle-react-native-developer-vertex-technologies-cairo-egypt"
+  },
+  {
+    "job_id": "xpxniw9cbqyw",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/xpxniw9cbqyw-odoo-implementer-national-technology-cairo-egypt"
+  },
+  {
+    "job_id": "ux1mvlwz51bh",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/ux1mvlwz51bh-senior-automation-qa-engineer-vertex-technologies-cairo-egypt"
+  },
+  {
+    "job_id": "d6uztw7k7bir",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/d6uztw7k7bir-middle-automation-qa-engineer-vertex-technologies-cairo-egypt"
+  },
+  {
+    "job_id": "bgeynvfhqqeo",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/bgeynvfhqqeo-erp-dynamics-365-business-central-support-specialist-la-poire-cairo-egypt"
+  },
+  {
     "job_id": "fjqnmnp41fi9",
     "platform": "wuzzuf",
     "url": "https://wuzzuf.net/jobs/p/fjqnmnp41fi9-senior-it-systems-administrator-elvan-knitting-dyeing-and-finishing-s-a-e-alexandria-egypt"
+  },
+  {
+    "job_id": "ubsrja3n94m1",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/ubsrja3n94m1-associate-system-engineer-associate-data-management-engineer-target-integrated-systems-cairo-egypt"
+  },
+  {
+    "job_id": "x5l8irjp3vyu",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/x5l8irjp3vyu-it-manager-system-administrator-tahya-masr-holding-cairo-egypt"
+  },
+  {
+    "job_id": "xhbypglztbj5",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/xhbypglztbj5-it-security-head-el-banna-group-company-monufya-egypt"
+  },
+  {
+    "job_id": "yzsm5q0av2pi",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/yzsm5q0av2pi-devsecops-engineer-link-development-cairo-egypt"
+  },
+  {
+    "job_id": "hjik0qaan5fk",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/hjik0qaan5fk-system-administrator-it-infrastructure-specialist-giza-egypt"
+  },
+  {
+    "job_id": "2qcmuopkbwbm",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/2qcmuopkbwbm-pre-sales-engineer-support-engineer-remotely-cairo-egypt"
   },
   {
     "job_id": "hdg6vskk2lhk",
@@ -10978,5 +11128,995 @@
     "job_id": "in-bbb425b9eaccdc02",
     "platform": "indeed",
     "url": "https://eg.indeed.com/viewjob?jk=bbb425b9eaccdc02"
+  },
+  {
+    "job_id": "osxp5zsub5tb",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/osxp5zsub5tb-senior-full-stack-engineer-platform-maintenance-scaling-keb-international-group-cairo-egypt"
+  },
+  {
+    "job_id": "tv2xwfz58yki",
+    "platform": "wuzzuf",
+    "url": "https://wuzzuf.net/jobs/p/tv2xwfz58yki-software-qa-engineer-tester-tech-technology-cairo-egypt"
+  },
+  {
+    "job_id": "in-8ea4cfa9735800dc",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=8ea4cfa9735800dc"
+  },
+  {
+    "job_id": "in-8cf9b990f54eb4f7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=8cf9b990f54eb4f7"
+  },
+  {
+    "job_id": "in-66d4c8ead41dda41",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=66d4c8ead41dda41"
+  },
+  {
+    "job_id": "in-5dc89faf1e2153ef",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=5dc89faf1e2153ef"
+  },
+  {
+    "job_id": "in-0dd03034815fe950",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=0dd03034815fe950"
+  },
+  {
+    "job_id": "in-fd634c0ea44e01b1",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=fd634c0ea44e01b1"
+  },
+  {
+    "job_id": "in-f23e28c61cfccde3",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f23e28c61cfccde3"
+  },
+  {
+    "job_id": "in-d6586f9766d8f38f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d6586f9766d8f38f"
+  },
+  {
+    "job_id": "in-a8a50bda142643cf",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a8a50bda142643cf"
+  },
+  {
+    "job_id": "in-6932fa4c5b4f527e",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=6932fa4c5b4f527e"
+  },
+  {
+    "job_id": "in-db515c2747b1861d",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=db515c2747b1861d"
+  },
+  {
+    "job_id": "in-ee085b54c47277ca",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=ee085b54c47277ca"
+  },
+  {
+    "job_id": "in-698dde3b8863e834",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=698dde3b8863e834"
+  },
+  {
+    "job_id": "in-ad5c3fe7cd950533",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=ad5c3fe7cd950533"
+  },
+  {
+    "job_id": "in-7ca52ffef1922df3",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=7ca52ffef1922df3"
+  },
+  {
+    "job_id": "in-035c733f559a210f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=035c733f559a210f"
+  },
+  {
+    "job_id": "in-6389634b42940c35",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=6389634b42940c35"
+  },
+  {
+    "job_id": "in-1fcc77a3f4e977d4",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=1fcc77a3f4e977d4"
+  },
+  {
+    "job_id": "in-d17cd8cbd9bf274e",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d17cd8cbd9bf274e"
+  },
+  {
+    "job_id": "in-8114224274c3f291",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=8114224274c3f291"
+  },
+  {
+    "job_id": "in-f2328da4656fdc74",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f2328da4656fdc74"
+  },
+  {
+    "job_id": "in-f73e24cb24909308",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f73e24cb24909308"
+  },
+  {
+    "job_id": "in-dd6069ba52b8e740",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=dd6069ba52b8e740"
+  },
+  {
+    "job_id": "in-749727ec719b0dce",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=749727ec719b0dce"
+  },
+  {
+    "job_id": "in-7ce001cef849d07e",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=7ce001cef849d07e"
+  },
+  {
+    "job_id": "in-2ec238d05aab5274",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=2ec238d05aab5274"
+  },
+  {
+    "job_id": "in-1753522cf5105818",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=1753522cf5105818"
+  },
+  {
+    "job_id": "in-dd57a961c92df52f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=dd57a961c92df52f"
+  },
+  {
+    "job_id": "in-bbff0460deb0c6e0",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=bbff0460deb0c6e0"
+  },
+  {
+    "job_id": "in-cb1083d05ce7430c",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=cb1083d05ce7430c"
+  },
+  {
+    "job_id": "in-a4180680fb627fef",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a4180680fb627fef"
+  },
+  {
+    "job_id": "in-00b53118f17ff72a",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=00b53118f17ff72a"
+  },
+  {
+    "job_id": "in-f8fe77fff4a32b80",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f8fe77fff4a32b80"
+  },
+  {
+    "job_id": "in-14d3934fa1964085",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=14d3934fa1964085"
+  },
+  {
+    "job_id": "in-f4258c74cbc5bf29",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f4258c74cbc5bf29"
+  },
+  {
+    "job_id": "in-9d8942b9085a7a6c",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=9d8942b9085a7a6c"
+  },
+  {
+    "job_id": "in-1739aee207b3c0d2",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=1739aee207b3c0d2"
+  },
+  {
+    "job_id": "in-27e8d371efd9ad3b",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=27e8d371efd9ad3b"
+  },
+  {
+    "job_id": "in-e84ebb133ef4be42",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=e84ebb133ef4be42"
+  },
+  {
+    "job_id": "in-3ad4f7ee9d37d4de",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=3ad4f7ee9d37d4de"
+  },
+  {
+    "job_id": "in-bd28f9c21f18cff4",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=bd28f9c21f18cff4"
+  },
+  {
+    "job_id": "in-5fe560a0b68f3eee",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=5fe560a0b68f3eee"
+  },
+  {
+    "job_id": "in-24bda45a0d19ea4f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=24bda45a0d19ea4f"
+  },
+  {
+    "job_id": "in-cbd939823dc8ae25",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=cbd939823dc8ae25"
+  },
+  {
+    "job_id": "in-2ade0a5dcdc800cd",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=2ade0a5dcdc800cd"
+  },
+  {
+    "job_id": "in-c7861a1329390bd7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=c7861a1329390bd7"
+  },
+  {
+    "job_id": "in-e8b6052425391d60",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=e8b6052425391d60"
+  },
+  {
+    "job_id": "in-95c8287c877a8f4c",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=95c8287c877a8f4c"
+  },
+  {
+    "job_id": "in-1d80e410e36189d1",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=1d80e410e36189d1"
+  },
+  {
+    "job_id": "in-d32d9ccdf2258450",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d32d9ccdf2258450"
+  },
+  {
+    "job_id": "in-6f9f82eb9858b41e",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=6f9f82eb9858b41e"
+  },
+  {
+    "job_id": "in-be7ce6ebe99c5b36",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=be7ce6ebe99c5b36"
+  },
+  {
+    "job_id": "in-4001f49a59a0ed48",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=4001f49a59a0ed48"
+  },
+  {
+    "job_id": "in-363b9908a77baa8e",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=363b9908a77baa8e"
+  },
+  {
+    "job_id": "in-2a285f75b9d980b9",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=2a285f75b9d980b9"
+  },
+  {
+    "job_id": "in-b65f154901755b88",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=b65f154901755b88"
+  },
+  {
+    "job_id": "in-6a66e6e79257406d",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=6a66e6e79257406d"
+  },
+  {
+    "job_id": "in-21f67d86a787fe57",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=21f67d86a787fe57"
+  },
+  {
+    "job_id": "in-84aa6db111540ad9",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=84aa6db111540ad9"
+  },
+  {
+    "job_id": "in-29ffe0eb8e75404f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=29ffe0eb8e75404f"
+  },
+  {
+    "job_id": "in-a9eaf0bcd43b2932",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a9eaf0bcd43b2932"
+  },
+  {
+    "job_id": "in-a23a9b41a1b36d77",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a23a9b41a1b36d77"
+  },
+  {
+    "job_id": "in-14912178706a405b",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=14912178706a405b"
+  },
+  {
+    "job_id": "in-102836cd56556e2e",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=102836cd56556e2e"
+  },
+  {
+    "job_id": "in-3a7b113db1a951d4",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=3a7b113db1a951d4"
+  },
+  {
+    "job_id": "in-463bd721ae20acbe",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=463bd721ae20acbe"
+  },
+  {
+    "job_id": "in-76e62c62bb5eac65",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=76e62c62bb5eac65"
+  },
+  {
+    "job_id": "in-e87c29c716fd5022",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=e87c29c716fd5022"
+  },
+  {
+    "job_id": "in-1dcf6a55e91cf290",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=1dcf6a55e91cf290"
+  },
+  {
+    "job_id": "in-3e02757369ff9af1",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=3e02757369ff9af1"
+  },
+  {
+    "job_id": "in-0356ebdb4af606e0",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=0356ebdb4af606e0"
+  },
+  {
+    "job_id": "in-9866c97ba9bca72d",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=9866c97ba9bca72d"
+  },
+  {
+    "job_id": "in-4b95a3c32c0494d5",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=4b95a3c32c0494d5"
+  },
+  {
+    "job_id": "in-7e2cbf0a5600ca13",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=7e2cbf0a5600ca13"
+  },
+  {
+    "job_id": "in-d685ebecbcf1269b",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d685ebecbcf1269b"
+  },
+  {
+    "job_id": "in-61fdf85151e254b3",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=61fdf85151e254b3"
+  },
+  {
+    "job_id": "in-6e1bfe8bb8b9406e",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=6e1bfe8bb8b9406e"
+  },
+  {
+    "job_id": "in-499747a27a14b951",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=499747a27a14b951"
+  },
+  {
+    "job_id": "in-61d1275bb45f0f58",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=61d1275bb45f0f58"
+  },
+  {
+    "job_id": "in-3198ce29897851e7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=3198ce29897851e7"
+  },
+  {
+    "job_id": "in-c57189dc91f4b4e7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=c57189dc91f4b4e7"
+  },
+  {
+    "job_id": "in-9e068b1b82d81e17",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=9e068b1b82d81e17"
+  },
+  {
+    "job_id": "in-9f3013cacd064688",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=9f3013cacd064688"
+  },
+  {
+    "job_id": "in-8124a9f53b5b42c7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=8124a9f53b5b42c7"
+  },
+  {
+    "job_id": "in-880ad64c0db6835f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=880ad64c0db6835f"
+  },
+  {
+    "job_id": "in-80d6c6d964011098",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=80d6c6d964011098"
+  },
+  {
+    "job_id": "in-3840527f17b80e5f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=3840527f17b80e5f"
+  },
+  {
+    "job_id": "in-a9a423e219712789",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a9a423e219712789"
+  },
+  {
+    "job_id": "in-fb5d16bf6cec6751",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=fb5d16bf6cec6751"
+  },
+  {
+    "job_id": "in-8c545fb620bafd58",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=8c545fb620bafd58"
+  },
+  {
+    "job_id": "in-11da39fec5902bca",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=11da39fec5902bca"
+  },
+  {
+    "job_id": "in-5e3e927347b8a164",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=5e3e927347b8a164"
+  },
+  {
+    "job_id": "in-ae42f337006fb415",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=ae42f337006fb415"
+  },
+  {
+    "job_id": "in-a98a08c511e1682d",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a98a08c511e1682d"
+  },
+  {
+    "job_id": "in-ff40fb9234fe34e1",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=ff40fb9234fe34e1"
+  },
+  {
+    "job_id": "in-32774e16d80af2fd",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=32774e16d80af2fd"
+  },
+  {
+    "job_id": "in-38f62469ae128ab9",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=38f62469ae128ab9"
+  },
+  {
+    "job_id": "in-111ad5d55166526b",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=111ad5d55166526b"
+  },
+  {
+    "job_id": "in-321843ff41c4077c",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=321843ff41c4077c"
+  },
+  {
+    "job_id": "in-f18b327e18bc35d5",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f18b327e18bc35d5"
+  },
+  {
+    "job_id": "in-2e78e2f4f2776705",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=2e78e2f4f2776705"
+  },
+  {
+    "job_id": "in-1d5850c2f0885eda",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=1d5850c2f0885eda"
+  },
+  {
+    "job_id": "in-b75ffe78896a2173",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=b75ffe78896a2173"
+  },
+  {
+    "job_id": "in-a1fc6eb72edf712b",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a1fc6eb72edf712b"
+  },
+  {
+    "job_id": "in-06f789ed3db32bb9",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=06f789ed3db32bb9"
+  },
+  {
+    "job_id": "in-100648e656c3c8da",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=100648e656c3c8da"
+  },
+  {
+    "job_id": "in-0efc71a472da5114",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=0efc71a472da5114"
+  },
+  {
+    "job_id": "in-5e55e09772b77aa9",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=5e55e09772b77aa9"
+  },
+  {
+    "job_id": "in-d0ce6d7737a358e0",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d0ce6d7737a358e0"
+  },
+  {
+    "job_id": "in-d79e1edb2ee39ae7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d79e1edb2ee39ae7"
+  },
+  {
+    "job_id": "in-f8a2ddcc5baf138e",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f8a2ddcc5baf138e"
+  },
+  {
+    "job_id": "in-f287d0ce706a9a01",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f287d0ce706a9a01"
+  },
+  {
+    "job_id": "in-d87b3adfd4dc54ec",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d87b3adfd4dc54ec"
+  },
+  {
+    "job_id": "in-e3cd300c93aad20d",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=e3cd300c93aad20d"
+  },
+  {
+    "job_id": "in-a3da519964063b07",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a3da519964063b07"
+  },
+  {
+    "job_id": "in-e816e67dfdc82e62",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=e816e67dfdc82e62"
+  },
+  {
+    "job_id": "in-238c2180bf553e99",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=238c2180bf553e99"
+  },
+  {
+    "job_id": "in-dc82e297c5014c09",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=dc82e297c5014c09"
+  },
+  {
+    "job_id": "in-912bc05e4350aef0",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=912bc05e4350aef0"
+  },
+  {
+    "job_id": "in-98166d44aaf75b09",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=98166d44aaf75b09"
+  },
+  {
+    "job_id": "in-ca62d8784a0efad3",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=ca62d8784a0efad3"
+  },
+  {
+    "job_id": "in-698111a4c77f9181",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=698111a4c77f9181"
+  },
+  {
+    "job_id": "in-1c2db869817cc570",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=1c2db869817cc570"
+  },
+  {
+    "job_id": "in-296ae3b846c2624d",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=296ae3b846c2624d"
+  },
+  {
+    "job_id": "in-2cb78969baff40f9",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=2cb78969baff40f9"
+  },
+  {
+    "job_id": "in-103a30129a21609a",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=103a30129a21609a"
+  },
+  {
+    "job_id": "in-44fbee4eb5c6d645",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=44fbee4eb5c6d645"
+  },
+  {
+    "job_id": "in-886e57ca40fca1f6",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=886e57ca40fca1f6"
+  },
+  {
+    "job_id": "in-06ef84a52e524487",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=06ef84a52e524487"
+  },
+  {
+    "job_id": "in-e1cb495900468854",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=e1cb495900468854"
+  },
+  {
+    "job_id": "in-51bef02adc78a49f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=51bef02adc78a49f"
+  },
+  {
+    "job_id": "in-f5910710b240354f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f5910710b240354f"
+  },
+  {
+    "job_id": "in-1170d48ac283fea0",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=1170d48ac283fea0"
+  },
+  {
+    "job_id": "in-0022d98e2af546d6",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=0022d98e2af546d6"
+  },
+  {
+    "job_id": "in-006c6bf6fddb25c9",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=006c6bf6fddb25c9"
+  },
+  {
+    "job_id": "in-fa7aa246bff9c3f9",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=fa7aa246bff9c3f9"
+  },
+  {
+    "job_id": "in-42d4c3f47628de52",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=42d4c3f47628de52"
+  },
+  {
+    "job_id": "in-cab0aaeeb0357124",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=cab0aaeeb0357124"
+  },
+  {
+    "job_id": "in-6fbc039a084f78df",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=6fbc039a084f78df"
+  },
+  {
+    "job_id": "in-234845184623fb0a",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=234845184623fb0a"
+  },
+  {
+    "job_id": "in-111f741055efc1df",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=111f741055efc1df"
+  },
+  {
+    "job_id": "in-f9fc598d9523ab0a",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f9fc598d9523ab0a"
+  },
+  {
+    "job_id": "in-d1e41e74cec0638f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d1e41e74cec0638f"
+  },
+  {
+    "job_id": "in-b79d70666eb02609",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=b79d70666eb02609"
+  },
+  {
+    "job_id": "in-6867580395b24f3c",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=6867580395b24f3c"
+  },
+  {
+    "job_id": "in-22deb45c7a5abad7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=22deb45c7a5abad7"
+  },
+  {
+    "job_id": "in-a6fd631528787933",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a6fd631528787933"
+  },
+  {
+    "job_id": "in-7e15e2d7d06e4fb7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=7e15e2d7d06e4fb7"
+  },
+  {
+    "job_id": "in-e115c543f1767f0f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=e115c543f1767f0f"
+  },
+  {
+    "job_id": "in-fb4ddacdd95e2fb7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=fb4ddacdd95e2fb7"
+  },
+  {
+    "job_id": "in-5011026bf6ad7248",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=5011026bf6ad7248"
+  },
+  {
+    "job_id": "in-5bd7fdade9ddae89",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=5bd7fdade9ddae89"
+  },
+  {
+    "job_id": "li-4479973996",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/jobs/view/4479973996"
+  },
+  {
+    "job_id": "li-4474690855",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/jobs/view/4474690855"
+  },
+  {
+    "job_id": "li-4493375011",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/jobs/view/4493375011"
+  },
+  {
+    "job_id": "li-4489021558",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/jobs/view/4489021558"
+  },
+  {
+    "job_id": "in-acfb57d4d30e8236",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=acfb57d4d30e8236"
+  },
+  {
+    "job_id": "in-d0771c8cd3a9fa8f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d0771c8cd3a9fa8f"
+  },
+  {
+    "job_id": "in-a0764b88d4d2674e",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a0764b88d4d2674e"
+  },
+  {
+    "job_id": "in-869ad5ca82933623",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=869ad5ca82933623"
+  },
+  {
+    "job_id": "in-fb27bd30a9797bca",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=fb27bd30a9797bca"
+  },
+  {
+    "job_id": "in-98d529b92a5bcbd4",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=98d529b92a5bcbd4"
+  },
+  {
+    "job_id": "in-65c53b87167d43d3",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=65c53b87167d43d3"
+  },
+  {
+    "job_id": "in-20045c23513c77d4",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=20045c23513c77d4"
+  },
+  {
+    "job_id": "in-914ef952de295031",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=914ef952de295031"
+  },
+  {
+    "job_id": "in-ca760f42a7d6964c",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=ca760f42a7d6964c"
+  },
+  {
+    "job_id": "in-99ad39f9afa0e290",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=99ad39f9afa0e290"
+  },
+  {
+    "job_id": "in-2af0d99ab8973dfa",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=2af0d99ab8973dfa"
+  },
+  {
+    "job_id": "in-3ae879136563efcc",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=3ae879136563efcc"
+  },
+  {
+    "job_id": "in-b45738dcd1085a4b",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=b45738dcd1085a4b"
+  },
+  {
+    "job_id": "in-7425b4428aea41fd",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=7425b4428aea41fd"
+  },
+  {
+    "job_id": "in-807255bebd1abb94",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=807255bebd1abb94"
+  },
+  {
+    "job_id": "in-4d399da15cd1c5f9",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=4d399da15cd1c5f9"
+  },
+  {
+    "job_id": "in-611e6314cfbaf4e4",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=611e6314cfbaf4e4"
+  },
+  {
+    "job_id": "in-b3d38512d2c2993c",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=b3d38512d2c2993c"
+  },
+  {
+    "job_id": "in-3fd1754eda404012",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=3fd1754eda404012"
+  },
+  {
+    "job_id": "in-930242d3d0ecc041",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=930242d3d0ecc041"
+  },
+  {
+    "job_id": "in-fa0ac1f4f440a942",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=fa0ac1f4f440a942"
+  },
+  {
+    "job_id": "in-bea2df19efb8ec54",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=bea2df19efb8ec54"
+  },
+  {
+    "job_id": "in-0df34606e7e90708",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=0df34606e7e90708"
+  },
+  {
+    "job_id": "in-9ff1aba39f9c02f6",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=9ff1aba39f9c02f6"
+  },
+  {
+    "job_id": "in-03ac024009e592f0",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=03ac024009e592f0"
+  },
+  {
+    "job_id": "in-8c44a43b35dc250f",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=8c44a43b35dc250f"
+  },
+  {
+    "job_id": "in-a669dbf67b7fb835",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a669dbf67b7fb835"
+  },
+  {
+    "job_id": "in-a00af53efbf7e3b6",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=a00af53efbf7e3b6"
+  },
+  {
+    "job_id": "in-d1d342b7f8e780e7",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=d1d342b7f8e780e7"
+  },
+  {
+    "job_id": "in-83d82ba568c36f07",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=83d82ba568c36f07"
+  },
+  {
+    "job_id": "in-97f75ec20cf63d88",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=97f75ec20cf63d88"
+  },
+  {
+    "job_id": "in-0a72caf60dc2e0be",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=0a72caf60dc2e0be"
+  },
+  {
+    "job_id": "in-c4045fe45d02a030",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=c4045fe45d02a030"
+  },
+  {
+    "job_id": "in-f5798383e66f0979",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=f5798383e66f0979"
+  },
+  {
+    "job_id": "in-468a9119114d4e68",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=468a9119114d4e68"
+  },
+  {
+    "job_id": "in-12111baa2e0fc138",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=12111baa2e0fc138"
+  },
+  {
+    "job_id": "in-dfabdcf0c4b8a510",
+    "platform": "indeed",
+    "url": "https://eg.indeed.com/viewjob?jk=dfabdcf0c4b8a510"
+  },
+  {
+    "job_id": "li-4489584326",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/jobs/view/4489584326"
+  },
+  {
+    "job_id": "li-4493377188",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/jobs/view/4493377188"
   }
 ]
