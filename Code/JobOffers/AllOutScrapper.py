@@ -66,8 +66,8 @@ INDEED_OFFSET_STEP = 25         # How much offset advances each run (= INDEED_RE
 LINKEDIN_RESULTS_PER_QUERY = 15 # Keep LinkedIn conservative to avoid bans
 
 # Verification of active links
-# Set True to check whether links have expired and purge dead URLs from job_links.json
 VERIFY_ACTIVE_LINKS = True
+# VERIFY_ACTIVE_LINKS = False
 
 TECH_KEYWORDS = [
     # Languages
