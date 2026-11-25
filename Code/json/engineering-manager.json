@@ -1,9 +1,9 @@
 {
-  "track_id": "engineering-manager",
+  "track_id": "1uBLNTOQpu",
   "track_name": "Engineering Manager",
   "skills": [
     {
-      "skill_id": "_hYN0gEi9BL24nptEtXWU",
+      "skill_id": "XFNDVJZmcn",
       "skill_name": "What is Engineering Management?",
       "skill_content": "Engineering management is the integration of engineering principles with business practices to oversee and optimize complex engineering-driven enterprises. It involves planning, organizing, allocating resources, and directing activities that have a technological component.",
       "rsc": [
@@ -21,7 +21,7 @@
       "skill_order_in_track": 1,
       "sub_skills": [
         {
-          "skill_id": "iZFn0FaRdrGv_-_8zii_-",
+          "skill_id": "u51MH8hu9z",
           "skill_name": "Process",
           "skill_content": "Process refers to how work gets planned, tracked, and delivered. An engineering manager owns or shapes the rituals and workflows the team uses, from sprint planning to incident reviews, ensuring process serves the team rather than the other way around.",
           "rsc": [
@@ -34,7 +34,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "oKbeLp4YB8rI1Q3vi0EnG",
+          "skill_id": "o5LjYR9Du5",
           "skill_name": "EM vs Tech Lead vs IC",
           "skill_content": "An individual contributor (IC) focuses on executing technical work. A tech lead guides technical direction while remaining hands-on. An engineering manager shifts focus toward people, planning, and organizational outcomes, often stepping back from direct coding. The boundaries vary by company, but the distinction matters when setting expectations for scope and accountability.",
           "rsc": [
@@ -47,7 +47,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "aSZ2uVCmpAdEPjJt6VKG4",
+          "skill_id": "zjoZFvf5WD",
           "skill_name": "People",
           "skill_content": "The people dimension of engineering management covers hiring, developing, retaining, and supporting the engineers on the team. This includes running 1:1s, identifying growth opportunities, managing performance, and creating conditions where people do their best work.",
           "rsc": [
@@ -60,7 +60,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "p9ecMvHCqjmvxf67di7pY",
+          "skill_id": "qtl739TrpD",
           "skill_name": "Product",
           "skill_content": "Engineering managers work closely with product to understand requirements, clarify scope, and ensure the team builds things that solve real user problems. This requires enough product context to push back when needed and enough collaboration to keep development and product aligned.",
           "rsc": [
@@ -75,14 +75,14 @@
       ]
     },
     {
-      "skill_id": "_vFDIX5Uds46imA11zaLg",
+      "skill_id": "2E2NHdaI3Q",
       "skill_name": "Quality and Process",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 2,
       "sub_skills": [
         {
-          "skill_id": "gAEmpSMvNyjmTa5q9oZSg",
+          "skill_id": "Tp0Ah8ctMi",
           "skill_name": "CI/CD Implementation",
           "skill_content": "CI/CD (continuous integration and continuous delivery) automates the process of building, testing, and deploying software. Engineering managers support CI/CD adoption because it reduces integration risk, shortens feedback loops, and makes deployments less stressful. They help teams prioritize pipeline reliability and treat slow or flaky builds as a productivity problem.",
           "rsc": [
@@ -95,7 +95,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "bpJPDbifPwS4ScOoATlEI",
+          "skill_id": "2aQi6x0zqu",
           "skill_name": "Development / Release Workflow",
           "skill_content": "A development and release workflow defines how code moves from an engineer's local machine to production. This includes branching strategies, code review gates, staging environments, and deployment processes. Engineering managers ensure the workflow is documented, consistently followed, and adjusted when it creates friction.",
           "rsc": [
@@ -108,7 +108,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "q5SJyM1d8cQzzAcR-kotB",
+          "skill_id": "GHjhkEAXBJ",
           "skill_name": "Testing Strategies",
           "skill_content": "Testing strategies define how a team verifies that software works correctly. This spans unit tests, integration tests, end-to-end tests, and manual QA. Engineering managers help the team choose appropriate coverage for the risk profile of each area and push back when testing gaps are accumulating as a form of technical debt.",
           "rsc": [
@@ -121,7 +121,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "C2YsaZ32An_UXV8lB7opm",
+          "skill_id": "XOTsdO6ZyR",
           "skill_name": "Technical Standards Setting",
           "skill_content": "Technical standards are shared conventions the team agrees to follow, such as coding style, API design patterns, error handling approaches, and logging formats. Engineering managers facilitate the process of defining and evolving these standards, ensuring they are practical, documented, and adopted without becoming bureaucratic overhead.",
           "rsc": [
@@ -134,7 +134,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "sQCLhk__jvbityuuLlxiW",
+          "skill_id": "YG7h5IiVNL",
           "skill_name": "Security  Best Practices",
           "skill_content": "Security best practices in engineering cover how code is written, how data is handled, how access is controlled, and how vulnerabilities are managed. Engineering managers are responsible for ensuring the team takes security seriously, participates in security reviews, and responds promptly to vulnerabilities, even when security is not the team's primary focus.",
           "rsc": [
@@ -147,7 +147,7 @@
           "skill_order_in_parent": 5
         },
         {
-          "skill_id": "o1xPrfg8iNWQpD12xsbQJ",
+          "skill_id": "C44hkx9Mrh",
           "skill_name": "Incident Management",
           "skill_content": "Incident management is the process of detecting, responding to, and recovering from production outages or degradations. Engineering managers ensure the team has clear on-call processes, runbooks, and escalation paths. After incidents, they facilitate post-mortems to extract learnings and prevent recurrence.",
           "rsc": [
@@ -160,7 +160,7 @@
           "skill_order_in_parent": 6
         },
         {
-          "skill_id": "pduPcv2QPpVmVvDdK4CPi",
+          "skill_id": "65Kr4DTuf3",
           "skill_name": "System Monitoring & Performance",
           "skill_content": "Monitoring gives a team visibility into how their systems behave in production. Engineering managers promote good observability practices, ensure the team has useful dashboards and alerts, and treat monitoring as a first-class requirement rather than an afterthought. Performance work is prioritized based on actual data from production systems.",
           "rsc": [
@@ -175,14 +175,14 @@
       ]
     },
     {
-      "skill_id": "1k394g-bFMoU4LxbLrx1_",
+      "skill_id": "6O9oH0zvbt",
       "skill_name": "Technical Strategy",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 3,
       "sub_skills": [
         {
-          "skill_id": "ikCJ8Ybu2AD1w5VuPNVAO",
+          "skill_id": "PZ4cM2w7Eb",
           "skill_name": "Technical Roadmapping",
           "skill_content": "A technical roadmap outlines the engineering work planned over time, separate from or in complement to the product roadmap. Engineering managers build and maintain it to give the team clarity on direction, help stakeholders understand upcoming investments, and create space for infrastructure and platform work that does not directly map to product features.",
           "rsc": [
@@ -195,7 +195,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "FtWNnOE3zObmjS-Og26M3",
+          "skill_id": "QbarbmKVu7",
           "skill_name": "Architectural Decision-Making",
           "skill_content": "Architectural decisions shape how a system evolves over time. Engineering managers participate in these decisions by bringing business context, facilitating discussion between senior engineers, and ensuring decisions are documented with their reasoning. They do not need to make every technical call, but they set the conditions for good ones to happen.",
           "rsc": [
@@ -208,7 +208,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "H0aav5qKDNiNegJOGP2rx",
+          "skill_id": "0pAbwFouqe",
           "skill_name": "Build vs Buy Evaluation",
           "skill_content": "Build vs buy is the decision of whether to develop a capability in-house or use an existing tool, service, or vendor. Engineering managers lead this evaluation by weighing total cost of ownership, team expertise, integration complexity, and strategic fit, then building a recommendation stakeholders can act on.",
           "rsc": [
@@ -221,7 +221,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "d7zMBhMFgY9MwmKC9CVVh",
+          "skill_id": "LEmycoLh5r",
           "skill_name": "Technical Risk Assessment",
           "skill_content": "Technical risk assessment involves identifying what could go wrong in a system or project from a technical standpoint and deciding how to address it. Engineering managers surface risks early, work with the team to mitigate them where practical, and communicate remaining risk to stakeholders so decisions are made with accurate information.",
           "rsc": [
@@ -234,7 +234,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "EyoVFmqOJbH1sAPHLISFt",
+          "skill_id": "ECdD1XYr29",
           "skill_name": "Scaling Infrastructure",
           "skill_content": "Scaling infrastructure means designing and operating systems that can handle growing load without degrading. Engineering managers need enough context to prioritize scaling work appropriately, understand when capacity is becoming a bottleneck, and support engineers working on database performance, caching, distributed systems, or cloud resource planning.",
           "rsc": [
@@ -247,7 +247,7 @@
           "skill_order_in_parent": 5
         },
         {
-          "skill_id": "QUxpEK8smXRBs2gMdDInB",
+          "skill_id": "JksJDkHicL",
           "skill_name": "Legacy System Retirement",
           "skill_content": "Legacy system retirement is the process of decommissioning old software and migrating its functionality or data to newer systems. Engineering managers plan these migrations carefully to minimize disruption, sequence dependencies correctly, and manage the risk that comes with changing systems still in active use.",
           "rsc": [
@@ -262,14 +262,14 @@
       ]
     },
     {
-      "skill_id": "XXTA13ZCHFPC_wiWBbEy5",
+      "skill_id": "jFwpkftXwf",
       "skill_name": "Foundational Knowledge",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 4,
       "sub_skills": [
         {
-          "skill_id": "fBENrXdMhoGYgL_d96tgo",
+          "skill_id": "FMer4WTlBf",
           "skill_name": "Software Engineering Background",
           "skill_content": "An engineering manager needs enough software engineering experience to earn technical credibility, evaluate trade-offs, and support their team's work. This does not require being the most senior engineer in the room, but it does require understanding how software is built, what makes a codebase hard to maintain, and how technical decisions have long-term consequences.",
           "rsc": [
@@ -282,7 +282,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "iX4HPgoiEbc_gze1A01n4",
+          "skill_id": "cAchVvOXlC",
           "skill_name": "System Design and Architecture",
           "skill_content": "System design covers how software components are structured and how they communicate. An engineering manager needs to understand architectural patterns well enough to participate in design discussions, identify risks in proposed solutions, and evaluate whether the team's technical approach fits the product's scale and reliability requirements.",
           "rsc": [
@@ -295,7 +295,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "EY6Hk5wPd9Y_VA1UROk44",
+          "skill_id": "o3OrqBeJbQ",
           "skill_name": "Technical Debt and Management",
           "skill_content": "Technical debt refers to shortcuts taken in code or architecture that create future maintenance costs. Engineering managers help the team identify, prioritize, and pay down debt by advocating for time on the roadmap, framing the business risk of deferred work, and helping stakeholders understand the trade-off between speed and long-term system health.",
           "rsc": [
@@ -308,7 +308,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "40yK6XzI8lSxdiAXxtF75",
+          "skill_id": "LWCcWZ53GW",
           "skill_name": "Code Review Best Practices",
           "skill_content": "Code review is the process of having engineers examine each other's code before merging. Good code review practices improve code quality, spread knowledge across the team, and catch bugs early. An engineering manager supports a healthy review culture by setting expectations around turnaround time, feedback tone, and the purpose of the review.",
           "rsc": [
@@ -321,7 +321,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "_2xnTKt5yi__jj_WgcLa7",
+          "skill_id": "I2GOn9ZnGb",
           "skill_name": "Technical Documentation",
           "skill_content": "Technical documentation captures how systems work, how decisions were made, and how to operate software in production. Engineering managers encourage a culture of documentation by making it part of the team's definition of done and by demonstrating its value when onboarding new engineers or recovering from incidents.",
           "rsc": [
@@ -336,14 +336,14 @@
       ]
     },
     {
-      "skill_id": "C-FsZPf9FKDf_MQ55axNw",
+      "skill_id": "HNDQYrcxJe",
       "skill_name": "Leadership Skills",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 5,
       "sub_skills": [
         {
-          "skill_id": "bx2SMhR58ud45se5dK7qS",
+          "skill_id": "tKVuLbVOz0",
           "skill_name": "Delegation",
           "skill_content": "Delegation is the practice of assigning work, decisions, or responsibilities to others rather than doing everything yourself. Engineering managers delegate to develop their team's capabilities, free themselves up for higher-leverage work, and build ownership within the team. Effective delegation includes clarity on scope, expectations, and how decisions will be reviewed.",
           "rsc": [
@@ -356,7 +356,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "QA5CR5f0geC_RQc_SOK-N",
+          "skill_id": "Eit3hJT7tQ",
           "skill_name": "Conflict Resolution",
           "skill_content": "Conflict between team members or across teams is a normal part of collaborative work. Engineering managers address conflict by creating space for honest conversation, helping parties understand each other's positions, and facilitating agreements. Leaving conflict unaddressed degrades team trust and output over time.",
           "rsc": [
@@ -369,7 +369,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "Az9GgkLFoat2t_sYRUBv5",
+          "skill_id": "DFTd0n0vih",
           "skill_name": "Feedback Delivery",
           "skill_content": "An Engineering Manager plays a vital role in delivering feedback. Constructive feedback reinforces positive behaviors and corrects any missteps, effectively enhancing team dynamics. This leadership responsibility could include making sure the team is aware of their strengths, areas for improvement, and creating a balanced dialogue that encourages growth.\n\nHowever, the challenge lies in presenting criticism without discouraging creativity and innovation. Engineering Managers can address this by framing feedback in a positive manner, and focusing on specific actions instead of attacking personal traits.\n\nLearning to deliver feedback effectively encompasses a suite of skills like empathy, patience, and communication. Applying these skills enables an Engineering Manager to build a culture that supports learning, continual improvement, and ultimately robust product development.",
           "rsc": [
@@ -382,7 +382,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "U_oOnDXkCE387r9olvMZB",
+          "skill_id": "0XNp5gSk58",
           "skill_name": "Team Motivation",
           "skill_content": "Team motivation refers to maintaining conditions in which engineers feel engaged, challenged, and valued. Engineering managers influence motivation through how they structure work, recognize contributions, involve the team in decisions, and remove obstacles. Motivation is not manufactured through perks; it comes from meaningful work and a functional team environment.",
           "rsc": [
@@ -395,7 +395,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "7PBmYoSmIgZT21a2Ip3_S",
+          "skill_id": "ZsRwwhfoUI",
           "skill_name": "Trust / Influence Building",
           "skill_content": "Trust is built through consistent follow-through, honest communication, and showing genuine interest in the people you work with. Engineering managers who have the trust of their team can navigate ambiguity, deliver hard messages, and drive change more effectively. Influence without authority relies on credibility built through this kind of trust.",
           "rsc": [
@@ -408,7 +408,7 @@
           "skill_order_in_parent": 5
         },
         {
-          "skill_id": "h7gEQNbGiabDA1q1Bk_IB",
+          "skill_id": "53PYpKd2ek",
           "skill_name": "Emotional Intelligence",
           "skill_content": "Emotional intelligence is the ability to recognize and manage your own emotions and to understand and respond to others' emotions effectively. For engineering managers, this shows up in how they handle pressure, how they read team dynamics, and how they adjust their communication style to different people and situations.",
           "rsc": [
@@ -423,14 +423,14 @@
       ]
     },
     {
-      "skill_id": "ecHMSFNc5uCxbCqK_bnIA",
+      "skill_id": "YgWUIdPYDm",
       "skill_name": "Team Development",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 6,
       "sub_skills": [
         {
-          "skill_id": "3na5mBIPl5f6mjEzkgD_C",
+          "skill_id": "B3PwzMeWEk",
           "skill_name": "Hiring and Recruitment",
           "skill_content": "Hiring involves sourcing candidates, running interviews, evaluating skills, and making offers. Engineering managers own or co-own this process for their team. This includes writing job descriptions, designing interview loops that assess relevant skills fairly, and making hiring decisions that consider both technical fit and team dynamics.",
           "rsc": [
@@ -443,7 +443,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "tPDmXXjvFI_8-MTo_dEUw",
+          "skill_id": "ThThxcNdN7",
           "skill_name": "Team Structure and Design",
           "skill_content": "Team structure defines how engineers are grouped, what they own, and how they interact with other teams. Engineering managers think about structure in terms of ownership clarity, cognitive load, and communication overhead. Changes to structure, such as splitting or merging teams, are consequential decisions made with input from leadership.",
           "rsc": [
@@ -456,7 +456,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "fhFSR_N4ZDTHINEinubHG",
+          "skill_id": "vwVJGN6N2n",
           "skill_name": "Career Development Planning",
           "skill_content": "Career development planning involves helping engineers identify where they want to grow and creating conditions for that growth. Engineering managers map an engineer's interests and strengths to opportunities on the team or elsewhere in the organization and give regular feedback on progress toward career goals.",
           "rsc": [
@@ -469,7 +469,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "0ULnfq0ZFJXgoLbKM1gxC",
+          "skill_id": "orzt0Rvdzu",
           "skill_name": "Mentoring and Coaching",
           "skill_content": "Mentoring involves sharing experience and knowledge to help someone grow. Coaching involves asking questions to help someone solve problems and develop their own thinking. Engineering managers use both approaches depending on what the engineer needs, shifting between direct advice and open-ended conversation as situations call for it.",
           "rsc": [
@@ -482,7 +482,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "eJzYnoB6sArLjXRm51cM4",
+          "skill_id": "D8xmhy9aNY",
           "skill_name": "Performance Evaluations",
           "skill_content": "Performance evaluations are structured assessments of how an engineer is meeting expectations for their role and level. Engineering managers conduct these with concrete feedback grounded in observed work, not just impressions. The goal is to give engineers a clear picture of where they stand and what growth looks like.",
           "rsc": [
@@ -497,14 +497,14 @@
       ]
     },
     {
-      "skill_id": "C2EQ8JMyK6b4PvgK5TpXb",
+      "skill_id": "1sVbgZWHwC",
       "skill_name": "Communication",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 7,
       "sub_skills": [
         {
-          "skill_id": "b3qoH_LuW-Gz4N8WdGnZs",
+          "skill_id": "zOpeOZ5pGN",
           "skill_name": "One-on-One Meetings",
           "skill_content": "One-on-one meetings are regular, private conversations between an engineering manager and each direct report. They serve as a space for feedback, career conversations, and raising concerns that would not surface in a group setting. The agenda should be driven primarily by the engineer, with the manager listening and coaching rather than running a status update.",
           "rsc": [
@@ -517,7 +517,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "e0ZuiCoS8sJ0XB1lNiz7_",
+          "skill_id": "MXiEfllPtp",
           "skill_name": "Team Meetings",
           "skill_content": "Team meetings bring the full team together to share information, align on priorities, or collaborate on decisions. Engineering managers design these meetings with a clear purpose, keep them focused, and avoid letting them become status theaters. A well-run team meeting reinforces shared context and team cohesion.",
           "rsc": [
@@ -530,7 +530,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "gqKEgKjEu5sOf5Gl-HS-j",
+          "skill_id": "sWJRY8Gp9F",
           "skill_name": "Status Reporting",
           "skill_content": "Status reporting is the practice of communicating the state of work to stakeholders and leadership on a regular basis. Engineering managers produce status updates that are concise, accurate, and highlight risks alongside progress. Good status reporting reduces the need for ad hoc check-ins and builds confidence with the broader organization.",
           "rsc": [
@@ -543,7 +543,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "TVqVlJqegLZRSkwNoHbBf",
+          "skill_id": "FeGCB8Bdym",
           "skill_name": "Stakeholder Management",
           "skill_content": "Stakeholder management involves identifying the people who have a stake in the team's work, understanding their needs and expectations, and communicating with them proactively. Engineering managers work with stakeholders inside and outside the organization, including product managers, executives, customers, and partner teams.",
           "rsc": [
@@ -556,7 +556,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "ZyNbSBd8plAZ5lt5OEUYu",
+          "skill_id": "UvJq7AwHg7",
           "skill_name": "Cross-functional Collaboration",
           "skill_content": "Cross-functional collaboration means working effectively with people from design, product, data, marketing, and other disciplines to deliver outcomes. Engineering managers facilitate this by ensuring the team understands how their work connects to others, by representing engineering needs in cross-functional discussions, and by resolving coordination problems that slow delivery.",
           "rsc": [
@@ -571,14 +571,14 @@
       ]
     },
     {
-      "skill_id": "iYGRSUanuDxhc3A7jlRjr",
+      "skill_id": "O9ytHozwLo",
       "skill_name": "Execution",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 8,
       "sub_skills": [
         {
-          "skill_id": "n9gvPHn4c1U-l6v-W9v6r",
+          "skill_id": "02Zsxuss9A",
           "skill_name": "Agile methodologies",
           "skill_content": "Agile methodologies are approaches to software development that emphasize iteration, collaboration, and responding to change over following a fixed plan. Common frameworks include Scrum, Kanban, and SAFe. Engineering managers adapt these frameworks to fit their team's context rather than following them rigidly.",
           "rsc": [
@@ -591,7 +591,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "SuT6q5lMMSyVkadlQp7iU",
+          "skill_id": "cH5JNs1HDT",
           "skill_name": "Project Tracking",
           "skill_content": "Project tracking is the ongoing process of monitoring the state of work in progress. Engineering managers use tracking tools, standups, and direct conversation to maintain awareness of what is on track, what is blocked, and what has changed. Effective tracking surfaces problems early enough to address them before they become crises.",
           "rsc": [
@@ -604,7 +604,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "PXobPGPgCX3_55w4UtxT9",
+          "skill_id": "OLY85Hen3X",
           "skill_name": "Milestone Management",
           "skill_content": "Milestones are defined checkpoints in a project that mark meaningful progress toward a goal. Engineering managers set milestones to give the team and stakeholders a shared sense of progress and to create natural review points where scope or approach can be revisited if needed.",
           "rsc": [
@@ -617,7 +617,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "C-lJJSjT8Cxw_UT3ocFsO",
+          "skill_id": "VSbzQLpP5e",
           "skill_name": "Scope Management",
           "skill_content": "Scope management involves defining what a project includes and actively controlling changes to that definition. Engineering managers defend scope from growth that was not planned for and facilitate decisions when stakeholders want to add requirements mid-delivery. Unmanaged scope is one of the most common causes of late or failed projects.",
           "rsc": [
@@ -630,7 +630,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "QWO5QFS7kXwfu3aa8IiRt",
+          "skill_id": "f8BbdXQndz",
           "skill_name": "Timeline Estimation",
           "skill_content": "Timeline estimation is the process of predicting how long work will take. Engineering managers work with their team to break down work, identify unknowns, and produce estimates that are honest about uncertainty. Estimates are not commitments; they are forecasts that improve as more is known about the work.",
           "rsc": [
@@ -645,14 +645,14 @@
       ]
     },
     {
-      "skill_id": "hL_GY3lMFe3R56DIuEhD1",
+      "skill_id": "zhREcgMWFz",
       "skill_name": "Project Planning",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 9,
       "sub_skills": [
         {
-          "skill_id": "4v5yLKYVcMh0s7SQuf__C",
+          "skill_id": "GPxljJtsia",
           "skill_name": "Resource Allocation",
           "skill_content": "Resource allocation is the process of deciding how to distribute engineering capacity across competing priorities. Engineering managers balance short-term delivery with investments in reliability, developer experience, and technical debt. Good resource allocation requires a clear understanding of priorities and honest estimates of how much work different efforts require.",
           "rsc": [
@@ -665,7 +665,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "7BcToTqL78QmG4qb43X5Q",
+          "skill_id": "6CVRGgTr7v",
           "skill_name": "Sprint Planning",
           "skill_content": "Sprint planning is the process of selecting and organizing work for an upcoming sprint. Engineering managers ensure the sprint goal is clear, that engineers have enough context to get started, and that the team's capacity is accounted for honestly. Planning sessions should result in commitments the team actually believes it can meet.",
           "rsc": [
@@ -678,7 +678,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "-Qc6E3gkUUonfzifYqeJJ",
+          "skill_id": "Fp8UPSF2qw",
           "skill_name": "Release Management",
           "skill_content": "Release management covers the process of planning, scheduling, and controlling when software is deployed to production. Engineering managers ensure releases are predictable and low-risk, with appropriate testing and rollback plans in place. In teams with continuous delivery, release management becomes more about governance and communication than batching.",
           "rsc": [
@@ -691,7 +691,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "mgw6M8I9qy1EoJpJV-gy1",
+          "skill_id": "V01t07n1Ln",
           "skill_name": "Risk Management",
           "skill_content": "Risk management in project planning involves identifying what could prevent the team from delivering on time or at the expected quality, and deciding what to do about it. Engineering managers surface risks early, track them over time, and communicate them to stakeholders before they become blockers.",
           "rsc": [
@@ -704,7 +704,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "hH-UDVFlgKoMJcI1ssDFv",
+          "skill_id": "zHuwmUhMxf",
           "skill_name": "Dependency management",
           "skill_content": "Dependency management refers to tracking and resolving the external dependencies a project has on other teams, systems, or third-party components. Engineering managers map dependencies at the start of planning, follow up to keep them unblocked, and escalate when dependency delays are putting the project at risk.",
           "rsc": [
@@ -719,14 +719,14 @@
       ]
     },
     {
-      "skill_id": "8_68edYBsrJBC1RdUVsnu",
+      "skill_id": "KjfhZ1YzCA",
       "skill_name": "Strategic Thinking",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 10,
       "sub_skills": [
         {
-          "skill_id": "nC5dfGlxbLoXUAp2u-6Gl",
+          "skill_id": "TVSbbVOmIs",
           "skill_name": "Product strategy alignment",
           "skill_content": "Product strategy alignment means ensuring the engineering team's work is connected to the product's strategic direction. Engineering managers translate product strategy into technical priorities, help engineers understand why their work matters, and flag when technical constraints or debt need to be factored into product plans.",
           "rsc": [
@@ -739,7 +739,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "vhOHvfF_lfQrrOK6sGLTY",
+          "skill_id": "UTG46oKipD",
           "skill_name": "Business Case Development",
           "skill_content": "A business case is a structured argument for why an investment, project, or initiative should be approved. Engineering managers write business cases to secure budget, headcount, or time for technical work that does not directly map to a product feature, such as a platform migration or a reliability investment.",
           "rsc": [
@@ -752,7 +752,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "XinUWPahOdufmLYcEwMj_",
+          "skill_id": "K6AEREQZO7",
           "skill_name": "ROI analysis",
           "skill_content": "ROI (return on investment) analysis estimates the value generated by an investment relative to its cost. Engineering managers use ROI framing to evaluate whether engineering work is worth pursuing and to help non-technical stakeholders understand the financial logic behind technical decisions.",
           "rsc": [
@@ -765,7 +765,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "P2gIOt-i0sQEOMBo-XjZO",
+          "skill_id": "0uizexV3ao",
           "skill_name": "Market awareness",
           "skill_content": "Market awareness means understanding the competitive landscape, industry trends, and customer context relevant to the product the team is building. Engineering managers with market awareness make better technical trade-offs because they understand what the business needs to win and can anticipate how priorities might shift.",
           "rsc": [
@@ -778,7 +778,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "76GjwwEYaEX_kh02OSpdr",
+          "skill_id": "xqVuABjYgz",
           "skill_name": "Competitive Analysis",
           "skill_content": "Competitive analysis involves researching what competitors are building, how they position their products, and where gaps or opportunities exist. Engineering managers use this to inform technical strategy, identify where investment in quality or performance would create differentiation, and avoid building things competitors already offer.",
           "rsc": [
@@ -793,14 +793,14 @@
       ]
     },
     {
-      "skill_id": "OJjTtLGSG7EkkJ5go1dX3",
+      "skill_id": "sk8FNSAivE",
       "skill_name": "Measurement",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 11,
       "sub_skills": [
         {
-          "skill_id": "Wd8FCEaGZBTvsD-k4t0r4",
+          "skill_id": "aAzjTyq0S6",
           "skill_name": "KPI Definition",
           "skill_content": "KPIs (key performance indicators) are metrics used to evaluate whether the team is achieving its goals. Engineering managers define KPIs in collaboration with leadership and product, choosing measures that reflect meaningful outcomes rather than just activity. Good KPIs are specific, trackable, and connected to decisions.",
           "rsc": [
@@ -813,7 +813,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "idd92ZTBVUzptBl5jRdc3",
+          "skill_id": "VzP0pDqVQe",
           "skill_name": "Velocity Tracking",
           "skill_content": "Velocity tracking measures how much work a team completes in a given period. In Scrum, it is often expressed in story points per sprint. Engineering managers use velocity as one input for planning, while recognizing that it is a rough measure and should not be used to compare teams or drive engineers to maximize point counts.",
           "rsc": [
@@ -826,7 +826,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "ZWWsuFm_G4kvvl_cv8l_t",
+          "skill_id": "hq907ybDxR",
           "skill_name": "Quality Metrics",
           "skill_content": "Quality metrics capture the state of software quality over time, using measures like defect rates, code coverage, mean time to recovery, or error rates. Engineering managers track these metrics to identify whether quality is improving or degrading, and use them to make the case for quality-focused work when it competes with feature delivery.",
           "rsc": [
@@ -839,7 +839,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "KPDHk7tl_BnIj_obnq3Kl",
+          "skill_id": "B0GWQ3xGct",
           "skill_name": "Team Health Metrics",
           "skill_content": "Team health metrics measure how well the team is functioning as a group, using indicators like retention, engagement survey results, workload distribution, or the frequency of after-hours incidents. Engineering managers monitor team health proactively because problems in team dynamics often surface in these signals before they become crises.",
           "rsc": [
@@ -852,7 +852,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "g9WWa50V8ZbhIJgBRx0Nd",
+          "skill_id": "IXauAEXbfU",
           "skill_name": "Project Postmortems",
           "skill_content": "A project postmortem is a retrospective conducted after a project or major milestone to review what went well, what went poorly, and what should change. Engineering managers facilitate these sessions with a focus on learning and systemic improvement, not blame. Findings should produce specific changes to process, tooling, or practices.",
           "rsc": [
@@ -867,14 +867,14 @@
       ]
     },
     {
-      "skill_id": "AcOZyUJpDpHatDUCGhIrS",
+      "skill_id": "oT5BNViulx",
       "skill_name": "Financial Management",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 12,
       "sub_skills": [
         {
-          "skill_id": "oqjr26B27SHSYVQ4IFnA1",
+          "skill_id": "sRJhoxqaFc",
           "skill_name": "Budget Planning",
           "skill_content": "Budget planning is the process of estimating and allocating the financial resources a team will need over a planning period. Engineering managers work with finance and leadership to build budgets that cover headcount, tooling, infrastructure, and vendor costs. They are accountable for operating within the approved budget.",
           "rsc": [
@@ -887,7 +887,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "iwwxnSVvCmZ57stXwzk8G",
+          "skill_id": "ylcH4Ru1BY",
           "skill_name": "Resource forecasting",
           "skill_content": "Resource forecasting involves predicting future staffing and capacity needs based on planned work and growth projections. Engineering managers use forecasts to identify gaps between planned work and available capacity and to make the case for hiring or contract resources before the gap becomes a delivery risk.",
           "rsc": [
@@ -900,7 +900,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "Imgt669vbUT_Iec2o4Gvt",
+          "skill_id": "ZZ7Mgdrdvd",
           "skill_name": "Vendor Management",
           "skill_content": "Vendor management covers the relationships with external software vendors, service providers, and contractors. Engineering managers negotiate contracts, monitor vendor performance, manage renewals, and make decisions about when to continue, replace, or build an alternative to a vendor-supplied capability.",
           "rsc": [
@@ -913,7 +913,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "rbhZJZtRV1ZZ5QaYW77ry",
+          "skill_id": "PlCPB5WyO2",
           "skill_name": "Cost Optimization",
           "skill_content": "Cost optimization involves identifying ways to reduce engineering or infrastructure costs without degrading quality or output. Engineering managers look for inefficiencies in cloud spending, vendor contracts, or tooling overlaps, and frame cost reduction as a shared goal rather than a top-down budget cut.",
           "rsc": [
@@ -928,14 +928,14 @@
       ]
     },
     {
-      "skill_id": "uMaNuJ9z5MFbWmyw8xENb",
+      "skill_id": "nHUH9oaQo5",
       "skill_name": "Team Culture",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 13,
       "sub_skills": [
         {
-          "skill_id": "ZuZuzwy-Frsn_PFJZVuAQ",
+          "skill_id": "43iPSpEnTe",
           "skill_name": "Defining and Enforcing Values",
           "skill_content": "Team values are the principles that guide how the team works and makes decisions. Engineering managers define these values explicitly, model them in their own behavior, and hold the team accountable to them. Values only matter if they influence actual behavior, not just wall posters or onboarding slides.",
           "rsc": [
@@ -948,7 +948,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "6iM0n4faMNhk4mezS9AcG",
+          "skill_id": "0WHHrixbxL",
           "skill_name": "Inclusive environment creation",
           "skill_content": "An inclusive environment is one where people from different backgrounds, identities, and perspectives feel equally valued and able to contribute. Engineering managers create inclusion through how they run meetings, how they solicit input, how they respond to bias when it surfaces, and how they make decisions about hiring and promotion.",
           "rsc": [
@@ -961,7 +961,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "8Nro6PTkEkNugYBjQfJ6O",
+          "skill_id": "S5GIrP687o",
           "skill_name": "Team Traditions and Rituals",
           "skill_content": "Team traditions and rituals are recurring activities that reinforce shared identity and culture, such as team celebrations, reading groups, or informal social time. Engineering managers invest in these practices because they build the social fabric that makes teams resilient during stressful periods.",
           "rsc": [
@@ -974,7 +974,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "Vb3A4a-UpGTAEs-dVI66s",
+          "skill_id": "SFYLK7scR2",
           "skill_name": "Recognition programs",
           "skill_content": "Recognition programs are structured or informal ways of acknowledging and rewarding contributions. Engineering managers give recognition frequently and specifically, making sure praise is tied to real behavior rather than generic praise. Peer recognition programs, shoutouts in team meetings, and written acknowledgment all contribute to a culture of appreciation.",
           "rsc": [
@@ -987,7 +987,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "LE3ykySYFL23KvuwxeBaR",
+          "skill_id": "yYZ2XNtfdD",
           "skill_name": "Social connections",
           "skill_content": "Social connections within a team are the informal relationships that develop between colleagues. Engineering managers create opportunities for these relationships to form, especially in remote or hybrid environments, because teams with strong social bonds communicate better, collaborate more naturally, and recover from conflict more quickly.",
           "rsc": [
@@ -1000,7 +1000,7 @@
           "skill_order_in_parent": 5
         },
         {
-          "skill_id": "g9FvFKC715tZL2ZGlPl3N",
+          "skill_id": "CyIyuQmiY0",
           "skill_name": "Bias Recognition / Mitigation",
           "skill_content": "Bias recognition involves identifying the cognitive patterns and structural factors that lead to unfair treatment of individuals or groups. Engineering managers actively work to recognize bias in hiring, performance evaluation, and day-to-day interactions, and put processes in place to reduce its impact on decisions.",
           "rsc": [
@@ -1015,14 +1015,14 @@
       ]
     },
     {
-      "skill_id": "8ogm2cmCLgzbyJxrVfUDC",
+      "skill_id": "I25EFdPwg8",
       "skill_name": "Organizational Awareness",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 14,
       "sub_skills": [
         {
-          "skill_id": "KA0y6KdVTjJFeX3frHUNo",
+          "skill_id": "TMOTPR8rb6",
           "skill_name": "Company Culture",
           "skill_content": "Company culture is the shared values, behaviors, and norms that define how people work together in an organization. Engineering managers shape culture at the team level by what they reward, how they respond to mistakes, and how they treat people. Team culture often reflects the engineering manager's behavior more than any stated value.",
           "rsc": [
@@ -1035,7 +1035,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "tt02qGHSn4fPbpboZ1Ni_",
+          "skill_id": "BzDczxkim9",
           "skill_name": "Change management",
           "skill_content": "Change management refers to the structured approach to transitioning individuals and teams through organizational or process changes. Engineering managers handle change by communicating early, explaining the reasoning, and giving the team space to adapt while maintaining focus on delivery.",
           "rsc": [
@@ -1048,7 +1048,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "mjMRNhPkeb4lEZXBb8Iot",
+          "skill_id": "iyfk8Up55o",
           "skill_name": "Organization structure",
           "skill_content": "Organizational structure defines reporting lines, team boundaries, and how decisions flow within a company. Engineering managers need to understand the structure they operate in to know how to escalate, collaborate, and influence decisions. They may also design or propose team structures within their own scope.",
           "rsc": [
@@ -1061,7 +1061,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "Zoz01JcNU69gr95IcWhYM",
+          "skill_id": "FN9i5uK2gK",
           "skill_name": "Politics navigation",
           "skill_content": "Organizational politics refers to the informal dynamics of influence, interest, and power within a company. Engineering managers navigate politics by building relationships across the organization, understanding who has influence over decisions that affect their team, and advocating for their team's interests without damaging trust.",
           "rsc": [
@@ -1074,7 +1074,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "Hb_rZe4k37Rr0enSh7woV",
+          "skill_id": "0v0JiDIMz5",
           "skill_name": "Cross-department collaboration",
           "skill_content": "Cross-department collaboration involves working with teams outside of engineering, such as sales, legal, finance, or customer support, to achieve shared goals. Engineering managers represent engineering interests in these interactions and ensure that engineering constraints and timelines are understood by partners who depend on the team's output.",
           "rsc": [
@@ -1089,14 +1089,14 @@
       ]
     },
     {
-      "skill_id": "CpCjmOpNxHu0j08qz_YJ5",
+      "skill_id": "WXVW4hKjgB",
       "skill_name": "Engineering Culture",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 15,
       "sub_skills": [
         {
-          "skill_id": "njqjYPMQK3nGYtqHzUylo",
+          "skill_id": "uv4qcUBVk4",
           "skill_name": "Innovation fostering",
           "skill_content": "Innovation fostering is the practice of creating conditions where engineers feel safe to explore new ideas, experiment with different approaches, and propose changes to how the team works. Engineering managers support innovation by protecting time for exploration, celebrating learning from failure, and removing barriers to trying new things.",
           "rsc": [
@@ -1109,7 +1109,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "aeD-kBZEr1NHFtAD8yHI_",
+          "skill_id": "XK4Y4qepN9",
           "skill_name": "Learning culture development",
           "skill_content": "A learning culture is one where continuous development is valued and supported. Engineering managers build this by encouraging engineers to share what they learn, providing access to learning resources, discussing career growth regularly, and treating mistakes as data rather than reasons for blame.",
           "rsc": [
@@ -1122,7 +1122,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "74-7hDXaBVXYo6LJdgac_",
+          "skill_id": "ji0x73w95i",
           "skill_name": "Knowledge sharing practices",
           "skill_content": "Knowledge sharing practices are the mechanisms through which information flows within a team and across the organization. This includes internal talks, documentation, pair programming, and wikis. Engineering managers invest in these practices because knowledge that lives only in people's heads is a risk to team resilience.",
           "rsc": [
@@ -1135,7 +1135,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "Cq0OFaWqSRathZO-bxBrP",
+          "skill_id": "Ic5vqE3RMm",
           "skill_name": "Technical excellence mindset",
           "skill_content": "A technical excellence mindset means caring deeply about the quality, reliability, and maintainability of what the team builds, not just whether it ships. Engineering managers model and reinforce this mindset by making space for refactoring, reviewing code with an eye for quality, and treating excellence as a standard rather than an aspiration.",
           "rsc": [
@@ -1148,7 +1148,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "fYkKo8D35AHd8agr3YrIP",
+          "skill_id": "PdPs0jwv0N",
           "skill_name": "Blameless Post-mortems",
           "skill_content": "Blameless post-mortems are incident reviews conducted without assigning personal fault. The goal is to understand the systemic conditions that made the incident possible and to change those conditions. Engineering managers facilitate these sessions and model the psychological safety needed for honest discussion.",
           "rsc": [
@@ -1163,14 +1163,14 @@
       ]
     },
     {
-      "skill_id": "9Dj-j03tywSGDU4yYKBMg",
+      "skill_id": "piz0ryLwvH",
       "skill_name": "Risk Mitigation",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 16,
       "sub_skills": [
         {
-          "skill_id": "2RwpGPegD2GyiiV6SVbbM",
+          "skill_id": "ZxZkk1xvo6",
           "skill_name": "Contingency planning",
           "skill_content": "Contingency planning involves preparing responses to foreseeable problems before they happen. Engineering managers work with their team to identify what could go wrong in a project or system and develop plans for how to respond, including fallback options, communication templates, and escalation paths.",
           "rsc": [
@@ -1183,7 +1183,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "KOTzJ8e7mc0wmF46vrj3I",
+          "skill_id": "qlHwalZcfo",
           "skill_name": "Disaster recovery",
           "skill_content": "Disaster recovery is the capability to restore systems and data after a catastrophic failure, such as data center loss or widespread data corruption. Engineering managers ensure the team has tested disaster recovery plans, understands recovery time and recovery point objectives, and can execute the plan under pressure.",
           "rsc": [
@@ -1196,7 +1196,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "v6N7BH0B55gX0oNXb55D7",
+          "skill_id": "jatZtF9p06",
           "skill_name": "Business continuity",
           "skill_content": "Business continuity planning ensures that critical operations can continue during and after a disruptive event. For engineering teams, this includes planning for prolonged outages, key person dependencies, and the loss of critical systems. Engineering managers contribute to continuity plans and ensure the team is not a single point of failure.",
           "rsc": [
@@ -1209,7 +1209,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "FNp4-RgPvfC76pJKjX56a",
+          "skill_id": "k6xJfqhs3q",
           "skill_name": "Security incident handling",
           "skill_content": "Security incident handling covers the response to detected breaches, vulnerabilities, or unauthorized access events. Engineering managers coordinate the team's technical response, ensure security and legal teams are engaged appropriately, and manage communication with affected parties according to company policy and regulatory requirements.",
           "rsc": [
@@ -1222,7 +1222,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "kQG_wk66-51dA4Ly9ivjM",
+          "skill_id": "6ZhsCbFNJW",
           "skill_name": "Production issues management",
           "skill_content": "Production issues management is the ongoing practice of monitoring, triaging, and resolving problems that affect users in production. Engineering managers ensure there is a clear process for reporting and prioritizing issues, that on-call rotations are sustainable, and that recurring issues are addressed rather than just patched repeatedly.",
           "rsc": [
@@ -1237,14 +1237,14 @@
       ]
     },
     {
-      "skill_id": "FfWUy7E38KoMmZ1PBCQfV",
+      "skill_id": "r24pFuVgZ5",
       "skill_name": "Incident Response",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 17,
       "sub_skills": [
         {
-          "skill_id": "Xaeb67Nqdi0kwvehQUYeJ",
+          "skill_id": "EPP67FKEb6",
           "skill_name": "Emergency protocols",
           "skill_content": "Emergency protocols define what the team does when something goes seriously wrong, such as a production outage, data breach, or major service degradation. Engineering managers ensure these protocols exist, are documented, and have been practiced before an emergency occurs, so the team can respond quickly under pressure.",
           "rsc": [
@@ -1257,7 +1257,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "LQ3YfAgJ4UaDgtnN-cMht",
+          "skill_id": "Jrhunm9ryp",
           "skill_name": "War Room Management",
           "skill_content": "War room management refers to the practice of coordinating a focused, time-boxed response to a major incident. Engineering managers facilitate the war room by assigning clear roles, managing communication, and keeping the team focused on resolution rather than side conversations or blame.",
           "rsc": [
@@ -1270,7 +1270,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "irEwTIubCjORnlH27QpEo",
+          "skill_id": "3aP8VKqdYt",
           "skill_name": "Stakeholder Communication",
           "skill_content": "During incidents, stakeholder communication means keeping the right people informed about what happened, what the team is doing, and when resolution is expected. Engineering managers own or coordinate this communication so engineers can stay focused on the technical problem.",
           "rsc": [
@@ -1283,7 +1283,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "2fHcb1dAnf34APCAAlwnR",
+          "skill_id": "0d4pn2bCTA",
           "skill_name": "Service Recovery",
           "skill_content": "Service recovery is the process of restoring a system or service to full operation after an incident. Engineering managers track the recovery plan, remove blockers, and coordinate across teams when recovery involves multiple systems or dependencies. Speed of recovery matters, but so does confidence that the fix is durable.",
           "rsc": [
@@ -1296,7 +1296,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "8zyK34SwHry2lrWchw0KZ",
+          "skill_id": "4YyMF8nDGI",
           "skill_name": "Post-incident analysis",
           "skill_content": "A post-incident analysis reviews what happened during an incident to extract learnings and produce improvements. Engineering managers drive this process, ensure it happens promptly while memory is fresh, and track follow-up action items to completion. Without systematic follow-through, the same incidents tend to recur.",
           "rsc": [
@@ -1311,14 +1311,14 @@
       ]
     },
     {
-      "skill_id": "Vh1_v27lStdnRPwpY3ZPv",
+      "skill_id": "N0xpsJwoid",
       "skill_name": "Team Support",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 18,
       "sub_skills": [
         {
-          "skill_id": "mIUx8zAHWyPWPGvxuTK4y",
+          "skill_id": "tGoyqyxc7H",
           "skill_name": "Burnout prevention",
           "skill_content": "Burnout prevention focuses on strategies and practices aimed at minimizing and mitigating the risk of employees experiencing burnout, a state of emotional, physical, and mental exhaustion caused by prolonged or excessive stress. It involves creating a supportive work environment, promoting healthy work-life balance, and equipping individuals and teams with the tools and resources needed to manage stress effectively and maintain their well-being.",
           "rsc": [
@@ -1341,7 +1341,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "nnoVA8W70hrNDxN3XQCVL",
+          "skill_id": "vty4m3u4KS",
           "skill_name": "Critical situation leadership",
           "skill_content": "Leading a team through a critical situation involves guiding them effectively when facing unexpected challenges, high-pressure scenarios, or significant disruptions. This requires clear communication, decisive action, and a focus on maintaining team morale and productivity while navigating uncertainty and resolving the crisis at hand. It's about providing stability and direction when things are most volatile.",
           "rsc": [
@@ -1364,7 +1364,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "FwK-B7jRbBXVnuY9JxI1w",
+          "skill_id": "THxs7pkGEC",
           "skill_name": "Emergency staffing",
           "skill_content": "Emergency staffing refers to the process of quickly securing and deploying personnel to address unexpected and critical situations that disrupt normal operations. This involves identifying skill gaps, finding available resources (either internal or external), and rapidly onboarding them to mitigate the impact of the emergency and restore stability. The goal is to minimize disruption and maintain essential functions during a crisis.",
           "rsc": [
@@ -1377,7 +1377,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "QFhhOgwz_bgZgOfKFg5XA",
+          "skill_id": "lUVwAhAyma",
           "skill_name": "Stress management",
           "skill_content": "Stress management encompasses the techniques and strategies used to control and reduce the negative impacts of stress. It involves identifying stressors, understanding their effects on physical and mental well-being, and implementing coping mechanisms to maintain a healthy balance. Effective stress management aims to improve overall resilience and performance by mitigating the adverse consequences of prolonged or intense pressure.",
           "rsc": [
@@ -1395,7 +1395,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "tmY4Ktu6luFg5wKylJW76",
+          "skill_id": "RGmsHDjotl",
           "skill_name": "Work-life balance during crises",
           "skill_content": "Maintaining work-life balance during a crisis involves strategies and practices that help team members manage their professional responsibilities while also prioritizing their personal well-being and commitments. This includes setting boundaries, utilizing time management techniques, encouraging open communication about workload and stress, and ensuring access to resources that support mental and physical health. The goal is to prevent burnout and maintain productivity and morale during challenging times.",
           "rsc": [
@@ -1415,14 +1415,14 @@
       ]
     },
     {
-      "skill_id": "olGtswpYmYp-s8hGgndKm",
+      "skill_id": "QRfoXU3O4H",
       "skill_name": "Partner Management",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 19,
       "sub_skills": [
         {
-          "skill_id": "WYoqfmk5ejB2UOiYXh4Zi",
+          "skill_id": "HpAa7W6dWy",
           "skill_name": "Vendor relationships",
           "skill_content": "Vendor relationships are the ongoing partnerships with companies that provide tools, platforms, or services the engineering team depends on. Engineering managers maintain these relationships by communicating needs clearly, holding vendors accountable to SLAs, and making sure the team's dependency on any single vendor is understood and managed.",
           "rsc": [
@@ -1435,7 +1435,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "xMN575nnnQJeHe2oJYw17",
+          "skill_id": "O9K4J1o1oW",
           "skill_name": "Technology partnerships",
           "skill_content": "Technology partnerships involve collaborating with external companies to build integrations, co-develop features, or share capabilities. Engineering managers evaluate the technical fit of partnerships, define integration requirements, and ensure the team has what it needs to execute without creating long-term maintenance burdens.",
           "rsc": [
@@ -1448,7 +1448,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "f3P0fF4UzgVQZuMVTVmP1",
+          "skill_id": "cAAB0yzyyt",
           "skill_name": "Integration management",
           "skill_content": "Integration management covers the work of connecting systems through APIs, webhooks, or data pipelines. Engineering managers ensure integrations are well-designed, tested, documented, and monitored, and that partner-dependent work is tracked with enough visibility to catch problems before they affect users.",
           "rsc": [
@@ -1461,7 +1461,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "ukmMMWacekcejEiEKCLzh",
+          "skill_id": "tpH7SrQzTu",
           "skill_name": "API strategy",
           "skill_content": "API strategy defines how a team designs, publishes, and evolves the APIs it offers to internal or external consumers. Engineering managers contribute to API strategy by ensuring consistency, stability, and adequate documentation, and by making decisions about versioning, deprecation, and access control.",
           "rsc": [
@@ -1474,7 +1474,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "Jctp5tPCK_vY35_bh7QFk",
+          "skill_id": "kS0fJd7eNo",
           "skill_name": "External collaboration",
           "skill_content": "External collaboration refers to working with engineering teams, consultants, or open source communities outside the organization. Engineering managers set expectations around contribution, communication standards, and ownership to ensure external collaboration produces value without creating dependency or security risk.",
           "rsc": [
@@ -1489,14 +1489,14 @@
       ]
     },
     {
-      "skill_id": "ZHd8vK5HAh5iQaTJGzBPF",
+      "skill_id": "BPb0z3oHPF",
       "skill_name": "Customer Relations",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 20,
       "sub_skills": [
         {
-          "skill_id": "QEViLNgG4Uv9Q9PWig0u3",
+          "skill_id": "WrKPcwB1gE",
           "skill_name": "Customer feedback integration",
           "skill_content": "Customer feedback integration is the practice of bringing user-reported issues, requests, and observations into the team's planning process. Engineering managers work with product and customer-facing teams to ensure feedback is structured, prioritized, and visible to engineers, so customer experience informs technical decisions.",
           "rsc": [
@@ -1509,7 +1509,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "V5s2i-L2tsZFNxMLN_e_U",
+          "skill_id": "gsRbBzkaob",
           "skill_name": "Technical customer support",
           "skill_content": "Technical customer support involves directly helping customers resolve technical issues with the product. Engineering managers may define how engineering participates in support escalations, build tooling to help support teams self-serve, and set response time standards for issues that require engineering involvement.",
           "rsc": [
@@ -1522,7 +1522,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "A-Aa7VdDAYfaMUZD_cWwP",
+          "skill_id": "yxWzRyY1g0",
           "skill_name": "Customer success alignment",
           "skill_content": "Customer success alignment means ensuring the engineering team understands what customers need to achieve with the product and builds accordingly. Engineering managers bridge engineering and customer success by participating in feedback loops, attending customer calls when useful, and translating customer outcomes into technical priorities.",
           "rsc": [
@@ -1535,7 +1535,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "2QwMcO27H3ygtLlWVplxr",
+          "skill_id": "14SdRdP64J",
           "skill_name": "Feature prioritization",
           "skill_content": "Feature prioritization is the process of deciding which product capabilities to build and in what order. Engineering managers contribute technical perspective to prioritization by estimating effort, surfacing dependencies, and flagging when proposed features conflict with system health or strategic direction.",
           "rsc": [
@@ -1548,7 +1548,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "tCT2syTMyEHCspDLXxk6R",
+          "skill_id": "asHuoPFbbJ",
           "skill_name": "Technical partnerships",
           "skill_content": "Technical partnerships are collaborations with other companies at the system level, involving shared APIs, joint infrastructure, or co-developed features. Engineering managers manage the engineering side of these partnerships, ensuring technical commitments are realistic, well-documented, and don't create architectural problems downstream.",
           "rsc": [
@@ -1563,14 +1563,14 @@
       ]
     },
     {
-      "skill_id": "93Fladz2ZH8E9zdUW4oBY",
+      "skill_id": "92azhFFZT0",
       "skill_name": "Documentation",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 21,
       "sub_skills": [
         {
-          "skill_id": "gHhNi32MSBmqk-oKOy-uj",
+          "skill_id": "VQUf2kbPFL",
           "skill_name": "Architecture documentation",
           "skill_content": "Architecture documentation describes how a system is structured, what components exist, how they interact, and what decisions have shaped the design. Engineering managers ensure this documentation exists, is kept current, and is accessible to new engineers joining the team. Good architecture docs reduce onboarding time and support better technical decisions.",
           "rsc": [
@@ -1583,7 +1583,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "Kwy9O1z2hpeE0Sb3qtxEg",
+          "skill_id": "NphF8KVIlf",
           "skill_name": "Process documentation",
           "skill_content": "Process documentation captures how the team does its work, including development workflows, deployment procedures, and incident response steps. Engineering managers treat process documentation as a forcing function for clarifying how things actually work and reducing reliance on tribal knowledge.",
           "rsc": [
@@ -1596,7 +1596,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "dTjp_rEl1ITZjvELqVtfv",
+          "skill_id": "1g213cMRq8",
           "skill_name": "Decision records",
           "skill_content": "Decision records, often called Architecture Decision Records (ADRs), document important technical choices along with the context and trade-offs that informed them. Engineering managers encourage their use because they prevent the same decisions from being relitigated and help new team members understand why the system is built the way it is.",
           "rsc": [
@@ -1609,7 +1609,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "4-MCXFOkMGcN369OPG-vw",
+          "skill_id": "4pmWeJbKKw",
           "skill_name": "Best Practices",
           "skill_content": "Best practices are proven approaches to common engineering challenges that the team agrees to follow. Engineering managers help establish and evolve best practices by facilitating discussions, gathering input from engineers, and ensuring practices are written down rather than assumed. Best practices should be revisited as technology and context evolve.",
           "rsc": [
@@ -1622,7 +1622,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "HUQ_-vU2pdBPyF0mBocHz",
+          "skill_id": "RseKD5wK5y",
           "skill_name": "Lessons Learned",
           "skill_content": "Lessons learned are insights captured from completed projects, incidents, or experiments that inform future work. Engineering managers create structures for capturing these learnings, such as retrospectives, post-mortems, or dedicated knowledge bases, and ensure they translate into actual changes rather than being filed and forgotten.",
           "rsc": [
@@ -1637,14 +1637,14 @@
       ]
     },
     {
-      "skill_id": "3aLBCZZKbSXTi52pz3NpZ",
+      "skill_id": "XKav2du6Ds",
       "skill_name": "Executive Communication",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 22,
       "sub_skills": [
         {
-          "skill_id": "5MM1ccB1pmQcd3Uyjmbr7",
+          "skill_id": "h6Du256S5O",
           "skill_name": "Board presentations",
           "skill_content": "Board presentations are formal communications to a company's board of directors. Engineering managers may prepare or contribute to these when engineering investments, incidents, or strategy decisions need board-level visibility. The content must be accurate, concise, and framed in business terms rather than technical jargon.",
           "rsc": [
@@ -1657,7 +1657,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "CHothgVl8ulFthwS7uKqK",
+          "skill_id": "JrG3WMJw5p",
           "skill_name": "Executive summaries",
           "skill_content": "Executive summaries distill complex technical work or decisions into brief, clear communications for senior leaders. Engineering managers write these to inform decisions, request resources, or provide status on critical work. An effective executive summary leads with the conclusion and supports it with the minimum necessary detail.",
           "rsc": [
@@ -1670,7 +1670,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "uBrsV_EocAkRWEqJYjoZn",
+          "skill_id": "boS3kTQAve",
           "skill_name": "Strategic proposals",
           "skill_content": "Strategic proposals are documents that recommend a significant course of action, such as adopting a new technology, restructuring teams, or investing in a platform. Engineering managers write these to build consensus and secure approval, combining technical analysis with business impact framing.",
           "rsc": [
@@ -1683,7 +1683,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "pLUOU2AmAJ9aJAmIlVD7D",
+          "skill_id": "w2lAqreWzh",
           "skill_name": "Budget requests",
           "skill_content": "Budget requests are formal asks for financial resources to support engineering work. Engineering managers prepare these by quantifying the need, explaining the expected return, and anticipating questions about alternatives. A well-prepared budget request increases the likelihood of approval and demonstrates financial accountability.",
           "rsc": [
@@ -1696,7 +1696,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "QssXmeifoI3dtu-eXp8PK",
+          "skill_id": "tj8bnTkpgM",
           "skill_name": "Vision alignment",
           "skill_content": "Vision alignment means ensuring the engineering team understands and believes in the direction the organization is heading. Engineering managers translate company vision into team-level goals, explain the connection between day-to-day work and long-term direction, and surface disconnects between stated vision and actual priorities.",
           "rsc": [
@@ -1711,14 +1711,14 @@
       ]
     },
     {
-      "skill_id": "L_7jYzqtQT84v6pnSZduj",
+      "skill_id": "fYaxmeekHu",
       "skill_name": "Knowledge Transfer",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 23,
       "sub_skills": [
         {
-          "skill_id": "g6K9fxWdRQT5h_u4Y_bkq",
+          "skill_id": "EkbbXY8Jvs",
           "skill_name": "Mentoring Programs",
           "skill_content": "Mentoring programs are structured arrangements that pair engineers with more experienced colleagues for guidance and development. Engineering managers may run team-level mentoring or participate in company-wide programs. A good mentoring program has clear goals, regular check-ins, and a way to evaluate whether it is producing growth.",
           "rsc": [
@@ -1731,7 +1731,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "7t9jmv3_lRCEG5y5DA8bF",
+          "skill_id": "6fzcWaSQtf",
           "skill_name": "Knowledge bases",
           "skill_content": "A knowledge base is a searchable repository of documentation, guides, and references that the team maintains. Engineering managers champion the knowledge base as a living resource, not a static archive, by encouraging contributions, reviewing staleness, and making it a natural first stop for common questions.",
           "rsc": [
@@ -1744,7 +1744,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "2LO0iWf-y3l4rA1n_oG1g",
+          "skill_id": "UWKtdLmb3j",
           "skill_name": "Tech Talks",
           "skill_content": "Tech talks are internal presentations where engineers share knowledge about a technology, project, or concept with colleagues. Engineering managers create a culture where tech talks are encouraged, scheduled regularly, and valued as part of professional development rather than treated as optional extras.",
           "rsc": [
@@ -1757,7 +1757,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "S8-nwYKlG7YHL2dWwR303",
+          "skill_id": "WLhAHzUNrQ",
           "skill_name": "Brown Bags",
           "skill_content": "Brown bag sessions are informal learning events, typically held during lunch, where someone presents or leads discussion on a topic. Engineering managers use them to facilitate knowledge sharing without requiring a formal meeting format. They work well for introducing new tools, discussing book chapters, or exploring technical ideas.",
           "rsc": [
@@ -1772,14 +1772,14 @@
       ]
     },
     {
-      "skill_id": "ztl8utibkeEYAZxCLskEC",
+      "skill_id": "oWjiEE8R3E",
       "skill_name": "Technical Change",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 24,
       "sub_skills": [
         {
-          "skill_id": "QMAIEkVFHrrP6lUWvd0S8",
+          "skill_id": "XDIbUFHsD5",
           "skill_name": "Migration planning",
           "skill_content": "Migration planning covers the process of moving from one system, architecture, or technology to another. Engineering managers lead migrations by defining the target state, sequencing the work, managing dependencies, and ensuring the team has a rollback plan at each stage.",
           "rsc": [
@@ -1792,7 +1792,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "9mNLfntu1TPjcX3RoUeMq",
+          "skill_id": "JksJDkHicL",
           "skill_name": "Legacy system retirement",
           "skill_content": "Legacy system retirement is the process of decommissioning old software and migrating its functionality or data to newer systems. Engineering managers plan these transitions carefully, sequence dependencies correctly, and manage the risk that comes from changing systems that are still in active use by customers or other teams.",
           "rsc": [
@@ -1805,7 +1805,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "jerPoyfCcwZbNuE_cl1hq",
+          "skill_id": "Lzk274WJFs",
           "skill_name": "Technology adoption",
           "skill_content": "Technology adoption is the process of introducing a new tool, language, framework, or platform into the team's stack. Engineering managers evaluate adoption decisions based on team learning curve, long-term maintenance, community support, and strategic fit rather than novelty. Adoption decisions should follow a deliberate trial and review process.",
           "rsc": [
@@ -1818,7 +1818,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "ev9ZKygqETctLMSt1GAFU",
+          "skill_id": "Tspdzqc9p6",
           "skill_name": "Process changes",
           "skill_content": "Process changes are modifications to how the team plans, builds, reviews, or ships work. Engineering managers introduce process changes incrementally, communicate the reason clearly, and evaluate whether changes are producing the intended improvement. Frequent process changes without follow-through create instability rather than progress.",
           "rsc": [
@@ -1831,7 +1831,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "f-52wRfPRrA9iniOMYQB7",
+          "skill_id": "qhOE1DCdij",
           "skill_name": "Tool transitions",
           "skill_content": "Tool transitions involve switching from one tool to another, such as moving from one project management system, monitoring platform, or CI provider to another. Engineering managers plan these transitions to minimize disruption, ensure data is migrated correctly, and allow the team enough time to become proficient before the old tool is retired.",
           "rsc": [
@@ -1846,14 +1846,14 @@
       ]
     },
     {
-      "skill_id": "Pb6LwGylkswhcqOT1Wf5x",
+      "skill_id": "Zl2Gh8tcC5",
       "skill_name": "Organizational Change",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 25,
       "sub_skills": [
         {
-          "skill_id": "1__zRE1iu1FDX9ynpWSBS",
+          "skill_id": "NuD2r6Q449",
           "skill_name": "Change strategy",
           "skill_content": "A change strategy is the plan for how a significant organizational or technical transition will be executed. Engineering managers develop change strategies that account for sequencing, communication, training needs, and the human side of change, recognizing that technical change often fails due to people and process factors rather than technology.",
           "rsc": [
@@ -1866,7 +1866,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "oGmtkOGVgA4huGJqkBEfj",
+          "skill_id": "ZCVWI4dDVH",
           "skill_name": "Impact assessment",
           "skill_content": "Impact assessment is the process of evaluating how a proposed change will affect systems, teams, users, or processes before it is made. Engineering managers use impact assessments to surface unintended consequences, identify required preparation, and make better-informed decisions about whether and how to proceed with a change.",
           "rsc": [
@@ -1879,7 +1879,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "34uOnta7dKOyZL0et_RC8",
+          "skill_id": "FeGCB8Bdym",
           "skill_name": "Stakeholder management",
           "skill_content": "Stakeholder management in the context of change involves identifying who is affected by a change, understanding their concerns, and communicating proactively throughout the transition. Engineering managers map stakeholders at the start of any significant change effort and tailor communication to what each group needs to know.",
           "rsc": [
@@ -1892,7 +1892,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "Mxi4g_PzT0oYc3NgR0UVg",
+          "skill_id": "gBm0dmh4XQ",
           "skill_name": "Communication planning",
           "skill_content": "Communication planning defines who will be told about a change, what they will be told, when, and through what channels. Engineering managers develop communication plans for significant changes to ensure the right people have accurate information at the right time, and to reduce the uncertainty that drives resistance.",
           "rsc": [
@@ -1905,7 +1905,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "vfp6VmWnhpre_eDORg7ht",
+          "skill_id": "Wlx8aox7Jh",
           "skill_name": "Resistance management",
           "skill_content": "Resistance management involves recognizing and addressing pushback to organizational or technical changes. Engineering managers treat resistance as signal rather than obstruction, using it to uncover valid concerns, improve the change plan, or clarify misunderstandings that are driving opposition.",
           "rsc": [
@@ -1920,14 +1920,14 @@
       ]
     },
     {
-      "skill_id": "wXHFzVuZbly4ozgorQyIS",
+      "skill_id": "IAqihpu83c",
       "skill_name": "Team Change",
       "skill_content": null,
       "rsc": [],
       "skill_order_in_track": 26,
       "sub_skills": [
         {
-          "skill_id": "5_CE3p5jMA1uEqFNfp7Kh",
+          "skill_id": "K4hXnfPagi",
           "skill_name": "Reorganizations",
           "skill_content": "Reorganizations are changes to the structure of teams, reporting lines, or organizational units. Engineering managers may initiate, lead, or be affected by reorgs. Their role is to communicate clearly about what is changing and why, protect team stability as much as possible, and help engineers adapt to new contexts.",
           "rsc": [
@@ -1940,7 +1940,7 @@
           "skill_order_in_parent": 1
         },
         {
-          "skill_id": "ph0U4l2alVJ8lUJ96q7co",
+          "skill_id": "pdYEhEcruq",
           "skill_name": "Team mergers",
           "skill_content": "Team mergers involve combining two or more teams into one, often bringing together different cultures, codebases, or ways of working. Engineering managers leading a merger focus on establishing shared practices, integrating tooling, and building trust across the merged group before pushing for full alignment on process and culture.",
           "rsc": [
@@ -1953,7 +1953,7 @@
           "skill_order_in_parent": 2
         },
         {
-          "skill_id": "FayHWdUHHYFFBwnXx37Gk",
+          "skill_id": "Wlt5QgFQfi",
           "skill_name": "Role transitions",
           "skill_content": "Role transitions occur when an engineer changes function, such as moving from an individual contributor to a tech lead, or from one team to another. Engineering managers support transitions by clarifying new expectations, providing feedback during the adjustment period, and helping the engineer build credibility in their new context.",
           "rsc": [
@@ -1966,7 +1966,7 @@
           "skill_order_in_parent": 3
         },
         {
-          "skill_id": "eIlW4mZKNQfBsTDmZf7ex",
+          "skill_id": "DjNK5KMQOr",
           "skill_name": "Responsibility shifts",
           "skill_content": "Responsibility shifts happen when ownership of a system, process, or area moves from one team or person to another. Engineering managers plan these shifts carefully to ensure continuity, adequate documentation, and a clear handoff process that does not leave gaps in coverage.",
           "rsc": [
@@ -1979,7 +1979,7 @@
           "skill_order_in_parent": 4
         },
         {
-          "skill_id": "y7YHIz7OI4sNfC_nhfLcu",
+          "skill_id": "jgyyIBrU5a",
           "skill_name": "Culture evolution",
           "skill_content": "Culture evolution is the gradual change of a team's norms, values, and ways of working over time. Engineering managers shape culture intentionally by modeling the behaviors they want to see, adjusting practices as the team grows, and being willing to revisit and update cultural norms that no longer serve the team well.",
           "rsc": [
@@ -2002,21 +2002,21 @@
       "source_roadmap": "code-review",
       "skills": [
         {
-          "skill_id": "NpsaEW0R2Q70E9sDWkb5u",
+          "skill_id": "92azhFFZT0",
           "skill_name": "Documentation",
           "skill_content": null,
           "rsc": [],
           "skill_order_in_track": 1,
           "sub_skills": [
             {
-              "skill_id": "ANbBMKHS6CtWDDY0tpiSh",
+              "skill_id": "UAUIVcm5xZ",
               "skill_name": "Code Styles",
               "skill_content": null,
               "rsc": [],
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "UDHO5T8xijJUCoX0CCvZD",
+              "skill_id": "ERbWIFw1XH",
               "skill_name": "Tests",
               "skill_content": null,
               "rsc": [],
@@ -2025,7 +2025,7 @@
           ]
         },
         {
-          "skill_id": "PRgkDV4rFasYnHItL5ubS",
+          "skill_id": "qOHwC1gZb7",
           "skill_name": "Implementation Semantics",
           "skill_content": null,
           "rsc": [],
@@ -2033,7 +2033,7 @@
           "sub_skills": []
         },
         {
-          "skill_id": "-VG9gkmIG2V6r7er-sYjY",
+          "skill_id": "5JSC3Fz8lP",
           "skill_name": "API Semantics",
           "skill_content": null,
           "rsc": [
@@ -2059,7 +2059,7 @@
       "source_roadmap": "technical-writer",
       "skills": [
         {
-          "skill_id": "HlUUGj3dOZ68t4gIjerXh",
+          "skill_id": "4vLmNBh8HW",
           "skill_name": "Introduction",
           "skill_content": "Technical writing is a profession focused on creating clear, accurate documentation for technical products, processes, and systems. Writers in this field translate complex information into content that specific audiences can understand and use. The role exists across industries including software, hardware, healthcare, finance, and engineering.",
           "rsc": [
@@ -2072,7 +2072,7 @@
           "skill_order_in_track": 1,
           "sub_skills": [
             {
-              "skill_id": "jl1FsQ5-WGKeFyaILNt_p",
+              "skill_id": "ZCicNhfsix",
               "skill_name": "What is Technical Writing?",
               "skill_content": "Technical writing is the practice of creating documentation that communicates specialized or complex information clearly to a defined audience. It covers a wide range of content types, from user manuals and tutorials to API references and release notes. The goal is always clarity and usability, not style or persuasion.",
               "rsc": [
@@ -2100,7 +2100,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "ZRGsokU313Ky-anWbWK6q",
+              "skill_id": "8i4IuROX6o",
               "skill_name": "Who is a Technical Writer?",
               "skill_content": "A technical writer produces documentation that helps users understand and work with technical products or processes. They work alongside engineers, product managers, and designers to gather information and turn it into structured content like guides, manuals, or API references. The role requires both strong writing ability and enough technical literacy to engage with subject matter experts.",
               "rsc": [
@@ -2123,7 +2123,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "j69erqfosSZMDlmKcnnn0",
+              "skill_id": "KCJkPKvjJe",
               "skill_name": "Role of Technical Writers inOrganizations",
               "skill_content": "The role of a **Technical Writer** is primarily to translate complex technical information into simpler language that is easy to understand for a non-technical audience. They design, write, edit, and rewrite technical pieces like operating instructions, FAQs, installation guides, and more. Apart from this, they also gather and disseminate technical information among customers, designers, and manufacturers. Essentially, their job involves communicating technical terminologies and a clear understanding of complex information to those who need it in an easy-to-understand format.",
               "rsc": [
@@ -2136,7 +2136,7 @@
               "skill_order_in_parent": 3
             },
             {
-              "skill_id": "cNeT1dJDfgn0ndPzSxhSL",
+              "skill_id": "VC1tANiCOz",
               "skill_name": "Forms of Technical Writing",
               "skill_content": "Technical writing takes many forms depending on the audience and purpose. Common formats include user guides, API documentation, tutorials, release notes, white papers, process documentation, and in-product copy. Each format has its own conventions for structure, tone, and depth.",
               "rsc": [
@@ -2149,7 +2149,7 @@
               "skill_order_in_parent": 4
             },
             {
-              "skill_id": "FVxNjbDBxgf6vkZWw1Awt",
+              "skill_id": "0VuHn74VCC",
               "skill_name": "Growth as a Technical Writer",
               "skill_content": "The growth phase in the field of technical writing is intriguing. As a technical writer gains experience and demonstrates excellent work consistently, they are likely to encounter many opportunities for growth. This can include taking on more complex projects, managing teams, or even moving toward strategic roles. Career advancement may involve specializing in specific industries or gaining fluency in cutting-edge tools and formats. Technical writers may also grow by expanding their skill set to encompass related fields like data analysis, UX writing, content management, or project coordination.",
               "rsc": [
@@ -2162,7 +2162,7 @@
               "skill_order_in_parent": 5
             },
             {
-              "skill_id": "FD-8LQ_g2_O_i2Qwp-Gpv",
+              "skill_id": "TGwoUzv7Dt",
               "skill_name": "SEO Tools",
               "skill_content": "SEO tools help technical writers identify how audiences search for topics and evaluate whether content is discoverable. Tools like Ahrefs, Semrush, and Google Search Console show search volume, keyword rankings, and traffic data. Writers use this information to optimize titles, headings, and content structure for search visibility.",
               "rsc": [
@@ -2175,7 +2175,7 @@
               "skill_order_in_parent": 6
             },
             {
-              "skill_id": "Am_ocP3r0HM45LYfMcQxM",
+              "skill_id": "KjnLwiILAo",
               "skill_name": "Editing Tools",
               "skill_content": "Editing tools assist with grammar, spelling, clarity, and style. Grammarly, Hemingway Editor, and Vale are commonly used in technical writing workflows. Some tools can be integrated into writing environments or CI pipelines to enforce style guides automatically.",
               "rsc": [
@@ -2188,7 +2188,7 @@
               "skill_order_in_parent": 7
             },
             {
-              "skill_id": "TJ1iuzQ9u_WbrllRQkgm_",
+              "skill_id": "oBtFuRxmj1",
               "skill_name": "Markdown",
               "skill_content": "Markdown is a lightweight markup language that uses plain text formatting syntax to define headings, lists, code blocks, links, and other elements. It is widely used in technical documentation because it is readable as plain text and converts easily to HTML. Most modern documentation platforms and static site generators support Markdown natively.",
               "rsc": [
@@ -2203,7 +2203,7 @@
           ]
         },
         {
-          "skill_id": "8rjUZ9NZPGwVRGmk6Dlyb",
+          "skill_id": "2fykiTpWvY",
           "skill_name": "Required Skills",
           "skill_content": "Technical writers need a combination of writing ability, research skills, and technical understanding. They must communicate clearly across different formats and audiences, manage multiple projects, and work effectively with subject matter experts. Familiarity with documentation tools, version control, and publishing platforms is increasingly expected.",
           "rsc": [
@@ -2216,7 +2216,7 @@
           "skill_order_in_track": 2,
           "sub_skills": [
             {
-              "skill_id": "DubLTESNn3wvEH_bKQZbP",
+              "skill_id": "hEUiSNtMeg",
               "skill_name": "Technology Expertise",
               "skill_content": "Technology expertise is the writer's ability to understand the products and systems they document. This does not always require deep engineering knowledge, but writers need enough technical grounding to follow developer conversations, test features, and evaluate the accuracy of their own content. Specializations often develop around domains like cloud infrastructure, APIs, or hardware.",
               "rsc": [
@@ -2229,7 +2229,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "kNIiAJrvrNoOAllUbRtUB",
+              "skill_id": "KrGmuMznOm",
               "skill_name": "Language Proficiency",
               "skill_content": "Language proficiency refers to the writer's command of the language they write in, typically English in global technical contexts. This includes grammar, vocabulary, syntax, and an understanding of how language choices affect readability. Writers working in international contexts also need awareness of localization and plain language principles.",
               "rsc": [
@@ -2242,7 +2242,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "7-3tqRUpntoQP4nK_nul5",
+              "skill_id": "NDjEkZp73K",
               "skill_name": "Written Communication Proficiency",
               "skill_content": "Written communication proficiency means producing text that is clear, concise, and appropriate for the intended audience. For technical writers, this includes structuring information logically, maintaining consistent tone, and editing for accuracy. Strong writers know when to simplify and when to preserve technical precision.",
               "rsc": [
@@ -2257,7 +2257,7 @@
           ]
         },
         {
-          "skill_id": "_5xFbl2BHx0f2u9HmSVS8",
+          "skill_id": "XiYb0ibVxv",
           "skill_name": "Tooling",
           "skill_content": "Technical writers use a range of tools to research, write, manage, and publish documentation. The specific tools vary by organization and documentation type, but most workflows involve some combination of writing environments, version control, publishing platforms, and content management systems.",
           "rsc": [
@@ -2270,7 +2270,7 @@
           "skill_order_in_track": 3,
           "sub_skills": [
             {
-              "skill_id": "0XWiraeoicNBbaGYQnNZr",
+              "skill_id": "kSuPg80U5t",
               "skill_name": "Research Tools",
               "skill_content": "Research tools help technical writers gather accurate information about the products and topics they document. These include internal wikis, issue trackers, API explorers, and direct access to source code or staging environments. Writers also use external sources like official documentation, academic papers, and community forums to supplement product knowledge.",
               "rsc": [
@@ -2283,7 +2283,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "sdoFe4A3y_-Zp3mlrJ5r8",
+              "skill_id": "uwokmvwvFi",
               "skill_name": "Blogging Platforms",
               "skill_content": "Blogging platforms like Medium, Dev.to, Ghost, and WordPress are sometimes used by technical writers to publish tutorials, thought leadership, or product-focused content. They offer simple publishing workflows without requiring infrastructure setup. Some organizations use them for developer outreach or community content alongside formal documentation.",
               "rsc": [
@@ -2296,7 +2296,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "jC3ZrpskBqzxiV6SKf4Uf",
+              "skill_id": "SyzLDWTceB",
               "skill_name": "Publishing Tools",
               "skill_content": "Publishing tools convert written content into documentation sites, PDFs, or other distributable formats. Common examples include static site generators like Docusaurus, MkDocs, and Hugo, as well as hosted platforms like GitBook and Readme.io. The choice of tool affects how content is structured, versioned, and maintained.",
               "rsc": [
@@ -2309,7 +2309,7 @@
               "skill_order_in_parent": 3
             },
             {
-              "skill_id": "cSZbTOB0FPPOlGzy-MkSi",
+              "skill_id": "p9Q17DzmL2",
               "skill_name": "Plagiarism Checker",
               "skill_content": "Plagiarism checkers scan written content to detect text that duplicates existing published sources. In technical writing they are used to ensure originality, particularly when producing content that draws from multiple references or is published externally. Tools like Copyscape, Grammarly, and Turnitin are commonly used for this purpose.",
               "rsc": [
@@ -2322,7 +2322,7 @@
               "skill_order_in_parent": 4
             },
             {
-              "skill_id": "ffJyulu9GPB_TDqjeJYyV",
+              "skill_id": "r93oeI0Aeq",
               "skill_name": "Git / Version Control",
               "skill_content": "Git is a distributed version control system that tracks changes to files over time. Technical writers use it to manage documentation alongside code, enabling collaboration, change history, and review workflows through pull requests. Docs-as-code workflows rely on Git to bring documentation into the same development pipeline as software.",
               "rsc": [
@@ -2337,7 +2337,7 @@
           ]
         },
         {
-          "skill_id": "yYLsG2LuPaNUuhXSVev_0",
+          "skill_id": "4pmWeJbKKw",
           "skill_name": "Best Practices",
           "skill_content": "Best practices in technical writing cover the standards and habits that produce consistent, high-quality documentation. They span content structure, audience awareness, tone, and maintenance. Following established practices makes documentation easier to read, find, and keep up to date.",
           "rsc": [
@@ -2350,7 +2350,7 @@
           "skill_order_in_track": 4,
           "sub_skills": [
             {
-              "skill_id": "27muFD1Ld1gF6hhIh22sG",
+              "skill_id": "UgGj7PYoz3",
               "skill_name": "Story Telling",
               "skill_content": "Storytelling in technical writing means structuring content around the user's situation, goal, and solution rather than simply listing features or steps. It gives documentation a logical flow that matches how users think about their problem. This approach makes content feel more useful and easier to follow, especially for tutorials and conceptual guides.",
               "rsc": [
@@ -2363,7 +2363,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "lxSSjgtqJk-PtRp4hARDw",
+              "skill_id": "zYt5uPdT68",
               "skill_name": "Subtle Selling",
               "skill_content": "Subtle selling refers to framing technical content in ways that reinforce a product's value without reading as marketing copy. Writers do this by emphasizing outcomes, highlighting time savings, and positioning features in terms of user benefit. The goal is to support user confidence without compromising the neutral, factual tone documentation requires.",
               "rsc": [
@@ -2376,7 +2376,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "Ezz2e4lYLD_bdNNwvsV_y",
+              "skill_id": "RZggvVKzYs",
               "skill_name": "Content Structure",
               "skill_content": "Content structure is the organization of information within a document or documentation set. Good structure uses headings, sections, and progression to guide readers through content in the order they need it. Technical writers consider structure at both the page level and the information architecture level across an entire docs site.",
               "rsc": [
@@ -2389,7 +2389,7 @@
               "skill_order_in_parent": 3
             },
             {
-              "skill_id": "a1ChwDwztjZBi79y38AGa",
+              "skill_id": "gmilkQ46lX",
               "skill_name": "Call to Actions",
               "skill_content": "A call to action (CTA) in documentation directs the reader to a next step, whether that is reading a related guide, trying a feature, or contacting support. CTAs help users move through a documentation system without getting stuck. They are especially useful at the end of tutorials or conceptual articles.",
               "rsc": [
@@ -2402,7 +2402,7 @@
               "skill_order_in_parent": 4
             },
             {
-              "skill_id": "8qSL2esjsA3YYuB4d7B9z",
+              "skill_id": "or35p9WPen",
               "skill_name": "References",
               "skill_content": "References in technical documentation point readers to related content, external standards, or source material. They add credibility to technical claims and help readers find deeper information without bloating the main content. Well-placed references also reduce duplication across a documentation set.",
               "rsc": [
@@ -2415,7 +2415,7 @@
               "skill_order_in_parent": 5
             },
             {
-              "skill_id": "WmOvQYlnedX0QgC5Adeen",
+              "skill_id": "iIU57ibACN",
               "skill_name": "Crafting Great Titles",
               "skill_content": "A strong document title tells the reader exactly what the content covers and matches the language they use when searching for it. Good titles are specific, action-oriented where appropriate, and avoid vague or marketing-style phrasing. For documentation, titles often follow patterns like \"How to X,\" \"X Reference,\" or simply the name of the concept being explained.",
               "rsc": [
@@ -2428,7 +2428,7 @@
               "skill_order_in_parent": 6
             },
             {
-              "skill_id": "d9mTdwqx6QWKYO5PA_rDH",
+              "skill_id": "CoeWUdO70k",
               "skill_name": "Product Content",
               "skill_content": "Product content is documentation written specifically to help users understand and get value from a product. It includes feature descriptions, release notes, onboarding materials, and in-product tooltips. Writers producing product content work closely with product and design teams to ensure accuracy and alignment with the user experience.",
               "rsc": [
@@ -2441,7 +2441,7 @@
               "skill_order_in_parent": 7
             },
             {
-              "skill_id": "7FGMPztd6ouvqemcGhIol",
+              "skill_id": "30b4eGQPiQ",
               "skill_name": "Content Objectives & Intent",
               "skill_content": "Content objectives define what a piece of documentation is meant to accomplish and for whom. Understanding intent helps writers choose the right format, depth, and tone for a given topic. A tutorial, a reference page, and a conceptual guide all have different objectives even when they cover the same subject.",
               "rsc": [
@@ -2454,7 +2454,7 @@
               "skill_order_in_parent": 8
             },
             {
-              "skill_id": "UFuMiHtWq1M8dS8547lOp",
+              "skill_id": "egmDB1R2Jm",
               "skill_name": "General Product Prose",
               "skill_content": "General product prose covers descriptive content that explains what a product or feature is and what it does, without being a step-by-step guide. It appears in landing pages, product overviews, and introductory sections of documentation. The tone is informative and factual, avoiding marketing language while still communicating value.",
               "rsc": [
@@ -2467,7 +2467,7 @@
               "skill_order_in_parent": 9
             },
             {
-              "skill_id": "UuV51vM2JT_LFFXORSwru",
+              "skill_id": "AkrSmhMonG",
               "skill_name": "User Persona",
               "skill_content": "A user persona is a representation of a target reader based on their role, technical background, goals, and pain points. Technical writers use personas to make decisions about vocabulary, assumed knowledge, and content depth. Documentation aimed at a developer persona differs significantly from content written for a non-technical end user.",
               "rsc": [
@@ -2480,7 +2480,7 @@
               "skill_order_in_parent": 10
             },
             {
-              "skill_id": "cnEVPsqZqs9ZdyqmOuLGA",
+              "skill_id": "Ni51yneIAQ",
               "skill_name": "Writing Style Guides",
               "skill_content": "A writing style guide defines the rules and conventions a team follows when producing documentation. It covers tone, vocabulary, formatting, grammar preferences, and how to handle specific content patterns. Style guides like the Google Developer Documentation Style Guide or Microsoft Writing Style Guide are widely used as a starting point.",
               "rsc": [
@@ -2493,7 +2493,7 @@
               "skill_order_in_parent": 11
             },
             {
-              "skill_id": "O1apL6I_g9DQl8VbL3X4W",
+              "skill_id": "pDbCa5TSvx",
               "skill_name": "ICP & Buyer Persona",
               "skill_content": "An ideal customer profile (ICP) defines the type of organization most likely to benefit from and purchase a product. A buyer persona represents the specific individual within that organization who evaluates or champions the purchase. Technical writers use ICP and persona definitions to calibrate content depth, assumed context, and messaging throughout documentation and content marketing.",
               "rsc": [
@@ -2506,7 +2506,7 @@
               "skill_order_in_parent": 12
             },
             {
-              "skill_id": "EhhKxYPtoLztZXBXl3ZGl",
+              "skill_id": "ldMntYvZtq",
               "skill_name": "Buyer Journey & Content Funnel",
               "skill_content": "The buyer journey describes the stages a potential customer moves through before making a purchase decision: awareness, consideration, and decision. Technical content maps to this funnel differently than marketing copy, with tutorials and guides serving awareness, and comparison or integration content supporting consideration. Writers producing funnel-aligned content balance technical accuracy with strategic positioning.",
               "rsc": [
@@ -2521,7 +2521,7 @@
           ]
         },
         {
-          "skill_id": "O-dZEkmU0tP3dUIUPM6YJ",
+          "skill_id": "TaP9ofwRMV",
           "skill_name": "Content Research",
           "skill_content": "Content research is the process of gathering the information needed to write accurate, complete documentation. This includes interviewing subject matter experts, testing the product, reading source code, reviewing support tickets, and consulting existing internal resources. Strong research habits are what separate accurate documentation from guesswork.",
           "rsc": [
@@ -2534,7 +2534,7 @@
           "skill_order_in_track": 5,
           "sub_skills": [
             {
-              "skill_id": "SX4vL_JEHrwqHdThyqKKO",
+              "skill_id": "gRndWchG7C",
               "skill_name": "Topic Score",
               "skill_content": "Topic score is a metric used in content strategy to evaluate how well a piece of content covers a subject relative to competing pages or a defined standard. Tools like MarketMuse and Clearscope calculate topic scores by analyzing keyword coverage and semantic relevance. Writers use topic scores to identify gaps in existing content and prioritize updates.",
               "rsc": [
@@ -2547,7 +2547,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "JtFLW5WwH5Ixmnb0qikia",
+              "skill_id": "JAcfLEf6e6",
               "skill_name": "Keyword Volume",
               "skill_content": "Keyword volume refers to the number of times a specific search term is queried in a given period, typically measured monthly. Writers and content strategists use keyword volume data to prioritize which topics to cover and how to title content. High-volume keywords indicate strong audience interest and potential for organic traffic.",
               "rsc": [
@@ -2560,7 +2560,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "QMehC1tmWPVWaTsiV9sFC",
+              "skill_id": "iJXryY6Ahk",
               "skill_name": "Communities & Forums",
               "skill_content": "Communities and forums are online spaces where practitioners discuss problems, share solutions, and ask questions. For technical writers, monitoring communities like Stack Overflow, Reddit, and product-specific forums reveals real user pain points and common misunderstandings. This input helps identify gaps in documentation and shape content priorities.",
               "rsc": [
@@ -2573,7 +2573,7 @@
               "skill_order_in_parent": 3
             },
             {
-              "skill_id": "IZqyEqkrBoEfLBwIQwJl6",
+              "skill_id": "ZJ6oWrVaO2",
               "skill_name": "Search Trends",
               "skill_content": "Search trends show how interest in specific topics changes over time. Tools like Google Trends and keyword platforms surface rising queries that signal emerging user needs. Technical writers use trend data to time content production around growing topics before the market becomes saturated.",
               "rsc": [
@@ -2586,7 +2586,7 @@
               "skill_order_in_parent": 4
             },
             {
-              "skill_id": "xFMsHYYxC0hLueY9xxART",
+              "skill_id": "3jPipg9Egh",
               "skill_name": "Support Request Evaluation",
               "skill_content": "Support request evaluation involves reviewing incoming customer support tickets, chat logs, and help center searches to identify where users are struggling. Patterns in support data point to gaps or weaknesses in existing documentation. Many technical writing teams use support request volume as a direct signal for what to write or improve next.",
               "rsc": [
@@ -2601,7 +2601,7 @@
           ]
         },
         {
-          "skill_id": "xV8mox1WnSbl2jAGqQpeg",
+          "skill_id": "rCGpYtowfu",
           "skill_name": "Types of Technical Content",
           "skill_content": "Technical content encompasses many different document types, each serving a distinct purpose in the user's journey. The type of content produced depends on the audience, the product, and the stage of adoption. Writers often work across multiple content types within a single role.",
           "rsc": [
@@ -2614,7 +2614,7 @@
           "skill_order_in_track": 6,
           "sub_skills": [
             {
-              "skill_id": "C-eVVtF6Yabp2a6XvMeh_",
+              "skill_id": "fPmW9EzqUP",
               "skill_name": "How-to Guides",
               "skill_content": "How-to guides walk users through completing a specific task step by step. They assume the reader has a goal and focus on the actions needed to achieve it, rather than explaining underlying concepts in depth. A well-written how-to guide is goal-oriented, concise, and structured around numbered steps.",
               "rsc": [
@@ -2629,7 +2629,7 @@
           ]
         },
         {
-          "skill_id": "e8oNoXw1KLY4jDzojIXyk",
+          "skill_id": "QJm0lczlVP",
           "skill_name": "Developer Docs",
           "skill_content": "Developer documentation is written for software developers who are building with, integrating, or extending a product. It covers APIs, SDKs, authentication, data models, and code-level workflows. The audience expects precision, working code examples, and clear reference material alongside conceptual explanations.",
           "rsc": [
@@ -2642,7 +2642,7 @@
           "skill_order_in_track": 7,
           "sub_skills": [
             {
-              "skill_id": "FgyBWRtE34VNqBt_5QhAf",
+              "skill_id": "K02gKZ7fqc",
               "skill_name": "User Goals",
               "skill_content": "User goals in developer documentation refer to what the developer is trying to accomplish with the product. Understanding goals helps writers structure docs around real use cases rather than feature lists. Documentation organized around goals is easier to navigate and more directly useful.",
               "rsc": [
@@ -2655,7 +2655,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "2pNW7wDGih_m73lhGZRg6",
+              "skill_id": "jQIjx0mowD",
               "skill_name": "Developer Journey",
               "skill_content": "The developer journey maps the progression a developer follows from discovering a product to successfully building with it. Documentation should support each stage of this journey, from initial setup and authentication to advanced integration patterns. Understanding the journey helps writers prioritize what content to create and in what order.",
               "rsc": [
@@ -2668,7 +2668,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "jYhfx6RETFgDulyNqdTBy",
+              "skill_id": "CqNkrvHdta",
               "skill_name": "Docs Structure",
               "skill_content": "Docs structure refers to the way documentation is organized at the site or repository level. A clear structure separates conceptual guides, tutorials, how-to content, and reference material so users can find what they need based on their intent. The Diátaxis framework is one widely adopted approach to organizing technical documentation.",
               "rsc": [
@@ -2683,7 +2683,7 @@
           ]
         },
         {
-          "skill_id": "z5_73Q7dWbBd4m_OrdZlH",
+          "skill_id": "AYCWDAIaJ6",
           "skill_name": "API Reference",
           "skill_content": "An API reference is a complete, structured description of every endpoint, parameter, request format, and response a web API exposes. It gives developers the precise technical detail they need to make calls and handle responses correctly. API references are typically generated from code or specification files like OpenAPI and kept in sync with the live API.",
           "rsc": [
@@ -2696,7 +2696,7 @@
           "skill_order_in_track": 8,
           "sub_skills": [
             {
-              "skill_id": "iBBeZopD8SNo7sWTohMim",
+              "skill_id": "xpsUnG9SMM",
               "skill_name": "Docs Generation Tools",
               "skill_content": "Docs generation tools automatically produce API reference documentation from code annotations, type definitions, or specification files. Examples include Swagger UI, Redoc, Javadoc, and Typedoc. These tools reduce manual effort and help keep reference content accurate as code changes.",
               "rsc": [
@@ -2709,7 +2709,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "co-35BsWMrD6PXohpFqba",
+              "skill_id": "77icaB0aUW",
               "skill_name": "API Definitions",
               "skill_content": "API definitions are machine-readable descriptions of an API's structure, endpoints, parameters, and responses. Formats like OpenAPI (formerly Swagger), RAML, and GraphQL schemas are common standards. Technical writers work with API definitions to generate reference docs, validate examples, and ensure consistency between documentation and the actual API behavior.",
               "rsc": [
@@ -2724,7 +2724,7 @@
           ]
         },
         {
-          "skill_id": "e_bsYrZ0eQqduURg2ybX4",
+          "skill_id": "nUM7F8ijVl",
           "skill_name": "Help Content",
           "skill_content": "Help content is documentation designed to answer specific questions or resolve issues users encounter while using a product. It typically lives in a help center or knowledge base and is organized around common tasks and problems. Effective help content is scannable, task-focused, and written in plain language.",
           "rsc": [
@@ -2737,7 +2737,7 @@
           "skill_order_in_track": 9,
           "sub_skills": [
             {
-              "skill_id": "8fJcJi96Ige6z2PBuTquC",
+              "skill_id": "v0R7RLnPai",
               "skill_name": "Troubleshooting",
               "skill_content": "Troubleshooting documentation helps users identify and resolve errors or unexpected behavior. It typically presents problems alongside their likely causes and step-by-step fixes. Good troubleshooting content is organized around symptoms the user actually experiences rather than internal system logic.",
               "rsc": [
@@ -2750,7 +2750,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "7w1SjK-LV9SBZJ673eAUd",
+              "skill_id": "n8t0oWRDQd",
               "skill_name": "Developer Support",
               "skill_content": "Developer support content addresses the technical questions that arise when developers build with an API, SDK, or platform. It includes code samples, integration guides, error message explanations, and common debugging patterns. Writers producing this content need enough technical depth to anticipate where developers get stuck.",
               "rsc": [
@@ -2763,7 +2763,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "How-4Re1NhxPLDoshUM-G",
+              "skill_id": "rOT2RZJ83w",
               "skill_name": "Platform Support",
               "skill_content": "Platform support documentation covers how a product behaves across different operating systems, browsers, environments, or hardware configurations. It helps users understand compatibility requirements and resolve platform-specific issues. This content is especially important for products with broad deployment contexts.",
               "rsc": [
@@ -2778,7 +2778,7 @@
           ]
         },
         {
-          "skill_id": "mJ1s5-SGd_tj8y0LLZxYg",
+          "skill_id": "sm6JNdAJHL",
           "skill_name": "Technical Content Marketing",
           "skill_content": "Technical content marketing uses in-depth, accurate technical content to attract and educate a developer or engineering audience. It includes tutorials, comparison articles, architecture guides, and blog posts that address real technical problems. The goal is to build trust and awareness with a technical audience rather than to sell directly.",
           "rsc": [
@@ -2791,7 +2791,7 @@
           "skill_order_in_track": 10,
           "sub_skills": [
             {
-              "skill_id": "eAioe6b7w8pV2Dvawl_fw",
+              "skill_id": "WpAP4HokKC",
               "skill_name": "Short-tail Keywords",
               "skill_content": "Short-tail keywords are broad, high-volume search terms typically consisting of one or two words, such as \"docker\" or \"API security.\" They attract large audiences but face more competition and often represent lower specificity of intent. Technical content teams use short-tail keywords to identify high-level topic areas rather than targeting them directly in individual documents.",
               "rsc": [
@@ -2804,7 +2804,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "2LAvq7W11WMIubSprlK_l",
+              "skill_id": "Frn7k8XlGe",
               "skill_name": "Long-Tail Keywords",
               "skill_content": "Top-funnel content targets users who are early in their discovery process and may not yet know a specific product or solution. It educates on broad problems, concepts, and trends rather than promoting a specific tool. For technical audiences, this includes introductory tutorials, explainer articles, and research reports.",
               "rsc": [
@@ -2817,7 +2817,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "IA6TuXmOZr_-Y3HLHqxp0",
+              "skill_id": "riKk92rYmv",
               "skill_name": "SEO Keywords",
               "skill_content": "SEO keywords are the terms and phrases users type into search engines when looking for information. Writers research keywords to understand what their audience is searching for and align content topics and titles accordingly. Effective keyword use improves content discoverability without making the text feel unnatural or keyword-stuffed.",
               "rsc": [
@@ -2832,7 +2832,7 @@
           ]
         },
         {
-          "skill_id": "-IBL9S4DelIi07w_fmrX3",
+          "skill_id": "AxUug0MMLZ",
           "skill_name": "Content SEO",
           "skill_content": "Content SEO is the practice of optimizing written content to rank in search engine results for relevant queries. For technical writers, this involves choosing topics with search demand, using target keywords naturally in headings and body text, and structuring content to match how search engines evaluate relevance. SEO-aware documentation is more discoverable and drives organic traffic.",
           "rsc": [
@@ -2845,7 +2845,7 @@
           "skill_order_in_track": 11,
           "sub_skills": [
             {
-              "skill_id": "UphVii3y4T_PkRMqFJ4r_",
+              "skill_id": "2tQ3ICG8v4",
               "skill_name": "Backlinking",
               "skill_content": "Backlinking refers to earning links from other websites that point to your content. In technical content strategy, backlinks from credible sources like developer communities, open source projects, and industry publications signal authority to search engines. Writers build backlinks by producing content genuinely useful enough for others to cite and share.",
               "rsc": [
@@ -2858,7 +2858,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "qpOfqbgLy5TzlNQEyt6DG",
+              "skill_id": "GBnyWXT9cx",
               "skill_name": "Link Shorteners / Tracking",
               "skill_content": "Link shorteners create compact URLs that redirect to longer destinations, often with tracking parameters attached. In content distribution, they are used to monitor how many clicks a specific link receives across different channels. Tools like Bitly and UTM parameters help teams attribute traffic to individual campaigns or content pieces.",
               "rsc": [
@@ -2871,7 +2871,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "hlhBgI3SvU3tMtNaHtu8k",
+              "skill_id": "jAO8jhAtly",
               "skill_name": "Platform Tracking and Metrics",
               "skill_content": "Platform tracking involves using analytics tools to monitor how users interact with documentation or content sites. Metrics like page views, bounce rate, session duration, and search queries reveal which content is being used and where users drop off. This data informs decisions about what to improve, expand, or restructure.",
               "rsc": [
@@ -2884,7 +2884,7 @@
               "skill_order_in_parent": 3
             },
             {
-              "skill_id": "UiXn-CnPcLWAflKJzaJ2a",
+              "skill_id": "PzO4RsyxBM",
               "skill_name": "Conversion Tracking",
               "skill_content": "Conversion tracking measures whether users who read a piece of content go on to take a desired action, such as signing up, starting a trial, or completing a task. In technical content, this connects documentation or blog traffic to business outcomes. Writers and content teams use conversion data to evaluate which content types and topics drive meaningful engagement.",
               "rsc": [
@@ -2899,7 +2899,7 @@
           ]
         },
         {
-          "skill_id": "5dnZe0oCIzb5qGwgI6pwH",
+          "skill_id": "h7u4yT0K0P",
           "skill_name": "Top-funnel Content",
           "skill_content": "Top-funnel content targets users who are early in their discovery process and may not yet know a specific product or solution. It educates on broad problems, concepts, and trends rather than promoting a specific tool. For technical audiences, this includes introductory tutorials, explainer articles, and research reports.",
           "rsc": [
@@ -2912,7 +2912,7 @@
           "skill_order_in_track": 12,
           "sub_skills": [
             {
-              "skill_id": "wBDjGa2PgdmeXxHnILFjY",
+              "skill_id": "pSYhllEC5E",
               "skill_name": "Pillar Content",
               "skill_content": "Pillar content is a comprehensive, authoritative piece that covers a broad topic in depth and links out to more specific related articles. It serves as a hub in a content cluster strategy, improving both SEO and site navigation. In technical writing, a pillar page might cover an entire technology area like \"containerization\" and link to detailed guides on Docker, Kubernetes, and related topics.",
               "rsc": [
@@ -2925,7 +2925,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "7S2lymeBZSMBZSsmei7us",
+              "skill_id": "F2mlu4BFOW",
               "skill_name": "Awareness Blog Posts",
               "skill_content": "Awareness blog posts introduce readers to a problem, concept, or technology they may not have encountered before. They are written for a broad audience and prioritize clarity and accessibility over depth. For technical content teams, these posts are often used to establish authority in a topic area and attract new readers from search.",
               "rsc": [
@@ -2938,7 +2938,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "HoNQSWy82ybT0YmejCzRb",
+              "skill_id": "mBjrea6u8m",
               "skill_name": "Research Reports",
               "skill_content": "Research reports present original data, survey findings, or analysis on a topic relevant to the target audience. In developer and technical contexts, they often cover industry trends, tooling adoption, or benchmark results. Research reports build credibility and generate backlinks when they contain original insights not available elsewhere.",
               "rsc": [
@@ -2953,7 +2953,7 @@
           ]
         },
         {
-          "skill_id": "Q2KD70IKwBXAH3UQgeZpp",
+          "skill_id": "ZmKgQ7GtSm",
           "skill_name": "Mid-funnel Content",
           "skill_content": "Mid-funnel content targets users who are aware of a problem and are evaluating possible solutions. It helps readers compare options, understand tradeoffs, and assess whether a specific product fits their needs. For technical audiences, mid-funnel content includes integration guides, feature comparisons, and use-case walkthroughs.",
           "rsc": [
@@ -2966,7 +2966,7 @@
           "skill_order_in_track": 13,
           "sub_skills": [
             {
-              "skill_id": "2wjRA_pQ9cCG9Ww994FEM",
+              "skill_id": "Gy0DThow9B",
               "skill_name": "Comparative Posts",
               "skill_content": "\"Comparative posts\" are articles that focus on comparing different products, services, or tools. In these posts, the technical writer analyzes each item's features, application, and usability, sometimes even their prices, to help clients make informed decisions. It's imperative to note, comparative posts don't just pinpoint 'which is better?'. Instead, they delve deep into the specifics of ‘why and how’ an aspect of a product or service outshines the other. This kind of technical write-up is typically unbiased, comprehensive, and objective to maintain credibility and usefulness.",
               "rsc": [
@@ -2979,7 +2979,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "XDX2QxMUkUok2fcS3tFki",
+              "skill_id": "hkkH05nQbB",
               "skill_name": "Generic Gated Content",
               "skill_content": "Generic gated content is downloadable material, such as white papers or eBooks, offered in exchange for contact information. It sits at the mid-funnel stage and is designed to capture leads who are interested enough to share their details. In technical content strategies, gated content works best when it offers analysis or depth not available in free articles.",
               "rsc": [
@@ -2992,7 +2992,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "Xa7yBWcbP2aPs4u0C4cLJ",
+              "skill_id": "sF1XzY4wyq",
               "skill_name": "White-papers",
               "skill_content": "White papers are authoritative reports or guides that help readers comprehend an issue, solve a problem, or make a decision. As a technical writer, crafting white papers comprise primarily of intricately marrying data with insightful commentary. These documents are usually more detailed and lengthier than blogs or articles, often extending to multiple pages. They have a formal tone, due to their informational and problem-solving nature, and they may include graphs, charts, or other visual aids to help explain the information presented, along with a detailed methodology and analysis.",
               "rsc": [
@@ -3005,7 +3005,7 @@
               "skill_order_in_parent": 3
             },
             {
-              "skill_id": "5zQpravkqwafvwXVOuNPX",
+              "skill_id": "3nwcbjrcRo",
               "skill_name": "eBook",
               "skill_content": "An eBook is a longer-form educational resource that covers a topic in a structured, chapter-based format. In technical content marketing, eBooks are often used as lead magnets targeting mid-funnel audiences. They tend to be more accessible in tone than white papers and focus on practical guidance over formal analysis.",
               "rsc": [
@@ -3020,7 +3020,7 @@
           ]
         },
         {
-          "skill_id": "vo1udIIRpxNZCpA3g32F3",
+          "skill_id": "YlXcGmKBhw",
           "skill_name": "Bottom-funnel Content",
           "skill_content": "\"Bottom funnel\" refers to the final stage in the marketing funnel where potential customers are ready to make a purchase. This phase typically includes actions like negotiations, sales calls, and the final transaction. For a technical writer, understanding the \"bottom funnel\" can be crucial as it could influence the type of technical content they create. For instance, they might need to create in-depth product guides, FAQs, or troubleshooting articles that potential customers could use during the decision-making process. The main goal during the \"bottom funnel\" stage is to convince the potential customer to finalize their purchase and become an actual customer.",
           "rsc": [
@@ -3033,7 +3033,7 @@
           "skill_order_in_track": 14,
           "sub_skills": [
             {
-              "skill_id": "K459CcDrcPMJCimIcCzM6",
+              "skill_id": "ktxlAbXzdx",
               "skill_name": "Tutorials",
               "skill_content": "Tutorials guide readers through completing a meaningful task while also teaching the concepts behind it. Unlike how-to guides, tutorials are designed as learning experiences rather than pure reference material. They assume less prior knowledge and build understanding progressively through worked examples.",
               "rsc": [
@@ -3048,7 +3048,7 @@
           ]
         },
         {
-          "skill_id": "-GZXLc9RjY6eWkKC1K_Rg",
+          "skill_id": "JL8pF9fZ7c",
           "skill_name": "Release Notes / Product Announcements",
           "skill_content": "Release notes and product announcements are documents that communicate new features, improvements, and bug fixes to end users. These documents serve as a bridge between the development team and the user base, detailing changes in a specific software version to ensure users understand how updates impact their workflow. They typically provide a chronological summary of functional changes, known issues, and actionable information, helping stakeholders stay informed about the evolution of a product.",
           "rsc": [
@@ -3062,7 +3062,7 @@
           "sub_skills": []
         },
         {
-          "skill_id": "W44q1iEj7RKM55-9jabMJ",
+          "skill_id": "vIGKmrOYCa",
           "skill_name": "Customer Case-Studies",
           "skill_content": "\"Case Studies\" are in-depth analyses often used by technical writers. They offer a detailed investigation into a specific subject, typically presenting real-world applications or scenarios. By employing a systematic approach, case studies can provide valuable insights which might not be achieved with other methods. They may contain extensive research, including interviews, observations, and data collection for quantitative and qualitative assessment. Case studies can encompass unique perspectives or complex matters, offering a rich understanding of the subject matter. They are often used in scientific, academic, and business contexts.",
           "rsc": [
@@ -3076,7 +3076,7 @@
           "sub_skills": []
         },
         {
-          "skill_id": "tAFenZA0MFhMPE5cevNuD",
+          "skill_id": "GE3FDPpUji",
           "skill_name": "Technical Website Copy",
           "skill_content": "Technical website copy is the written content on a product's marketing or documentation site aimed at a technical audience. It covers product pages, feature descriptions, landing pages, and navigation labels. Effective technical copy is precise and jargon-aware, reflecting how the target audience thinks about the problem being solved.",
           "rsc": [
@@ -3090,7 +3090,7 @@
           "sub_skills": []
         },
         {
-          "skill_id": "XyFEYDJvJpGZ7qSdoSZeI",
+          "skill_id": "jqGWodPIKK",
           "skill_name": "Content Optimization",
           "skill_content": "Content optimization is the process of improving existing documentation or articles to increase their effectiveness, whether measured by search ranking, time on page, task completion, or user satisfaction. It involves updating outdated information, improving clarity, refining keyword targeting, and restructuring content for better readability. Optimization is an ongoing responsibility rather than a one-time task.",
           "rsc": [
@@ -3104,7 +3104,7 @@
           "sub_skills": []
         },
         {
-          "skill_id": "TbSBCITdLswhVB82fErTP",
+          "skill_id": "QMqixRdJUc",
           "skill_name": "Content Analysis",
           "skill_content": "Content analysis is the evaluation of existing documentation or articles to assess quality, relevance, and performance. Writers use quantitative metrics like page views and search rankings alongside qualitative reviews to identify what is working and what needs improvement. Regular analysis helps teams prioritize documentation work based on actual user behavior.",
           "rsc": [
@@ -3117,7 +3117,7 @@
           "skill_order_in_track": 19,
           "sub_skills": [
             {
-              "skill_id": "JgdrXG7MX1gGuNG9uyubA",
+              "skill_id": "iMWU91gv7k",
               "skill_name": "Content Aging & Timelines",
               "skill_content": "Content aging refers to the process by which documentation becomes outdated as products evolve, technologies change, or information becomes inaccurate. Managing content aging means establishing review cycles, tracking when pages were last updated, and flagging content that has drifted from current reality. A content timeline helps teams plan audits and prioritize updates before documentation becomes misleading.",
               "rsc": [
@@ -3132,7 +3132,7 @@
           ]
         },
         {
-          "skill_id": "pgrKfp1trcIxhDdvLk95g",
+          "skill_id": "qxyM5tGLF4",
           "skill_name": "Frequently Asked Questions",
           "skill_content": "\"FAQs\" stands for \"Frequently Asked Questions\". This is a crucial part of any technical document or user guide that compiles a list of common questions (with their respective answers) that users might have about a particular product, service, or topic. Good FAQs are clear, concise, and organized in a logical way. Typically, they are updated regularly based on user queries and feedback to remain helpful and relevant. FAQs can include instructions to resolve common user problems, terms and definitions, links to related resources, and other information useful for understanding and using the product or service effectively.",
           "rsc": [
@@ -3145,7 +3145,7 @@
           "skill_order_in_track": 20,
           "sub_skills": [
             {
-              "skill_id": "AarJ887P-SFRnKaOOv9yw",
+              "skill_id": "cpqMWWwmCr",
               "skill_name": "OpenGraph Data",
               "skill_content": "OpenGraph data is metadata embedded in a web page's HTML that controls how the page appears when shared on social media platforms. It defines the title, description, and image that platforms like LinkedIn, X, and Slack display in link previews. Technical writers and content teams configure OpenGraph tags to ensure shared content looks accurate and appealing.",
               "rsc": [
@@ -3160,7 +3160,7 @@
           ]
         },
         {
-          "skill_id": "mrqBxsNRl1CQEKtuYSy9F",
+          "skill_id": "UDrfuybiNE",
           "skill_name": "Content Distribution",
           "skill_content": "Content distribution is the process of getting published content in front of the right audience through appropriate channels. It includes organic search, social media, newsletters, developer communities, and content syndication. Distribution strategy determines how much reach a piece of content achieves beyond its initial publication.",
           "rsc": [
@@ -3173,7 +3173,7 @@
           "skill_order_in_track": 21,
           "sub_skills": [
             {
-              "skill_id": "NIxIhMEOxrUR8nbjbF_Fp",
+              "skill_id": "mH1kqE5s4T",
               "skill_name": "Canonical Link",
               "skill_content": "A canonical link is an HTML tag that tells search engines which version of a page is the authoritative one when similar or duplicate content exists at multiple URLs. Technical writers and SEO teams use canonical tags to prevent duplicate content from fragmenting search rankings. Proper canonicalization is especially relevant when content is syndicated across multiple platforms.",
               "rsc": [
@@ -3186,7 +3186,7 @@
               "skill_order_in_parent": 1
             },
             {
-              "skill_id": "m9-DqsQfeukmhjhIfCph-",
+              "skill_id": "4rGLVmH8x0",
               "skill_name": "Content Distribution Channels",
               "skill_content": "Content distribution channels are the platforms and methods used to share and promote content. For technical content, common channels include developer newsletters, GitHub, Hacker News, Reddit, LinkedIn, and product-specific communities. The best channels depend on where the target audience spends time and how they prefer to discover new content.",
               "rsc": [
@@ -3199,7 +3199,7 @@
               "skill_order_in_parent": 2
             },
             {
-              "skill_id": "_cAGbAswDhOqpoiiikPbD",
+              "skill_id": "QCAqBhzGVw",
               "skill_name": "Content Distribution Amplification Strategies",
               "skill_content": "Amplification strategies are deliberate tactics used to extend the reach of content beyond its initial audience. They include community seeding, influencer outreach, newsletter features, cross-posting, and paid promotion. For technical content, amplification often focuses on developer communities and trusted aggregators rather than broad advertising.",
               "rsc": [

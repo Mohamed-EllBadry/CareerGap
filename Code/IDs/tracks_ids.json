@@ -1,146 +1,134 @@
 [
   {
-    "track_id": "7f4ef5ffc5c29959c8ec2bfb5265528956ce7d69f49ec129581e00b7414e7253",
-    "track_name": "ai-data-scientist"
+    "track_id": "yjnj4Jrfmu",
+    "track_name": "AI and Data Scientist Roadmap"
   },
   {
-    "track_id": "bd7e8f851ec4aa3fb7297d04ad97dfbae206aa3121dbe4108f698bf6433d8bb3",
-    "track_name": "python"
+    "track_id": "TcLvWjM8Iy",
+    "track_name": "AI Engineer"
   },
   {
-    "track_id": "213d52d7a40774c62272cf86640fde9519252bc37eca8165ac96bf4c94981f9c",
-    "track_name": "backend"
+    "track_id": "g4s1KetrDD",
+    "track_name": "AI Product Builder"
   },
   {
-    "track_id": "4f2d6cd45422a78d7c39caa67dcdcac5732091c72c073fc1a8b083c6baad77a9",
-    "track_name": "blockchain"
+    "track_id": "6AXoYgv1Vy",
+    "track_name": "Android Developer"
   },
   {
-    "track_id": "2a46e9e970b6e16968ff256f7d8c77a6bcfe281b2cd3ca05eb81f6d57057fd27",
-    "track_name": "computer-science"
+    "track_id": "jGFjXDgnsA",
+    "track_name": "Backend Beginner"
   },
   {
-    "track_id": "f10e32d31a377b331f5da2310c4c555e5b59d646ef67ea0b1342e36f9e28159c",
-    "track_name": "cyber-security"
+    "track_id": "9pYWwZhAvg",
+    "track_name": "Backend Developer"
   },
   {
-    "track_id": "1e9e33a0d8b5544491f43743e0b24fe269fe10ef1adcee56b73d678d5a867283",
-    "track_name": "devops"
+    "track_id": "SicSeuPFhu",
+    "track_name": "BI Analyst"
   },
   {
-    "track_id": "c47fce9d001f7202acac94cd192b71a3d2c1dd5fb251aaa365d02492d646b8db",
-    "track_name": "software-architect"
+    "track_id": "WP1mtHoNCN",
+    "track_name": "Blockchain Developer"
   },
   {
-    "track_id": "0eda705569b7a741dfd70194ecef2d090fc84bcdbc6282a66a33acc7185a8ab4",
-    "track_name": "angular"
+    "track_id": "4PHyhvmvwu",
+    "track_name": "Computer Science"
   },
   {
-    "track_id": "e139cbe564338bd95338e26cda2967517cf9546a29cd9adc1dfb6cd23d1ecbc7",
-    "track_name": "golang"
+    "track_id": "AuMPk9akEr",
+    "track_name": "Cyber Security Expert"
   },
   {
-    "track_id": "7af888f9b233bf3b3e777bbe0bad5e3cdc624415d1b3433fc824ca5bb5fad571",
-    "track_name": "typescript"
+    "track_id": "bukT1Pwp4w",
+    "track_name": "Data Analyst Roadmap"
   },
   {
-    "track_id": "c95281e4a781d10e86657ff4dbb3c12736da09f906b067b83fc986540328d6b8",
-    "track_name": "flutter"
+    "track_id": "J5EypxZZYQ",
+    "track_name": "Data Engineer Roadmap"
   },
   {
-    "track_id": "446feac60677ca08ccb17ff4694dc1324a9590f89aff9ccd5867d8957446c89d",
-    "track_name": "aspnet-core"
+    "track_id": "S7MQfdAS6Q",
+    "track_name": "Data Structures & Algorithms"
   },
   {
-    "track_id": "7426ba5b880e58888b3f94ddcc84c00c983e36b719fb7e47d85fe8f3f7661c7b",
-    "track_name": "spring-boot"
+    "track_id": "m5Z4wt1cuM",
+    "track_name": "Developer Relations"
   },
   {
-    "track_id": "7f5a015aeb2c62dcba55df3607e476668c7441f0410d94e99e9badcac79fa9e4",
-    "track_name": "react"
+    "track_id": "iGCT3bcxPu",
+    "track_name": "DevOps Beginner"
   },
   {
-    "track_id": "4c971e1c83baaa5cd2802e1574eb19a6be5096e328126f42c2f2a91ea3436eb2",
-    "track_name": "vue"
+    "track_id": "jt1iphX2Uc",
+    "track_name": "DevOps Roadmap"
   },
   {
-    "track_id": "b20c478e4be5c1de567faf25b4807a5deaa3b265767eb57b8b0ed668813450c9",
-    "track_name": "frontend"
+    "track_id": "b7bQiQe6Mb",
+    "track_name": "DevSecOps"
   },
   {
-    "track_id": "898e69ecf2a13d7c92699c9b5f6800bbb48fc14bd9fd0a4bbf2f4e21a75f7575",
-    "track_name": "full-stack"
+    "track_id": "1uBLNTOQpu",
+    "track_name": "Engineering Manager"
   },
   {
-    "track_id": "f350e5879a547ac0fb245c10bd41d862b9c95118d9699fc0aa91f29946175c4a",
-    "track_name": "qa"
+    "track_id": "l5dl9RXd6F",
+    "track_name": "Forward Deployed Engineer"
   },
   {
-    "track_id": "8ff6d7a9c542684b868242bf63025cc9f762abdbadea89aa103a978a9c62fcd5",
-    "track_name": "system-design"
+    "track_id": "KqLEnUrGLo",
+    "track_name": "Frontend Beginner"
   },
   {
-    "track_id": "ad1d09d0805384b73ade50f4df1935e83a6a5e424ae80803e173cc2d9db31166",
-    "track_name": "java"
+    "track_id": "3B3E0xLK62",
+    "track_name": "Frontend Developer"
   },
   {
-    "track_id": "9a3dd5f553c22e9eb1e03ab5e351e6d024c2720aca4794d039b8ab7f4a01be3d",
-    "track_name": "javascript"
+    "track_id": "xP4h1I5gjL",
+    "track_name": "Full Stack Developer"
   },
   {
-    "track_id": "95bc9cbcf646f65b52caa34dce01b2b93a7588b01336e6fd4bf87ea07463da0c",
-    "track_name": "graphql"
+    "track_id": "5wS9qbL176",
+    "track_name": "Game Developer"
   },
   {
-    "track_id": "711c8a1558f09c31db9084b62a2a603d42783ccb7caa393d41245a3951f1a372",
-    "track_name": "mongodb"
+    "track_id": "72Gsp1O5j2",
+    "track_name": "iOS Developer"
   },
   {
-    "track_id": "eea3391b3170675c21e1c218a584f7f1f68165930861e6eee6ea2ae3bc467e20",
-    "track_name": "nodejs"
+    "track_id": "x2rtnKnqgF",
+    "track_name": "Machine Learning"
   },
   {
-    "track_id": "22ceaffef145ce7bc0e2a5c2fe317d90a240f3314be8e8c38cad331f4edd18b4",
-    "track_name": "cpp"
+    "track_id": "QrQxjsoMz0",
+    "track_name": "Network Engineer"
   },
   {
-    "track_id": "bcd8c551ba005b4bcbd4b886eead08c42807245e36bc67d0d9d791e5bf8fdbf0",
-    "track_name": "react-native"
+    "track_id": "OS55UG62XK",
+    "track_name": "Product Design"
   },
   {
-    "track_id": "4d2587a23f6f22ec0ae77defdb8d630d1c497f517a9700aa38f4d1b9d4dc47b2",
-    "track_name": "design-system"
+    "track_id": "7ksmsSAwed",
+    "track_name": "Product Manager"
   },
   {
-    "track_id": "b26c60affd5cd781692bd25815a49401499692cd04e8b0b5220310dee1572e64",
-    "track_name": "ux-design"
+    "track_id": "qRWLo4EdGQ",
+    "track_name": "QA Engineer"
   },
   {
-    "track_id": "9296cfe3dd5c5da7981372f74f0754c3212094f1e1c9387a4d2adc00024091fd",
-    "track_name": "docker"
+    "track_id": "gHJCnrm0st",
+    "track_name": "Server Side Game Developer"
   },
   {
-    "track_id": "3939a1fbff25d7a26fa12d9ad3b32339d50b5810bd5d72e540c81a5ca3151dc1",
-    "track_name": "software-design-architecture"
+    "track_id": "soPD81JRW8",
+    "track_name": "Software Architect"
   },
   {
-    "track_id": "15a867ac105a5156a07ff222005a48efbc27a4556dc9665127697496223ce89e",
-    "track_name": "postgresql-dba"
+    "track_id": "fWLhQA126K",
+    "track_name": "Software Design and Architecture"
   },
   {
-    "track_id": "813dc34116fc2ea985a6bd9f39ca97061f3af069375d4942e8152d7efc9baf04",
-    "track_name": "sql"
-  },
-  {
-    "track_id": "08897cf5487fa0b4beeb2072506f005b1836311c460f04412533697d49b3c417",
-    "track_name": "code-review"
-  },
-  {
-    "track_id": "6215cc8d892eae49eb7479e6e474bdcd8e286cf0cb8a08684d5ab89d9b9b53ef",
-    "track_name": "kubernetes"
-  },
-  {
-    "track_id": "e037da88ae53ea71e8359db1aacce0eba7970476e30e0b213e4ca17a90ec0d89",
-    "track_name": "prompt-engineering"
+    "track_id": "0yCldtJV8A",
+    "track_name": "UX Design"
   }
 ]

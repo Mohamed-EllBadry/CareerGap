@@ -404,6 +404,43 @@ RELATED_TOPICS = {'frontend': [{'related_id': 'typescript', 'related_name': 'Typ
 
 PRIMARY_TRACKS = list(TRACK_FRAMEWORKS.keys())
 CACHE_DIR = Path(__file__).resolve().parent.parent / "json" / ".cache_roadmaps"
+IDS_DIR = Path(__file__).resolve().parent.parent / "IDs"
+SKILLS_IDS_FILE = IDS_DIR / "skills_ids.json"
+TRACKS_IDS_FILE = IDS_DIR / "tracks_ids.json"
+
+SKILL_ID_MAP = {}
+TRACK_ID_MAP = {}
+
+def load_canonical_ids():
+    global SKILL_ID_MAP, TRACK_ID_MAP
+    if SKILLS_IDS_FILE.exists():
+        try:
+            with open(SKILLS_IDS_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                SKILL_ID_MAP = {" ".join(s["skill_name"].strip().split()).lower(): s["skill_id"] for s in data}
+        except Exception:
+            pass
+    if TRACKS_IDS_FILE.exists():
+        try:
+            with open(TRACKS_IDS_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                TRACK_ID_MAP = {" ".join(t["track_name"].strip().split()).lower(): t["track_id"] for t in data}
+        except Exception:
+            pass
+
+load_canonical_ids()
+
+def get_canonical_skill_id(name, fallback_id):
+    if not name:
+        return fallback_id
+    key = " ".join(name.strip().split()).lower()
+    return SKILL_ID_MAP.get(key, fallback_id)
+
+def get_canonical_track_id(track_name, fallback_id):
+    if not track_name:
+        return fallback_id
+    key = " ".join(track_name.strip().split()).lower()
+    return TRACK_ID_MAP.get(key, fallback_id)
 
 
 # ---------- FETCHING ROADMAP STRUCTURE WITH CACHING ----------
@@ -923,8 +960,10 @@ def build_skill(node, files, extra_links=()):
             unique_resources.append(resource)
     rsc = unique_resources
 
+    canonical_id = get_canonical_skill_id(name, node_id)
+
     return {
-        "skill_id": node_id,
+        "skill_id": canonical_id,
         "skill_name": name,
         "skill_content": description,
         "rsc": rsc,
@@ -1049,8 +1088,11 @@ def build_track(slug, roadmaps_dir, json_dir, embed_frameworks=True, visited=Non
         (title.get("page") or title.get("card")) if isinstance(title, dict) else title
     ) or slug.replace("-", " ").title()
 
+    canonical_track_id = get_canonical_track_id(track_name, slug)
+
     track = {
-        "track_id": slug,
+        "track_id": canonical_track_id,
+        "track_slug": slug,
         "track_name": track_name,
         "skills": skills,
         "frameworks": [],
@@ -1179,7 +1221,8 @@ def main():
 
     if ONE_FILE_PER_TRACK:
         for track in tracks:
-            file_path = out_path.parent / f"{track['track_id']}.json"
+            filename = track.get("track_slug") or track["track_id"]
+            file_path = out_path.parent / f"{filename}.json"
             file_path.write_text(
                 json.dumps(track, ensure_ascii=False, indent=2), encoding="utf-8"
             )
