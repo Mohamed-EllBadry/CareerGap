@@ -8,7 +8,7 @@ and writes two reports that show what is wrong and where.
 
 What is inside
 --------------
-main.py
+validate_roadmaps.py
     The validation script. It runs all the checks and writes the reports.
 
 validation_issues.csv
