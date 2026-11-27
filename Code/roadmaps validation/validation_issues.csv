@@ -1,0 +1,350 @@
+﻿issue_type,skill_id,skill_name,track_name,skill_count,details
+NAN Value,ef3e0d78aa4b8a27b1a795b041901f182c267fdfad0170c79db3ed0c7be952f9,CSS frameworks,frontend,49,NAN found in field: skill_content
+NAN Value,2b5d7a27055b78ac7088a0a367678c13013fb952dd128700ff7248b2f94c978d,CSS frameworks,frontend,52,NAN found in field: skill_content
+NAN Value,209f4a194b51119811c8cf191b34187ff22e0e6437ddffd7e4083c85ead9efaf,Testing your apps,frontend,97,NAN found in field: skill_content
+NAN Value,1b156e239bcbd51a7406fa6dd2a124820f1ebf88323a77b7db3270c4dbfcd842,NoSQL databases,backend,47,NAN found in field: skill_content
+NAN Value,68e0b7bd3d78dc807762c3cef8f809bca5deacfe0a1879dce52b7adb4a875010,NoSQL databases,backend,49,NAN found in field: skill_content
+NAN Value,d3eebb00fdae149bfefb1b7db12b790034206f69f1d9be785c20d70a8a1950ae,Web Servers,backend,80,NAN found in field: skill_content
+NAN Value,5a086b677adcb1d9354086e6820b702cd1b44ebe3138541e3ccd12a20b14bfff,Operating system,devops,9,NAN found in field: skill_content
+NAN Value,c93c24cd6cd7ad1184d16a4767a06dcb30d75030f548ad20062fd2fa4bb6a4ee,Operating system,devops,13,NAN found in field: skill_content
+NAN Value,d18e093439fd699f3c788a572227850ed792075b87d2fe6e090a75d47270ce4f,Live in terminal,devops,23,NAN found in field: skill_content
+NAN Value,fd67540ad9c1e3d53329607d05dae3fdb3eceee739068b3e9679126e6bdfd7e3,Live in terminal,devops,24,NAN found in field: skill_content
+NAN Value,d299e2aee7b93453738d03d4c84f3033c5b6c36a4ba3d827df20b80dba9d0729,Live in terminal,devops,25,NAN found in field: skill_content
+NAN Value,e20e993026ac6a63b62a9d72b8ecab82b974a18df861fe80adfcc8b502c7504a,Containers,devops,51,NAN found in field: skill_content
+NAN Value,72a36d0e8fda29faf8a9a5fd278450ed465bcf2336ed01c9548729ff5043c265,Setting up x,devops,54,NAN found in field: skill_content
+NAN Value,9115efbff7bb850b15c2fe7d6586ce356dc16a94661db526aa275c3a572f1706,Serverless,devops,73,NAN found in field: skill_content
+NAN Value,69379c764f998b368829db873abe9d3c9adb9b72d9d9cb7f2feb2c0db7d965ca,Serverless,devops,74,NAN found in field: skill_content
+NAN Value,e492b036e2cdbb4b62e4d21e8b5e0f27239773cedcb61fe0431d1bbfcb7e897c,Serverless,devops,75,NAN found in field: skill_content
+NAN Value,adb98c3cc0404097dc7572a1a389d11e578df253cac9742c9f416aa12e5e9864,Serverless,devops,76,NAN found in field: skill_content
+NAN Value,11407f93d9404fce284097535cfd717f36730a810c14db4699b9eb26dba201f9,Serverless,devops,77,NAN found in field: skill_content
+NAN Value,42b0a3f33cd6b703df07fa52648bf4580d4b6b6543521558cc91d19031c8b95a,Serverless,devops,78,NAN found in field: skill_content
+NAN Value,def8159ed2f1301e76df9ca8bd8dbf6a643e837dd84c46dd5d49a915b78c17de,Serverless,devops,79,NAN found in field: skill_content
+NAN Value,e1d40dd70e132f3229da3efbe0d66a0faf4665ca08e6ebd36863cda3d1997a89,Artifcats,devops,98,NAN found in field: skill_content
+NAN Value,46292b546d910ceb72667dc1d9794aa3ee22c6a94ffbdca94bcafd48bb22ebb6,Artifcats,devops,99,NAN found in field: skill_content
+NAN Value,ac6fcec45eecc13df95c03b66dce9b7f5f1d00e38f8fab99b2956d7993070ff4,Artifcats,devops,100,NAN found in field: skill_content
+NAN Value,6d5161c222239dc82a953516322b463c3c7effd336c4026c8ddc13662320d907,Artifcats,devops,101,NAN found in field: skill_content
+NAN Value,a0840e90413821d983396c198c2ef39770e1e94f5bafedc5c0d34477676af003,Automated Testing,qa,66,NAN found in field: skill_content
+NAN Value,d8504830336a45457b6668d20806fc0f1976d663fd3c3f1efd3140ec6c878f39,Operating Systems,cyber-security,18,NAN found in field: skill_content
+NAN Value,dfb81af1c9855f379df8e9e6b5b520c7680c4a4e613366f34127fbc070a99b49,Networking Knowledge,cyber-security,85,NAN found in field: skill_content
+NAN Value,1042a36db08cb7631f9c3371e951c9e53b19e220cdb8906fcb1821933c8411c9,Networking Knowledge,cyber-security,90,NAN found in field: skill_content
+NAN Value,2626c9e5b0175ac9c9bb7dfb22162faa26abe7dc52d91eb7485fca2797c72b9a,Networking Knowledge,cyber-security,102,NAN found in field: skill_content
+NAN Value,1e751de245fadff9f5e2414c77fdd9eefea64e96c12a9b95f4d311574e5342ef,Security Skills and Knowledge,cyber-security,156,NAN found in field: skill_content
+NAN Value,574455c68746b05bf13d5157698e9e32565dfd30e6637500661c96b61b08b1c1,Security Skills and Knowledge,cyber-security,170,NAN found in field: skill_content
+NAN Value,8f0cd0bfd4b355967654afb6972f99918d23e515b4fee184e994de4ad07e36ac,Security Skills and Knowledge,cyber-security,171,NAN found in field: skill_content
+NAN Value,4d155a5c746a09b21b6168990bd31fcf1582dca3e8100cc9fa385f1cece07caa,Security Skills and Knowledge,cyber-security,185,NAN found in field: skill_content
+NAN Value,28c2a00e9610739d51b568f9d6196b23eb06f8eab5019bcf03d12c4449d5efb5,Security Skills and Knowledge,cyber-security,188,NAN found in field: skill_content
+NAN Value,6bc4f6bb538557f4d01258ca641e34daf1dd1740f26c96562de47ff3d2afe311,Security Skills and Knowledge,cyber-security,198,NAN found in field: skill_content
+NAN Value,22def8036f483198dc12841869bef498d0e17e90adb354e91d7fc04521716689,Security Skills and Knowledge,cyber-security,199,NAN found in field: skill_content
+NAN Value,a92e3ff842f4ad0489fc49e5ba6677f4eb0ac791d23faa148f22dda78836b2b4,Security Skills and Knowledge,cyber-security,204,NAN found in field: skill_content
+NAN Value,486e0574faa7c22de5210bc073e24b7cac495c80b0e9620b34b036ead7edf633,Security Skills and Knowledge,cyber-security,205,NAN found in field: skill_content
+NAN Value,4af4e00cbe30911872143b3453805139ca02dbedeebdbdd734792ffcca91e24e,Security Skills and Knowledge,cyber-security,211,NAN found in field: skill_content
+NAN Value,626680cc3f3dc352fdcbdf6f3cded406914ea4be465765f1382434e140a1a648,Security Skills and Knowledge,cyber-security,212,NAN found in field: skill_content
+NAN Value,2ecc1c52507a26af0ef8590f815b4c064822a711367cb72b2beec67eea0c1234,Security Skills and Knowledge,cyber-security,223,NAN found in field: skill_content
+NAN Value,e5a53f580bec053e0c1c5fc492bafb1bfdd5d30fd180aba3092788d24276c9bd,Security Skills and Knowledge,cyber-security,224,NAN found in field: skill_content
+NAN Value,89c407a052edc1c3cb67f396b78d749164d4bb5da92eb357259b1cbc7eac63c1,Security Skills and Knowledge,cyber-security,231,NAN found in field: skill_content
+NAN Value,b885a84423128601fd62cc21399a48a86100697fd8fe9b9a77b70b00170e3d07,Security Skills and Knowledge,cyber-security,240,NAN found in field: skill_content
+NAN Value,51737b2ad787cb67cfb1ebad99677b12d225e4c4c0dd757371aafd3e5f76936e,Security Skills and Knowledge,cyber-security,241,NAN found in field: skill_content
+NAN Value,b952915be18b4e12dfd0ecaabe4516cd0816ca83caf66a80020cad4868b6a40c,Security Skills and Knowledge,cyber-security,248,NAN found in field: skill_content
+NAN Value,257a27cb0ad0ed71e241c3743ecdae5f74bd81797335795ce31ea126be295580,Security Skills and Knowledge,cyber-security,250,NAN found in field: skill_content
+NAN Value,452fd7dcbb24acbacb31db1c1c82d85d91b4a0acb2bb8c1ae805d709828dbab0,Security Skills and Knowledge,cyber-security,254,NAN found in field: skill_content
+NAN Value,d5b17f9f93a3aedcf3a53949482988d2ff84be9d5a333b48d3a5642090a9dd08,Security Skills and Knowledge,cyber-security,257,NAN found in field: skill_content
+NAN Value,4470232588da121adb8b565dde37c98ec32dec4ecee1d28c5995e9064b7262bb,Security Skills and Knowledge,cyber-security,264,NAN found in field: skill_content
+NAN Value,01fdce165e4de1e97258b21facd49ed902d155a7fdc48becf438b489d36f55b3,Security Skills and Knowledge,cyber-security,276,NAN found in field: skill_content
+NAN Value,9d9b877ab03ae0f4418b779993177f0f953c58ad42818fbdf8f77196837df0c6,Extras,cyber-security,305,NAN found in field: skill_content
+NAN Value,21ecc67a72ed504d2f721b1b010a5b11761179fb01b2c2d4c2cb47329df9505a,Extras,cyber-security,306,NAN found in field: skill_content
+NAN Value,e037010b28f9c22b1a4b3459d615207ede386972002666314a20d0f43eb3d576,Extras,cyber-security,307,NAN found in field: skill_content
+NAN Value,62f140b414e6e67adf5cc6c48d2600755cb257007abbc7267657be97559d5df3,Extras,cyber-security,315,NAN found in field: skill_content
+NAN Value,215bc0e00a66470c24472e5b4aa07271cae35aba28bd7e2e608c4485cb2a8b9c,Extras,cyber-security,318,NAN found in field: skill_content
+NAN Value,88d4848b5a682cdae72dc43d341a213d837851f23bb8e4ee8ed84983b4365083,Extras,cyber-security,324,NAN found in field: skill_content
+NAN Value,bda5fe335b503728b93f2889c5752f7c0e80310a059be2e1c2b31e82892cdb8c,"Learn Algebra, Calculus, Mathematical Analysis",ai-data-scientist,1,NAN found in field: skill_content
+NAN Value,d1dde11cbbc32c10ff3fc98139c8432ea628d5dfc4ab7f072faaffd360cf65a8,Differential Calculus,ai-data-scientist,2,NAN found in field: skill_content
+NAN Value,03e61971545cd0769af1789c825446c30347be60b14e996f63f7515b10f4e33a,Probability and Sampling,ai-data-scientist,3,NAN found in field: skill_content
+NAN Value,944c00d1717b19ba11b42a79bcd29a6bd34aacc8bab3d8b42570f7d16e08f750,"Statistics, CLT",ai-data-scientist,4,NAN found in field: skill_content
+NAN Value,3eb1cbe1cedb0dd1326bbdc6fe5e4cb71f100b46171157c7f84f83e7f927edcc,Hypothesis Testing,ai-data-scientist,5,NAN found in field: skill_content
+NAN Value,30a8f500e1c1266c92cb98f3cb6a2ec30380919e1a21ca0af6ac3dbd02b735c2,AB Testing,ai-data-scientist,6,NAN found in field: skill_content
+NAN Value,37dc5e37eba20011cf108bb9dafd8e0aa89c7031e226dbf11fcb64f288398207,Increasing Test Sensitivity,ai-data-scientist,7,NAN found in field: skill_content
+NAN Value,e0a5eeebe33da8e878401ac079e7d6f30dbe24473dedf6dc98a77b8a36b56ec3,Ratio Metrics,ai-data-scientist,8,NAN found in field: skill_content
+NAN Value,a91e8cb23bc4ac8a8fe9ccffe3f33d3accbc214af9ef70be55c97af9379902d0,Python,ai-data-scientist,9,NAN found in field: skill_content
+NAN Value,0d09227e1290e6a1b5c27dd9089d1ece75477a05243f58ced2d14378fdab48a2,SQL,ai-data-scientist,10,NAN found in field: skill_content
+NAN Value,4ebb44355381167a13ee47e864f84a631ef33c1e42ab7ba509bc92bd54232e7c,Data Structures and Algorithms,ai-data-scientist,11,NAN found in field: skill_content
+NAN Value,8f2be3df44c62e1ff8b168caf5a6fa1b35c8c428927de4e4092d5c98cd8832f1,"Data Understanding, Analysis and Visualization",ai-data-scientist,12,NAN found in field: skill_content
+NAN Value,f3c43f21900d459913d436705d43108e0e2434d558967247358b3ba38e727653,"Regressions, Time series, Fitting Distributions",ai-data-scientist,13,NAN found in field: skill_content
+NAN Value,e38cc5c38cd6c51d0795e969533f6b45e396da6cf2a293f6f5f80624e87e8e14,Econometrics Pre-requisites,ai-data-scientist,14,NAN found in field: skill_content
+NAN Value,c22c7b4c1f2300c2d5d503061346cb90135d22368018b15415dd4e83c446b0c8,Classic/Advanced ML,ai-data-scientist,15,NAN found in field: skill_content
+NAN Value,cc71668a02063bfe323ddc5aaae70722bc3f648df38f1b479b988595ac04a9ee,"Fully Connected NN, CNN, RNN, LSTM, Transformers, Transfer Learning",ai-data-scientist,16,NAN found in field: skill_content
+NAN Value,4388e2ae500cec4f336800ef84734e510c49f2b845555425e39671457a913119,MLOps,ai-data-scientist,17,NAN found in field: skill_content
+NAN Value,d180973ef80c4c8adcc784af0cbaef1fc2512bf092f3a9e61971b130cd8d3f11,Important Skills,software-architect,16,NAN found in field: skill_content
+NAN Value,d66245bbf3f51844ac1509da593bfac2d70e8e84d1e2b26ad28093866199efac,Technical Skills,software-architect,20,NAN found in field: skill_content
+NAN Value,410a4be7aef427c266c453839133a743da7ac2c37a224097cf965c17ef30aeea,Programming languages,software-architect,21,NAN found in field: skill_content
+NAN Value,f6b2464eb9491dd9b2cd4ad5a69b1cf9e91b687d4b5a1ae4b8c865ae1c2141a0,Patterns and design principles,software-architect,28,NAN found in field: skill_content
+NAN Value,57bc139d8893341c2389240a8954a71bf496bb699abed47104bbc644f7939617,Architectures,software-architect,37,NAN found in field: skill_content
+NAN Value,09351c335912f300be3c7034ed37cc0a44b49a49d7a51c3b162eac6d034125ba,Working with data,software-architect,44,NAN found in field: skill_content
+NAN Value,d65d1a391501d502842310390a112b776ceb73b097fbb077a859b47c4d490aa8,Working with data,software-architect,48,NAN found in field: skill_content
+NAN Value,b29326cd61437ed12f97c8db06927670d4ce3726726f3b0deea019a424d50945,Networks,software-architect,53,NAN found in field: skill_content
+NAN Value,657041bcd740e5050a46e08bd8041a2356d15d0261f4a7c2201dfc3f0359ce0d,Apis and integrations,software-architect,58,NAN found in field: skill_content
+NAN Value,b389d28a06b0bcdc6a4b9ce009d1bd0f63eb7484b17a5272dc75e17aada8e7a8,Apis and integrations,software-architect,60,NAN found in field: skill_content
+NAN Value,a731353cb86e3c4f595e98448b206d99c93f253401fe959cc55f84ecf646a327,Apis and integrations,software-architect,63,NAN found in field: skill_content
+NAN Value,983a0769984ac18f8a0f3bf0b1d59d3e8991612debcf313df2f389f9643a0de0,Web and mobile,software-architect,65,NAN found in field: skill_content
+NAN Value,82c838d50a49386088dc96cda3ee20cb0a5f484611ed1635f7485b76fe34b36d,Security,software-architect,72,NAN found in field: skill_content
+NAN Value,430d3bb114fab7886d4fa5752982f0ec0ab4a55977dd51ad90054b1bf9039389,Operations knowledge,software-architect,77,NAN found in field: skill_content
+NAN Value,4f944cfd61d0bb4418a3444fd5c5635773cb1bab2ac9f660c51ef9098ae61ad2,Operations knowledge,software-architect,79,NAN found in field: skill_content
+NAN Value,d4b41ff8b1f36e415f7a3b00082548a05e1a2922e83a3736c29a128d10a5586e,Architect tools,software-architect,86,NAN found in field: skill_content
+NAN Value,a24dd5c24a35b4175a81414107e7146bce09d045497ff18e578826178dea704e,Architect frameworks,software-architect,91,NAN found in field: skill_content
+NAN Value,79c68909013864decd231c73c1d1f25911dcb89f79d0c9786d1883f8a0df6912,Enterprise software,software-architect,96,NAN found in field: skill_content
+NAN Value,62f73364e7bebac8dc38c310cee09c51e1a059700d7b42063243c76f03524453,Enterprise software,software-architect,98,NAN found in field: skill_content
+NAN Value,a67fd8e14d85fd4dc6492c709c5113149d9a94f8cca5d0cb9f7a1db05746888c,Enterprise software,software-architect,99,NAN found in field: skill_content
+NAN Value,29b43e7b43e3be9cb689d1bf160521080897c0cb24e8671e3a69767940a2b552,Management,software-architect,102,NAN found in field: skill_content
+NAN Value,178b014d55b861300e9eb811d7b02a735053a6362fc74dc9c68dea76cb86d216,Management,software-architect,103,NAN found in field: skill_content
+NAN Value,16090673b0fbd31f555f0c8003e643c5cb925ff3f8504b1114840d5109d25ff7,Management,software-architect,104,NAN found in field: skill_content
+NAN Value,b295b0062aa27a197cba2eedf886fe5dbf0c59ecea2fcb7dd1da1de4fa8563ba,Management,software-architect,105,NAN found in field: skill_content
+NAN Value,f129d7bde8d019adb88d481a5a26925c3140877cb74cfea3cfacde7b92f57e1a,Management,software-architect,106,NAN found in field: skill_content
+NAN Value,44a59de8ee4bc09707ae5190eca0f487dc4f119d19ee1546852a88862a8708f9,Management,software-architect,107,NAN found in field: skill_content
+NAN Value,568c38306ff37704816deb671e3f94e4c29b96e1c2b2dc46e4ce7c3a7d1fc91c,Understanding Human Decision Making,ux-design,2,NAN found in field: skill_content
+NAN Value,81d844766190ce91ba2046bf5ff58c18c740ac2443d808f7962863a53e028bcd,Understanding Human Decision Making,ux-design,7,NAN found in field: skill_content
+NAN Value,07bba073e1a90c5f4637dd752c0b01aa7d92c77f77c1bcff13bd0756277f9721,Behavior Change Strategies,ux-design,22,NAN found in field: skill_content
+NAN Value,6aa9075663a2acb6b8da547d2441e574f356687d8ef17a6b9cdd89995709d7bb,Behavior Change Strategies,ux-design,28,NAN found in field: skill_content
+NAN Value,26ed1bdebd93361fc7b5fe2782c4cc01b129c0de894632717615372926c18802,Behavior Change Strategies,ux-design,30,NAN found in field: skill_content
+NAN Value,18960a3b3500a33df6d2b78935edfa383c5d6b5576d03fc41e65b8bdcfb814a7,Understanding the Product,ux-design,34,NAN found in field: skill_content
+NAN Value,f0e7be8ff8ed6e59832641429310d9343436bea8360ec91e6858e8e872e0ad70,Understanding the Product,ux-design,38,NAN found in field: skill_content
+NAN Value,a9839f30b2592be61e718576a02d1f27e20db67868183d7b3b08aae105fd2756,Understanding the Product,ux-design,40,NAN found in field: skill_content
+NAN Value,88ca951fe197121250774e302971c769fe83927ae4246ce9b5ff95e506901424,Understanding the Product,ux-design,43,NAN found in field: skill_content
+NAN Value,0d9276a6074100e70401dc69856465dc0670a1e97b62e0cc956c44001049a717,Conceptual Design,ux-design,49,NAN found in field: skill_content
+NAN Value,4756d57a06763281d8a5b464a42b779556181f8a38c2f58f9b5909df32921f32,Conceptual Design,ux-design,51,NAN found in field: skill_content
+NAN Value,00ea453aabd3d601fafe78cb00277ec725cc36288da241d2f07c1b89d953a005,Conceptual Design,ux-design,56,NAN found in field: skill_content
+NAN Value,4af502632ab93a1d6ebe4b6219e5694e0882f2149265c95cd72cc3705e22bd74,ProtoTyping,ux-design,64,NAN found in field: skill_content
+NAN Value,4516654ba5525261ee5d6a7202e4ad5702715813664b20c006fa942a37599dda,ProtoTyping,ux-design,77,NAN found in field: skill_content
+NAN Value,d6831fe9308b4ed8ac4f03485e98a7b7d981a3c6e7c05ff24ba8958dfdfcbb59,UX Best Practices,ux-design,83,NAN found in field: skill_content
+NAN Value,88f22af194c7913b5b0ea1426adbf43743868ca72156f802341a7fc543d38fbb,UX Best Practices,ux-design,88,NAN found in field: skill_content
+NAN Value,68b8b22855cc81c2cb053c4cdc2f258cb18b93643489e2ec0cfa37675e39b121,UX Best Practices,ux-design,92,NAN found in field: skill_content
+NAN Value,43d9ff2cc07bc4cd39dd937a0ef46a0166b679f1a454d1e00f5130e3593c046d,UX Best Practices,ux-design,100,NAN found in field: skill_content
+NAN Value,fdb1bbe60951c2c7d72533598573e989ed9fafd9d33ffa956351cdd4d587741e,UX Best Practices,ux-design,105,NAN found in field: skill_content
+NAN Value,ad9d1d1903abdb0933f7989176e9a8d0c4fc50aeffa95b44a26c6c2b741712e1,Measuring the Impact,ux-design,112,NAN found in field: skill_content
+NAN Value,f3ff45cb5332505953269fb7608e2e54ced1d19ab929f14760df44f87fbc5ca8,Introduction to PostgreSQL,postgresql-dba,4,NAN found in field: skill_content
+NAN Value,a3b94f926c6532ca3d2eb809fe992d2b4117f64bbe2746144181c904856fff19,PostgreSQL Infrastructure Skills,postgresql-dba,117,NAN found in field: skill_content
+NAN Value,db4d711ed08f0e92cac97b835d60e9bb3549ae82a1c089d7c10b0bd75d3514d1,PostgreSQL Infrastructure Skills,postgresql-dba,118,NAN found in field: skill_content
+NAN Value,9ef39a84563128f1823ff8cfb178d660176db5855ac2bce0b6832e3e343eca26,PostgreSQL Infrastructure Skills,postgresql-dba,119,NAN found in field: skill_content
+NAN Value,8a9ecaa814bccee55f238eb0d4705f70ca6bf6e177d27729e45e6dec19f13b66,Troubleshooting Techniques for PostgreSQL,postgresql-dba,151,NAN found in field: skill_content
+NAN Value,055e46bdebe39d3a742b21dd982edd129e32bd0bb872e67a1df910a1a00f533d,Rendering topics,angular,32,NAN found in field: skill_content
+NAN Value,ed18e978a061f0a948d170c91092c5371b060e77b3d78eb6972eb2a07fd2f58f,Routing,angular,53,NAN found in field: skill_content
+NAN Value,ea2b8d31781d97a42cad1956b3a7b30a4f2448c84caf187d2c47977e71125e8d,Zones,angular,62,NAN found in field: skill_content
+NAN Value,f5e17500580ecd2134a12155acf3b1d9f5e71cf3e0b9d95d431738903a9e45dd,ORM,aspnet-core,42,NAN found in field: skill_content
+NAN Value,3027651c3fe6294b1c47f9ee01a2cdcad753316d5fc13301ca7efcb9523548f7,Pointers,cpp,25,NAN found in field: skill_content
+NAN Value,59936043e9e2a5c42c1fa12b081097455d732aa9a74af19797de45f86da78931,Pointers,cpp,28,NAN found in field: skill_content
+NAN Value,621c4b953062a454473dbf9f82c66864c0af161ee413f5c89ace52d523d7a01c,Libraries,cpp,110,NAN found in field: skill_content
+NAN Value,1e5898125b82f444ae155f145cd7835f9a875ce7d491db716055a146f0f5191a,Frameworks,cpp,122,NAN found in field: skill_content
+NAN Value,1ae29712ffa8d7d24956812f71d38b86ceb9ec12c6824f90e4545efd7491db8c,Widgets,flutter,21,NAN found in field: skill_content
+NAN Value,289df09553136026b21ad62165d8c6af51bff4e3bc56d525122ffb9ee17e5b1f,Widgets,flutter,22,NAN found in field: skill_content
+NAN Value,5e8b943616ecb6ff76007fed29c073e2ca51aa9f471124507c3a6989d0f95c3a,Go advanced,golang,18,NAN found in field: skill_content
+NAN Value,a2a55858da329280efaed6be7124586bf898408c7a684a4e207372da087fab7e,Go realtime communication,golang,54,NAN found in field: skill_content
+NAN Value,4ae40455d6882b2bdbe42e5f478e4b117a6df3a99a07e1b138c9548c56714f7b,Java advanced topics,java,12,NAN found in field: skill_content
+NAN Value,7480689692c826787c254df3bef041004ddc1f588e18617c87a70fa8590fa3e1,Functions,javascript,71,NAN found in field: skill_content
+NAN Value,f285dc1def54f3f69fd7f64dfca3b22055e8073547e9234bcb1c1e0f87fd943d,Running Applications,kubernetes,14,NAN found in field: skill_content
+NAN Value,5cabcd51816b1451a3c8d6400125ea88406e57cd74c7903b95bded82f4a7e3a3,Query Operators,mongodb,68,NAN found in field: skill_content
+NAN Value,fc3cc2c2966c0d0d5eed56024d5b90f5b64748c2118b2cc198b7c6986ea7c24e,MongoDB Aggregation,mongodb,80,NAN found in field: skill_content
+NAN Value,431a995b171a04436211f7bd64e0da35e88e45f4539159b6ce4611cb52135565,MongoDB Security,mongodb,97,NAN found in field: skill_content
+NAN Value,dc21955cae2d176661495d4a47bab0e69cacfbf7b95c0938594ba2894c79bbdf,Developer Tools,mongodb,111,NAN found in field: skill_content
+NAN Value,a39125e033c1f3a9fe530aab7b6ea2073fb39216b182b1e783805060d9506a04,Command Line Applications,nodejs,54,NAN found in field: skill_content
+NAN Value,1428f9aa32c7f9bcf88aa5d2a785ab71decb9475c8662854ddf684a6ba849694,Command Line Applications,nodejs,64,NAN found in field: skill_content
+NAN Value,82c838d50a49386088dc96cda3ee20cb0a5f484611ed1635f7485b76fe34b36d,Security,react-native,74,NAN found in field: skill_content
+NAN Value,b31bc0c35be052ac474453e9ac7eaf023093a1cf0458ae7fa5b94910d83a45eb,Performance,react-native,89,NAN found in field: skill_content
+NAN Value,e4958409219b48dcf713d750d5f8e7bc0cfbffff957e0986f3263f9dca62250b,Basic SQL Syntax,sql,9,NAN found in field: skill_content
+NAN Value,73f36b199dbc29b1c8db81bb9b1313fa368a8482529e857b22a16735071a5354,Advanced SQL Concepts,sql,111,NAN found in field: skill_content
+NAN Value,7d3272124675cac25f53b244e318ad21f14d27a15c96c168a7b8f17671f83ebb,Load Balancers,system-design,26,NAN found in field: skill_content
+NAN Value,ced44164705893dec54ec400fa658c2c697e153dd1422a86fa1bbf65522a9976,Implementation Semantics,code-review,1,NAN found in field: skill_content
+NAN Value,568d9c16f6ec91dd0e50da402e3bb446df1a0e2738b15a78f5a4895e9868df93,API Semantics,code-review,2,NAN found in field: skill_content
+NAN Value,59a22e36f96868f3488eec47eaed1b4b35f2460db0ef2604b429fafce8b7fb0f,Tests,code-review,3,NAN found in field: skill_content
+NAN Value,34eff08b18f3b376e7fe1ec21ef986b9214defc08a176e10e14d49a881002eac,Code Style,code-review,4,NAN found in field: skill_content
+NAN Value,2fc33a2c81e8c07e3a1f12dd13e24ad84a93da67688dc838f9f8e33decb97346,Documentation,code-review,5,NAN found in field: skill_content
+NAN Value,6af06e9b0d48921c62153b50dcca2736e51198ac3dc6873959f41e5b380d0ae3,LLM Settings,prompt-engineering,9,NAN found in field: skill_content
+NAN Value,2c85567ea6cdb9cf0997f522051a29fa4c3fd438623cd6c789424c9ca59e927d,Prompts,prompt-engineering,15,NAN found in field: skill_content
+NAN Value,a88f0e44c1c256be08016e0da61fa29744fce5d7b065fad786db0079132e8098,Prompts,prompt-engineering,24,NAN found in field: skill_content
+NAN Value,16b8b0bf707a981e89335a801e9ba1ff29f8ac252c78f009ae3008e485e0b438,Pitfalls of LLMs,prompt-engineering,43,NAN found in field: skill_content
+NAN Value,a7d4106b4be318e1dec392de8602ab0a8f39d02db278b94a479ef15ceea1b0c4,Prompt Hacking,prompt-engineering,51,NAN found in field: skill_content
+NAN Value,b7438a5457944b72973cbba07132141bee60651703c4c319cfe69487ab0ca598,Prompt Hacking,prompt-engineering,52,NAN found in field: skill_content
+NAN Value,5023b6280960cec6f2d93f8cc96e985ff2dbed92d4d1e86221c33f825013bc26,Prompt Hacking,prompt-engineering,53,NAN found in field: skill_content
+NAN Value,0e39805eb11f43258773f20cb2ce62c51876ae57f69dd19be8d8d52ef2bd2e87,Prompt Hacking,prompt-engineering,54,NAN found in field: skill_content
+NAN Value,b5c24eab68b65eb135616312049c996f46dee33f231a0914c385bd9942164a1f,Prompt Hacking,prompt-engineering,55,NAN found in field: skill_content
+NAN Value,965c3fd8a98b7943affa8f84985fd78b409bba22579479b3b5f2ad8eb2701fd4,Prompt Hacking,prompt-engineering,56,NAN found in field: skill_content
+NAN Value,349dad670f69516896784ea12ab160ecc9ed71dc7c1c399d0b05defcf7326aef,Image Prompting,prompt-engineering,57,NAN found in field: skill_content
+NAN Value,ea874cb9d2ed94fa088eaa9ce0bf254d54cc027a7ce9d9d2d1caf6655eda3f83,Image Prompting,prompt-engineering,58,NAN found in field: skill_content
+NAN Value,152f3ebc5835cb67a93f264dfd8cce9dd518df3682f341abe529415b353bfaf3,Image Prompting,prompt-engineering,59,NAN found in field: skill_content
+NAN Value,d1768b08a48613142d633beccf141469232563ed52a4114bb59af86b3409a993,Image Prompting,prompt-engineering,60,NAN found in field: skill_content
+NAN Value,b3d2e63735fe276451ea5ef0404bc0f31e6376bda398abc016277327d02d65ba,Image Prompting,prompt-engineering,61,NAN found in field: skill_content
+Duplicate ID,1cd5904cd7c2245aa912de86135b1ce4a3996aec7087b97e8f8ebc0599282b05,Internet,frontend,1,"ID: 1cd5904cd7c2245aa912de86135b1ce4a3996aec7087b97e8f8ebc0599282b05, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,d0c9c74396bd319b120223f66c941cdb575b9af297dc1cb528cb6524e6e1370d,Internet,frontend,2,"ID: d0c9c74396bd319b120223f66c941cdb575b9af297dc1cb528cb6524e6e1370d, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,7d50770b46b52507c8a7fdada7361dfe374a67576dcd4135ed0d02ab17c9fda7,Internet,frontend,3,"ID: 7d50770b46b52507c8a7fdada7361dfe374a67576dcd4135ed0d02ab17c9fda7, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,1eec33e164ef95e4c062eaa3a1eda4b43b25a6ef6e1e3bd08142c49b374e6995,Internet,frontend,4,"ID: 1eec33e164ef95e4c062eaa3a1eda4b43b25a6ef6e1e3bd08142c49b374e6995, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,6648c2350be409d70ce4a279d593dfb3cacdf3b1141551b780ba678ccf9e76f5,Internet,frontend,5,"ID: 6648c2350be409d70ce4a279d593dfb3cacdf3b1141551b780ba678ccf9e76f5, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,497bc3dcdd8b9413eb6fa731776b87d89eaec8b82ca75c5ded401d250f8b7968,Internet,frontend,6,"ID: 497bc3dcdd8b9413eb6fa731776b87d89eaec8b82ca75c5ded401d250f8b7968, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,0632fbac0ae3d4279129dd06874350c6b8d14aba6abf57942536d73530f04277,Internet,frontend,7,"ID: 0632fbac0ae3d4279129dd06874350c6b8d14aba6abf57942536d73530f04277, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,18ec811e17f12af94f01ba2292d32bf9d417ceaae307cb5d4cb31209b11b3c37,HTML,frontend,8,"ID: 18ec811e17f12af94f01ba2292d32bf9d417ceaae307cb5d4cb31209b11b3c37, Occurrences: 2, Tracks: ['frontend', 'full-stack']"
+Duplicate ID,f2bbd4973017664176c9a29930a2736ce82206bf870bc55ff1131744a189329c,CSS,frontend,15,"ID: f2bbd4973017664176c9a29930a2736ce82206bf870bc55ff1131744a189329c, Occurrences: 2, Tracks: ['frontend', 'full-stack']"
+Duplicate ID,6bd81b6efcc3e018cbac928c5d39ef38d1078a913317f9fca7742eca3357391e,JavaScript,frontend,19,"ID: 6bd81b6efcc3e018cbac928c5d39ef38d1078a913317f9fca7742eca3357391e, Occurrences: 3, Tracks: ['frontend', 'full-stack', 'javascript']"
+Duplicate ID,61d0866cdbc9809d2172a98027c9a4d97115f0a8cb6bea0f08cf51b8069730f3,Version Control Systems,frontend,25,"ID: 61d0866cdbc9809d2172a98027c9a4d97115f0a8cb6bea0f08cf51b8069730f3, Occurrences: 7, Tracks: ['frontend', 'backend', 'devops', 'qa', 'blockchain', 'flutter', 'python']"
+Duplicate ID,266eaca79b3988fc2f0fd7363b33d0ccb37fe3293dd0aa80683b928b08a7fa41,Version Control Systems,frontend,26,"ID: 266eaca79b3988fc2f0fd7363b33d0ccb37fe3293dd0aa80683b928b08a7fa41, Occurrences: 8, Tracks: ['frontend', 'backend', 'backend', 'devops', 'qa', 'blockchain', 'flutter', 'python']"
+Duplicate ID,a203ff4ed76286368ca89c568a3edf8d4a72b71c36c10814987c40a9409e1dc9,Repo Hosting Services,frontend,27,"ID: a203ff4ed76286368ca89c568a3edf8d4a72b71c36c10814987c40a9409e1dc9, Occurrences: 7, Tracks: ['frontend', 'backend', 'devops', 'qa', 'blockchain', 'flutter', 'python']"
+Duplicate ID,e02b7d94eabce11c4f8aebc10e3ea888292d51bcc6d731503420a8bd3a9829e2,Repo Hosting Services,frontend,28,"ID: e02b7d94eabce11c4f8aebc10e3ea888292d51bcc6d731503420a8bd3a9829e2, Occurrences: 7, Tracks: ['frontend', 'backend', 'devops', 'qa', 'blockchain', 'flutter', 'python']"
+Duplicate ID,5be3b20fc70ce4b551a92de4e51c3aa7421c4dab75e4200d717c62a575e01847,Repo Hosting Services,frontend,29,"ID: 5be3b20fc70ce4b551a92de4e51c3aa7421c4dab75e4200d717c62a575e01847, Occurrences: 6, Tracks: ['frontend', 'backend', 'devops', 'qa', 'blockchain', 'python']"
+Duplicate ID,a472f3bca454542dc9400c1c50fc260a019cf25651cde05c455cb135b803d2aa,Repo Hosting Services,frontend,30,"ID: a472f3bca454542dc9400c1c50fc260a019cf25651cde05c455cb135b803d2aa, Occurrences: 6, Tracks: ['frontend', 'backend', 'devops', 'qa', 'blockchain', 'python']"
+Duplicate ID,f182fefb9778fa8ebbe740ce27d173835646d56f21259170156c956284053af5,Package Managers,frontend,31,"ID: f182fefb9778fa8ebbe740ce27d173835646d56f21259170156c956284053af5, Occurrences: 3, Tracks: ['frontend', 'cpp', 'python']"
+Duplicate ID,378844473b6b9e5db5f152968ce8adaa5d702f7b5cbbfbd6a3a1e39a5b996e0e,Build Tools,frontend,60,"ID: 378844473b6b9e5db5f152968ce8adaa5d702f7b5cbbfbd6a3a1e39a5b996e0e, Occurrences: 2, Tracks: ['frontend', 'java']"
+Duplicate ID,c0c61b13069d2f5bbe953c01c151eabbb07b3d078cff9db08686d337c9342d44,Web Security Knowledge,frontend,105,"ID: c0c61b13069d2f5bbe953c01c151eabbb07b3d078cff9db08686d337c9342d44, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,d2bc5f05201143b6158b7dfbd3c95e63139c1d98b331f928e3cafef94dffc7b0,Web Security Knowledge,frontend,106,"ID: d2bc5f05201143b6158b7dfbd3c95e63139c1d98b331f928e3cafef94dffc7b0, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,070378b09d62ff1616cda476a8cce9473c01e87ea35c94c1aa7ff6690cb80009,Web Security Knowledge,frontend,107,"ID: 070378b09d62ff1616cda476a8cce9473c01e87ea35c94c1aa7ff6690cb80009, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,4166e1783fb2e021ee95012fc42fb1c6511727eea03fc1d48f7827bbbccbc17f,Web Security Knowledge,frontend,108,"ID: 4166e1783fb2e021ee95012fc42fb1c6511727eea03fc1d48f7827bbbccbc17f, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,b7d577ac05b223decd9aa7bd27fddc695399432524e6be7f1c1dce878c2df31e,Web Security Knowledge,frontend,109,"ID: b7d577ac05b223decd9aa7bd27fddc695399432524e6be7f1c1dce878c2df31e, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,e796558df677b30cd7f2f72d4b0d2cee6a85ad9b3a10b5304e713bd99c6b24aa,Graphql,frontend,110,"ID: e796558df677b30cd7f2f72d4b0d2cee6a85ad9b3a10b5304e713bd99c6b24aa, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,9c6aeb4a3a2cd4f1dbae3260d17b6c2d987b5422a66adf5b38214d77a55d2c4f,Graphql,frontend,111,"ID: 9c6aeb4a3a2cd4f1dbae3260d17b6c2d987b5422a66adf5b38214d77a55d2c4f, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,80026f4b8a6dabb27dbbda3e4f6d5753e36774f4162b4e93b236fadcadcbdc79,Graphql,frontend,112,"ID: 80026f4b8a6dabb27dbbda3e4f6d5753e36774f4162b4e93b236fadcadcbdc79, Occurrences: 2, Tracks: ['frontend', 'backend']"
+Duplicate ID,a42321ec2c06d22f157d466f297145b37b75129818828d96adc7338ea5ce9a23,Learn a Language,backend,19,"ID: a42321ec2c06d22f157d466f297145b37b75129818828d96adc7338ea5ce9a23, Occurrences: 2, Tracks: ['backend', 'devops']"
+Duplicate ID,70fd38c731ba64103bfacaf5b04eb864b7b4f1dde0c7bc80cf80cf661e900b70,Learn a Language,backend,20,"ID: 70fd38c731ba64103bfacaf5b04eb864b7b4f1dde0c7bc80cf80cf661e900b70, Occurrences: 2, Tracks: ['backend', 'devops']"
+Duplicate ID,f3987166faa491115a152b35101f422609ba6a2905c58bb7e549e5fb1241ea89,Learn a Language,backend,21,"ID: f3987166faa491115a152b35101f422609ba6a2905c58bb7e549e5fb1241ea89, Occurrences: 2, Tracks: ['backend', 'devops']"
+Duplicate ID,a8ccd021ba4445edb12795b6ba2caa63bc871b10b78f0ad04df90bead7a66a7b,Learn a Language,backend,23,"ID: a8ccd021ba4445edb12795b6ba2caa63bc871b10b78f0ad04df90bead7a66a7b, Occurrences: 2, Tracks: ['backend', 'backend']"
+Duplicate ID,1e9c9f90443144aafaa272ca16205541635e28f43694498cbcbf26586f4d8670,Learn a Language,backend,25,"ID: 1e9c9f90443144aafaa272ca16205541635e28f43694498cbcbf26586f4d8670, Occurrences: 2, Tracks: ['backend', 'devops']"
+Duplicate ID,605b956e04b6715af61f401be70d3ca4639191d0fe7c889e71b5955688d6e46b,Learn a Language,backend,26,"ID: 605b956e04b6715af61f401be70d3ca4639191d0fe7c889e71b5955688d6e46b, Occurrences: 2, Tracks: ['backend', 'devops']"
+Duplicate ID,98fac04b8f456a6fd731280dc5e745f85c947feb166fad3c5f26c1a990906994,Learn a Language,backend,27,"ID: 98fac04b8f456a6fd731280dc5e745f85c947feb166fad3c5f26c1a990906994, Occurrences: 2, Tracks: ['backend', 'devops']"
+Duplicate ID,ad29d206668d5e67fb4a5879876f7bf93947c47d12efe8589bc2069e764d7714,APIs,backend,60,"ID: ad29d206668d5e67fb4a5879876f7bf93947c47d12efe8589bc2069e764d7714, Occurrences: 2, Tracks: ['backend', 'nodejs']"
+Duplicate ID,959b8bbf662e0f470d833dd670a41e0934f428b4b7c1e4d6dfb9357b33610956,Caching,backend,92,"ID: 959b8bbf662e0f470d833dd670a41e0934f428b4b7c1e4d6dfb9357b33610956, Occurrences: 3, Tracks: ['backend', 'aspnet-core', 'system-design']"
+Duplicate ID,44a7a8c281a040f0f0c5a3b2b618992bdb9ca0f59fccff1dcd5b3f0df9ac910a,Testing,backend,98,"ID: 44a7a8c281a040f0f0c5a3b2b618992bdb9ca0f59fccff1dcd5b3f0df9ac910a, Occurrences: 9, Tracks: ['backend', 'aspnet-core', 'flutter', 'java', 'nodejs', 'python', 'react', 'react-native', 'spring-boot']"
+Duplicate ID,3ad084cf6e87e737205c520204309e69dba83f3bf0c132654c6a3918fa532cdf,Testing,backend,99,"ID: 3ad084cf6e87e737205c520204309e69dba83f3bf0c132654c6a3918fa532cdf, Occurrences: 3, Tracks: ['backend', 'aspnet-core', 'flutter']"
+Duplicate ID,94bfff8ad05f9b60c2c09ab74c54f97e1927896d0d8b0097b3e437da112e1e13,Testing,backend,100,"ID: 94bfff8ad05f9b60c2c09ab74c54f97e1927896d0d8b0097b3e437da112e1e13, Occurrences: 3, Tracks: ['backend', 'aspnet-core', 'flutter']"
+Duplicate ID,1e4aa051d37aafdf747f1c3d2c908900810dc93d23080dff6e8353ab4616a2e0,Architectural Patterns,backend,108,"ID: 1e4aa051d37aafdf747f1c3d2c908900810dc93d23080dff6e8353ab4616a2e0, Occurrences: 2, Tracks: ['backend', 'software-design-architecture']"
+Duplicate ID,91e77e3f414578fe6f223d416bdcdad9b55a4c22e0ef350a079731b3e18becac,Architectural Patterns,backend,110,"ID: 91e77e3f414578fe6f223d416bdcdad9b55a4c22e0ef350a079731b3e18becac, Occurrences: 2, Tracks: ['backend', 'software-design-architecture']"
+Duplicate ID,bae09e07f6d3cdbd5e88d6830481317d0bd917003de9add42476b6bc3b8c8ec5,Architectural Patterns,backend,111,"ID: bae09e07f6d3cdbd5e88d6830481317d0bd917003de9add42476b6bc3b8c8ec5, Occurrences: 2, Tracks: ['backend', 'software-design-architecture']"
+Duplicate ID,e7846a6cc516f2cdf7c792b36568299f8c2a5050660b097269abb2a4db65a165,CI/CD,backend,115,"ID: e7846a6cc516f2cdf7c792b36568299f8c2a5050660b097269abb2a4db65a165, Occurrences: 5, Tracks: ['backend', 'devops', 'qa', 'aspnet-core', 'flutter']"
+Duplicate ID,2d27da15542a4228238ba68eb91eeafeabb305b5136ee709f0e84aa1c1c67787,Building for Scale,backend,138,"ID: 2d27da15542a4228238ba68eb91eeafeabb305b5136ee709f0e84aa1c1c67787, Occurrences: 2, Tracks: ['backend', 'blockchain']"
+Duplicate ID,5fb0fa0b25d07166c540626a338095dc62be19c997b5a37f2934c55f628c7f4f,Checkpoint,full-stack,3,"ID: 5fb0fa0b25d07166c540626a338095dc62be19c997b5a37f2934c55f628c7f4f, Occurrences: 11, Tracks: ['full-stack', 'full-stack', 'full-stack', 'full-stack', 'full-stack', 'full-stack', 'full-stack', 'full-stack', 'full-stack', 'full-stack', 'full-stack']"
+Duplicate ID,15ff801bae299dc13ac6c6a86a62c7ad95e99586d791802f6734f36009ee84dd,npm,full-stack,6,"ID: 15ff801bae299dc13ac6c6a86a62c7ad95e99586d791802f6734f36009ee84dd, Occurrences: 2, Tracks: ['full-stack', 'nodejs']"
+Duplicate ID,03385d89d2089c762a2c5ca7cd645c6e66f270762bbf0f36beb7a057f468c99d,Deployment,full-stack,29,"ID: 03385d89d2089c762a2c5ca7cd645c6e66f270762bbf0f36beb7a057f468c99d, Occurrences: 2, Tracks: ['full-stack', 'flutter']"
+Duplicate ID,9590808e1798e938f7b04a427817e1020a8f26a8857ec44cd0322e9ca5e15a21,Containers,devops,48,"ID: 9590808e1798e938f7b04a427817e1020a8f26a8857ec44cd0322e9ca5e15a21, Occurrences: 2, Tracks: ['devops', 'kubernetes']"
+Duplicate ID,5ffd4ca4424cb20e8051b27ea58974158850eb4e17ca537e2a95bc7df4de6a6d,Configuration Management,devops,85,"ID: 5ffd4ca4424cb20e8051b27ea58974158850eb4e17ca537e2a95bc7df4de6a6d, Occurrences: 2, Tracks: ['devops', 'kubernetes']"
+Duplicate ID,c4829dbbeca22dca1c2d52fb627183a35c73f8bcc68586f10649172b86f7305e,CI/CD,devops,90,"ID: c4829dbbeca22dca1c2d52fb627183a35c73f8bcc68586f10649172b86f7305e, Occurrences: 2, Tracks: ['devops', 'qa']"
+Duplicate ID,0978f73af678743e225d468772c51ac2871165cb3d04c5f09e37ba3b04a33b4e,CI/CD,devops,91,"ID: 0978f73af678743e225d468772c51ac2871165cb3d04c5f09e37ba3b04a33b4e, Occurrences: 3, Tracks: ['devops', 'qa', 'aspnet-core']"
+Duplicate ID,4e1111639485c4eed95a8bc8bb40bf02c615383c21b5853da91cf3c616140bcc,CI/CD,devops,92,"ID: 4e1111639485c4eed95a8bc8bb40bf02c615383c21b5853da91cf3c616140bcc, Occurrences: 3, Tracks: ['devops', 'aspnet-core', 'flutter']"
+Duplicate ID,57a6bfbbd5cee0e7eaa7af5f1c6f5baf1921fd5794730533f825eaed6f0306d8,CI/CD,devops,93,"ID: 57a6bfbbd5cee0e7eaa7af5f1c6f5baf1921fd5794730533f825eaed6f0306d8, Occurrences: 3, Tracks: ['devops', 'qa', 'aspnet-core']"
+Duplicate ID,4c18d1cb0b149d059d0b833ab9314d09df05e284deb8cde949f6912f53ea1507,CI/CD,devops,94,"ID: 4c18d1cb0b149d059d0b833ab9314d09df05e284deb8cde949f6912f53ea1507, Occurrences: 3, Tracks: ['devops', 'qa', 'aspnet-core']"
+Duplicate ID,32021c4deab66b28154a40898bf63f41e40aa6c8a24310420ab2ebdb7c4e12fc,CI/CD,devops,95,"ID: 32021c4deab66b28154a40898bf63f41e40aa6c8a24310420ab2ebdb7c4e12fc, Occurrences: 2, Tracks: ['devops', 'qa']"
+Duplicate ID,095d245b4cff48dba9ed84121254cf7df5312e06885491547dde1249f3f53044,CI/CD,devops,96,"ID: 095d245b4cff48dba9ed84121254cf7df5312e06885491547dde1249f3f53044, Occurrences: 3, Tracks: ['devops', 'qa', 'aspnet-core']"
+Duplicate ID,b664a86e2baaa7b81944e337c53532d54522e78a4146a208ae14b8c607adc89d,CI/CD,devops,97,"ID: b664a86e2baaa7b81944e337c53532d54522e78a4146a208ae14b8c607adc89d, Occurrences: 2, Tracks: ['devops', 'qa']"
+Duplicate ID,a91e8cb23bc4ac8a8fe9ccffe3f33d3accbc214af9ef70be55c97af9379902d0,Python,ai-data-scientist,9,"ID: a91e8cb23bc4ac8a8fe9ccffe3f33d3accbc214af9ef70be55c97af9379902d0, Occurrences: 2, Tracks: ['ai-data-scientist', 'python']"
+Duplicate ID,4ebb44355381167a13ee47e864f84a631ef33c1e42ab7ba509bc92bd54232e7c,Data Structures and Algorithms,ai-data-scientist,11,"ID: 4ebb44355381167a13ee47e864f84a631ef33c1e42ab7ba509bc92bd54232e7c, Occurrences: 2, Tracks: ['ai-data-scientist', 'python']"
+Duplicate ID,82c838d50a49386088dc96cda3ee20cb0a5f484611ed1635f7485b76fe34b36d,Security,software-architect,72,"ID: 82c838d50a49386088dc96cda3ee20cb0a5f484611ed1635f7485b76fe34b36d, Occurrences: 4, Tracks: ['software-architect', 'blockchain', 'computer-science', 'react-native']"
+Duplicate ID,03b3755e9370f9d039237a78c8dc9b75fcee28dc2ae0b157b08c16fad80ec55c,Security,software-architect,73,"ID: 03b3755e9370f9d039237a78c8dc9b75fcee28dc2ae0b157b08c16fad80ec55c, Occurrences: 2, Tracks: ['software-architect', 'computer-science']"
+Duplicate ID,2dc4c15ca3842f748000d019cfc838aeafc1da712342add8261d1a7684545720,Security,software-architect,75,"ID: 2dc4c15ca3842f748000d019cfc838aeafc1da712342add8261d1a7684545720, Occurrences: 2, Tracks: ['software-architect', 'computer-science']"
+Duplicate ID,7d3f911b33881aa6b6330f9712832e68d127771b3409d8099a4fe01d1a51a51b,Pick a Language,computer-science,6,"ID: 7d3f911b33881aa6b6330f9712832e68d127771b3409d8099a4fe01d1a51a51b, Occurrences: 3, Tracks: ['computer-science', 'computer-science', 'computer-science']"
+Duplicate ID,35533a5678cf0817a5073ebceb937b67d4b02eb622234fbec655b3ccfd575df9,Data Structures,computer-science,24,"ID: 35533a5678cf0817a5073ebceb937b67d4b02eb622234fbec655b3ccfd575df9, Occurrences: 2, Tracks: ['computer-science', 'javascript']"
+Duplicate ID,5fc2f3745b0e9123f6fb0bfb4d53a889267e66a58a90c54358bed3d8b5842fdc,Networking,computer-science,135,"ID: 5fc2f3745b0e9123f6fb0bfb4d53a889267e66a58a90c54358bed3d8b5842fdc, Occurrences: 2, Tracks: ['computer-science', 'react-native']"
+Duplicate ID,19f56f224275bf8c91cd0d4a250937a53ef425cadfb991047dcaa7bc77809bc2,Networking,computer-science,140,"ID: 19f56f224275bf8c91cd0d4a250937a53ef425cadfb991047dcaa7bc77809bc2, Occurrences: 2, Tracks: ['computer-science', 'computer-science']"
+Duplicate ID,93c4e14692a96e9a41b644cbcc1e571491503564e94b94a8090f73ac94d37028,Databases,computer-science,142,"ID: 93c4e14692a96e9a41b644cbcc1e571491503564e94b94a8090f73ac94d37028, Occurrences: 3, Tracks: ['computer-science', 'aspnet-core', 'system-design']"
+Duplicate ID,61e9a8e11c19d01d15650e73af0087b705e412a27eb17c239caf16992ea25b72,Design Patterns,computer-science,167,"ID: 61e9a8e11c19d01d15650e73af0087b705e412a27eb17c239caf16992ea25b72, Occurrences: 2, Tracks: ['computer-science', 'software-design-architecture']"
+Duplicate ID,71e30051d086268864aca1aaf5398541719da7dd6defa185e713b410cbbf9e19,Design Patterns,computer-science,168,"ID: 71e30051d086268864aca1aaf5398541719da7dd6defa185e713b410cbbf9e19, Occurrences: 2, Tracks: ['computer-science', 'software-design-architecture']"
+Duplicate ID,188fd76a69c80f657ddfd201cadc75755cf035ebde88bb6cbd959713ade43268,Forms,angular,37,"ID: 188fd76a69c80f657ddfd201cadc75755cf035ebde88bb6cbd959713ade43268, Occurrences: 2, Tracks: ['angular', 'react']"
+Duplicate ID,7ca5b6b2465f0d205b7e1490b0c8979ecdd4f8a222e3e1ef025f56a01d51121c,Routing,angular,52,"ID: 7ca5b6b2465f0d205b7e1490b0c8979ecdd4f8a222e3e1ef025f56a01d51121c, Occurrences: 2, Tracks: ['angular', 'react']"
+Duplicate ID,2ea9299691e0c4d6d8e8ed2d9afa8e3869e89d6a5dbabfd9b7cec6e905fc0629,State Management,angular,59,"ID: 2ea9299691e0c4d6d8e8ed2d9afa8e3869e89d6a5dbabfd9b7cec6e905fc0629, Occurrences: 3, Tracks: ['angular', 'flutter', 'react']"
+Duplicate ID,ecb25558fdbb7b2b8d2e94ff880765e75cd90feb01e014fe8cf2d65246c9ae75,Databases,aspnet-core,59,"ID: ecb25558fdbb7b2b8d2e94ff880765e75cd90feb01e014fe8cf2d65246c9ae75, Occurrences: 2, Tracks: ['aspnet-core', 'system-design']"
+Duplicate ID,f7e42b79a6a2fda24a8fccadee5c980da99cf5d0fe953aa5df3699ae19005634,API Clients,aspnet-core,66,"ID: f7e42b79a6a2fda24a8fccadee5c980da99cf5d0fe953aa5df3699ae19005634, Occurrences: 2, Tracks: ['aspnet-core', 'golang']"
+Duplicate ID,fc6ce9c5d0715da5713ee19d8524afb090f2955147a1de167c9001eecb03820c,API Clients,aspnet-core,67,"ID: fc6ce9c5d0715da5713ee19d8524afb090f2955147a1de167c9001eecb03820c, Occurrences: 2, Tracks: ['aspnet-core', 'golang']"
+Duplicate ID,2df53941879d1bbcb09916a800b47d2127f6463016fb81688079965e3651e9d5,API Clients,aspnet-core,71,"ID: 2df53941879d1bbcb09916a800b47d2127f6463016fb81688079965e3651e9d5, Occurrences: 2, Tracks: ['aspnet-core', 'golang']"
+Duplicate ID,0e7f9a7bc077755949fe07fb6d09c1353282adb9a611092601312d7f45617b7a,Template Engines,aspnet-core,74,"ID: 0e7f9a7bc077755949fe07fb6d09c1353282adb9a611092601312d7f45617b7a, Occurrences: 2, Tracks: ['aspnet-core', 'nodejs']"
+Duplicate ID,8d823383a4efdf0e435d341ea9df9f4875df8908af633ffaf7680e8c6606476a,Microservices,aspnet-core,133,"ID: 8d823383a4efdf0e435d341ea9df9f4875df8908af633ffaf7680e8c6606476a, Occurrences: 3, Tracks: ['aspnet-core', 'golang', 'spring-boot']"
+Duplicate ID,1a756c42b675ceb4f80be0db67bff6a6680e2d30e798d369f4f0ff1b14087ea1,Working with APIs,flutter,49,"ID: 1a756c42b675ceb4f80be0db67bff6a6680e2d30e798d369f4f0ff1b14087ea1, Occurrences: 2, Tracks: ['flutter', 'javascript']"
+Duplicate ID,049af0e5880a044a564ac3411fa8e573649eeed00fe3b651d9b52c7c903004d3,Storage,flutter,54,"ID: 049af0e5880a044a564ac3411fa8e573649eeed00fe3b651d9b52c7c903004d3, Occurrences: 2, Tracks: ['flutter', 'react-native']"
+Duplicate ID,d8a23a7038eef619c1ce34c838e14acb2d61789541183143fcaf1bc3967ae74b,State Management,flutter,70,"ID: d8a23a7038eef619c1ce34c838e14acb2d61789541183143fcaf1bc3967ae74b, Occurrences: 2, Tracks: ['flutter', 'react']"
+Duplicate ID,39ad2eed18f54833ce58ed28235586e0bbff651240e809e7fbdb5265c7c52ed8,Web Frameworks,golang,33,"ID: 39ad2eed18f54833ce58ed28235586e0bbff651240e809e7fbdb5265c7c52ed8, Occurrences: 2, Tracks: ['golang', 'java']"
+Duplicate ID,efcd752a1ef92d82d784f8c0d8cbf608549f87b86ff45dacd3a54828686a02d2,Functions,javascript,63,"ID: efcd752a1ef92d82d784f8c0d8cbf608549f87b86ff45dacd3a54828686a02d2, Occurrences: 2, Tracks: ['javascript', 'typescript']"
+Duplicate ID,6f2305c036a2919ea11bb49e6393c750cf555979dd946fc63db0d9a293a97342,Classes,javascript,98,"ID: 6f2305c036a2919ea11bb49e6393c750cf555979dd946fc63db0d9a293a97342, Occurrences: 2, Tracks: ['javascript', 'typescript']"
+Duplicate ID,92a00ba6a88f09a00feeafeacc4b1b863c5268eeacb26c06c264447d8eb74c54,Modules,javascript,100,"ID: 92a00ba6a88f09a00feeafeacc4b1b863c5268eeacb26c06c264447d8eb74c54, Occurrences: 2, Tracks: ['javascript', 'typescript']"
+Duplicate ID,a2e8d92e83a7dad81470b6a78b8d2160c4cc74c255af730d9ca1b3144359eaf3,Transactions,mongodb,90,"ID: a2e8d92e83a7dad81470b6a78b8d2160c4cc74c255af730d9ca1b3144359eaf3, Occurrences: 2, Tracks: ['mongodb', 'sql']"
+Duplicate ID,dad389cbab97af79f5fc7dc723d6bee793452f30c46d7b9603785018650370ce,Testing,nodejs,98,"ID: dad389cbab97af79f5fc7dc723d6bee793452f30c46d7b9603785018650370ce, Occurrences: 3, Tracks: ['nodejs', 'react', 'react-native']"
+Duplicate ID,ae17fe6e3c66e6e00bf698404a722f8715a6ecb45609936e8f7f2345db24de40,Testing,nodejs,100,"ID: ae17fe6e3c66e6e00bf698404a722f8715a6ecb45609936e8f7f2345db24de40, Occurrences: 2, Tracks: ['nodejs', 'react']"
+Duplicate ID,7d17256846d5d36310ae1db47d7a05bdaa791ed466816f35f2f420e1372f7ab7,Note,python,1,"ID: 7d17256846d5d36310ae1db47d7a05bdaa791ed466816f35f2f420e1372f7ab7, Occurrences: 2, Tracks: ['python', 'react']"
+Duplicate ID,b622e9f6b359f758eb6025c6f2ce354447af58ba5f92254986b7e30746908b6b,Advanced Topics,python,27,"ID: b622e9f6b359f758eb6025c6f2ce354447af58ba5f92254986b7e30746908b6b, Occurrences: 2, Tracks: ['python', 'vue']"
+Duplicate ID,692bd412653a4dfc3d66926fd7028245305219f808ff7be3cacfa4e54037d648,Styling,react,29,"ID: 692bd412653a4dfc3d66926fd7028245305219f808ff7be3cacfa4e54037d648, Occurrences: 2, Tracks: ['react', 'react-native']"
+Duplicate ID,c2cd0d153d02c6694e6812a86cb82ca0d12f611216a5d38622a24405c6edc628,Introduction,react-native,1,"ID: c2cd0d153d02c6694e6812a86cb82ca0d12f611216a5d38622a24405c6edc628, Occurrences: 3, Tracks: ['react-native', 'sql', 'system-design']"
+Duplicate ID,6d85f5d8775058fae552dd12f6d2d4fb3c3c7404bbed09ae0405f69b62736c46,Core Components,react-native,28,"ID: 6d85f5d8775058fae552dd12f6d2d4fb3c3c7404bbed09ae0405f69b62736c46, Occurrences: 2, Tracks: ['react-native', 'design-system']"
+Duplicate ID,9c17f653696951b6358f5816d1bf14a3023c4566eb2c85ccede051375edb694f,Core Components,react-native,31,"ID: 9c17f653696951b6358f5816d1bf14a3023c4566eb2c85ccede051375edb694f, Occurrences: 2, Tracks: ['react-native', 'design-system']"
+Duplicate ID,cff3ec763e42c36d9b8b2d2c955623ad10a90785a2c9953971b2abd8144b4c4c,Core Components,react-native,37,"ID: cff3ec763e42c36d9b8b2d2c955623ad10a90785a2c9953971b2abd8144b4c4c, Occurrences: 2, Tracks: ['react-native', 'design-system']"
+Duplicate ID,8317b0cc93189948a0787d1397bcb576c8d25d12cd95b84b2fdb124bea7546b8,Ecosystem,typescript,90,"ID: 8317b0cc93189948a0787d1397bcb576c8d25d12cd95b84b2fdb124bea7546b8, Occurrences: 2, Tracks: ['typescript', 'vue']"
+Same ID in Same Track,a8ccd021ba4445edb12795b6ba2caa63bc871b10b78f0ad04df90bead7a66a7b,Learn a Language,backend,23,"Track: backend, ID: a8ccd021ba4445edb12795b6ba2caa63bc871b10b78f0ad04df90bead7a66a7b, Occurrences: 2"
+Same ID in Same Track,266eaca79b3988fc2f0fd7363b33d0ccb37fe3293dd0aa80683b928b08a7fa41,Version Control Systems,backend,30,"Track: backend, ID: 266eaca79b3988fc2f0fd7363b33d0ccb37fe3293dd0aa80683b928b08a7fa41, Occurrences: 2"
+Same ID in Same Track,5fb0fa0b25d07166c540626a338095dc62be19c997b5a37f2934c55f628c7f4f,Checkpoint,full-stack,3,"Track: full-stack, ID: 5fb0fa0b25d07166c540626a338095dc62be19c997b5a37f2934c55f628c7f4f, Occurrences: 11"
+Same ID in Same Track,7d3f911b33881aa6b6330f9712832e68d127771b3409d8099a4fe01d1a51a51b,Pick a Language,computer-science,6,"Track: computer-science, ID: 7d3f911b33881aa6b6330f9712832e68d127771b3409d8099a4fe01d1a51a51b, Occurrences: 3"
+Same ID in Same Track,19f56f224275bf8c91cd0d4a250937a53ef425cadfb991047dcaa7bc77809bc2,Networking,computer-science,140,"Track: computer-science, ID: 19f56f224275bf8c91cd0d4a250937a53ef425cadfb991047dcaa7bc77809bc2, Occurrences: 2"
+ID Content Mismatch,7d50770b46b52507c8a7fdada7361dfe374a67576dcd4135ed0d02ab17c9fda7,Internet,frontend,3,"Names: {'Internet'}, Subskills: {'What is HTTP?'}, Different Contents: 2"
+ID Content Mismatch,497bc3dcdd8b9413eb6fa731776b87d89eaec8b82ca75c5ded401d250f8b7968,Internet,frontend,6,"Names: {'Internet'}, Subskills: {'Domain Name'}, Different Contents: 2"
+ID Content Mismatch,6bd81b6efcc3e018cbac928c5d39ef38d1078a913317f9fca7742eca3357391e,JavaScript,frontend,19,"Names: {'JavaScript'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,61d0866cdbc9809d2172a98027c9a4d97115f0a8cb6bea0f08cf51b8069730f3,Version Control Systems,frontend,25,"Names: {'Version Control Systems'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,a203ff4ed76286368ca89c568a3edf8d4a72b71c36c10814987c40a9409e1dc9,Repo Hosting Services,frontend,27,"Names: {'Repo Hosting Services'}, Subskills: {'NAN'}, Different Contents: 3"
+ID Content Mismatch,e02b7d94eabce11c4f8aebc10e3ea888292d51bcc6d731503420a8bd3a9829e2,Repo Hosting Services,frontend,28,"Names: {'Repo Hosting Services'}, Subskills: {'Github', 'GitHub'}, Different Contents: 3"
+ID Content Mismatch,a472f3bca454542dc9400c1c50fc260a019cf25651cde05c455cb135b803d2aa,Repo Hosting Services,frontend,30,"Names: {'Repo Hosting Services'}, Subskills: {'Bitbucket', 'BitBucket'}, Different Contents: 2"
+ID Content Mismatch,f182fefb9778fa8ebbe740ce27d173835646d56f21259170156c956284053af5,Package Managers,frontend,31,"Names: {'Package Managers'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,378844473b6b9e5db5f152968ce8adaa5d702f7b5cbbfbd6a3a1e39a5b996e0e,Build Tools,frontend,60,"Names: {'Build Tools'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,4166e1783fb2e021ee95012fc42fb1c6511727eea03fc1d48f7827bbbccbc17f,Web Security Knowledge,frontend,108,"Names: {'Web Security Knowledge'}, Subskills: {'Cors', 'CORS'}, Different Contents: 1"
+ID Content Mismatch,a42321ec2c06d22f157d466f297145b37b75129818828d96adc7338ea5ce9a23,Learn a Language,backend,19,"Names: {'Learn a Language'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,a8ccd021ba4445edb12795b6ba2caa63bc871b10b78f0ad04df90bead7a66a7b,Learn a Language,backend,23,"Names: {'Learn a Language'}, Subskills: {'C++', 'C#'}, Different Contents: 1"
+ID Content Mismatch,1e9c9f90443144aafaa272ca16205541635e28f43694498cbcbf26586f4d8670,Learn a Language,backend,25,"Names: {'Learn a Language'}, Subskills: {'JavaScript'}, Different Contents: 2"
+ID Content Mismatch,605b956e04b6715af61f401be70d3ca4639191d0fe7c889e71b5955688d6e46b,Learn a Language,backend,26,"Names: {'Learn a Language'}, Subskills: {'Python'}, Different Contents: 2"
+ID Content Mismatch,959b8bbf662e0f470d833dd670a41e0934f428b4b7c1e4d6dfb9357b33610956,Caching,backend,92,"Names: {'Caching'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,44a7a8c281a040f0f0c5a3b2b618992bdb9ca0f59fccff1dcd5b3f0df9ac910a,Testing,backend,98,"Names: {'Testing'}, Subskills: {'NAN'}, Different Contents: 6"
+ID Content Mismatch,3ad084cf6e87e737205c520204309e69dba83f3bf0c132654c6a3918fa532cdf,Testing,backend,99,"Names: {'Testing'}, Subskills: {'Integration Testing'}, Different Contents: 3"
+ID Content Mismatch,94bfff8ad05f9b60c2c09ab74c54f97e1927896d0d8b0097b3e437da112e1e13,Testing,backend,100,"Names: {'Testing'}, Subskills: {'Unit Testing'}, Different Contents: 3"
+ID Content Mismatch,1e4aa051d37aafdf747f1c3d2c908900810dc93d23080dff6e8353ab4616a2e0,Architectural Patterns,backend,108,"Names: {'Architectural Patterns'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,91e77e3f414578fe6f223d416bdcdad9b55a4c22e0ef350a079731b3e18becac,Architectural Patterns,backend,110,"Names: {'Architectural Patterns'}, Subskills: {'Microservices'}, Different Contents: 2"
+ID Content Mismatch,bae09e07f6d3cdbd5e88d6830481317d0bd917003de9add42476b6bc3b8c8ec5,Architectural Patterns,backend,111,"Names: {'Architectural Patterns'}, Subskills: {'SOA'}, Different Contents: 2"
+ID Content Mismatch,e7846a6cc516f2cdf7c792b36568299f8c2a5050660b097269abb2a4db65a165,CI/CD,backend,115,"Names: {'CI / CD', 'CI CD', 'CI/CD'}, Subskills: {'NAN'}, Different Contents: 5"
+ID Content Mismatch,2d27da15542a4228238ba68eb91eeafeabb305b5136ee709f0e84aa1c1c67787,Building for Scale,backend,138,"Names: {'Building for Scale'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,15ff801bae299dc13ac6c6a86a62c7ad95e99586d791802f6734f36009ee84dd,npm,full-stack,6,"Names: {'npm'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,03385d89d2089c762a2c5ca7cd645c6e66f270762bbf0f36beb7a057f468c99d,Deployment,full-stack,29,"Names: {'Deployment'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,9590808e1798e938f7b04a427817e1020a8f26a8857ec44cd0322e9ca5e15a21,Containers,devops,48,"Names: {'Containers'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,5ffd4ca4424cb20e8051b27ea58974158850eb4e17ca537e2a95bc7df4de6a6d,Configuration Management,devops,85,"Names: {'Configuration Management'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,c4829dbbeca22dca1c2d52fb627183a35c73f8bcc68586f10649172b86f7305e,CI/CD,devops,90,"Names: {'CI / CD', 'CI/CD'}, Subskills: {'GitLab CI'}, Different Contents: 1"
+ID Content Mismatch,0978f73af678743e225d468772c51ac2871165cb3d04c5f09e37ba3b04a33b4e,CI/CD,devops,91,"Names: {'CI / CD', 'CI CD', 'CI/CD'}, Subskills: {'Jenkins'}, Different Contents: 2"
+ID Content Mismatch,4e1111639485c4eed95a8bc8bb40bf02c615383c21b5853da91cf3c616140bcc,CI/CD,devops,92,"Names: {'CI CD', 'CI/CD'}, Subskills: {'GitHub Actions', 'Github Actions'}, Different Contents: 3"
+ID Content Mismatch,57a6bfbbd5cee0e7eaa7af5f1c6f5baf1921fd5794730533f825eaed6f0306d8,CI/CD,devops,93,"Names: {'CI / CD', 'CI CD', 'CI/CD'}, Subskills: {'Travis CI'}, Different Contents: 3"
+ID Content Mismatch,4c18d1cb0b149d059d0b833ab9314d09df05e284deb8cde949f6912f53ea1507,CI/CD,devops,94,"Names: {'CI / CD', 'CI CD', 'CI/CD'}, Subskills: {'TeamCity'}, Different Contents: 2"
+ID Content Mismatch,32021c4deab66b28154a40898bf63f41e40aa6c8a24310420ab2ebdb7c4e12fc,CI/CD,devops,95,"Names: {'CI / CD', 'CI/CD'}, Subskills: {'Azure DevOps'}, Different Contents: 1"
+ID Content Mismatch,095d245b4cff48dba9ed84121254cf7df5312e06885491547dde1249f3f53044,CI/CD,devops,96,"Names: {'CI / CD', 'CI CD', 'CI/CD'}, Subskills: {'CircleCI'}, Different Contents: 2"
+ID Content Mismatch,b664a86e2baaa7b81944e337c53532d54522e78a4146a208ae14b8c607adc89d,CI/CD,devops,97,"Names: {'CI / CD', 'CI/CD'}, Subskills: {'Drone'}, Different Contents: 1"
+ID Content Mismatch,a91e8cb23bc4ac8a8fe9ccffe3f33d3accbc214af9ef70be55c97af9379902d0,Python,ai-data-scientist,9,"Names: {'Python'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,4ebb44355381167a13ee47e864f84a631ef33c1e42ab7ba509bc92bd54232e7c,Data Structures and Algorithms,ai-data-scientist,11,"Names: {'Data Structures and Algorithms'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,82c838d50a49386088dc96cda3ee20cb0a5f484611ed1635f7485b76fe34b36d,Security,software-architect,72,"Names: {'Security'}, Subskills: {'NAN'}, Different Contents: 3"
+ID Content Mismatch,7d3f911b33881aa6b6330f9712832e68d127771b3409d8099a4fe01d1a51a51b,Pick a Language,computer-science,6,"Names: {'Pick a Language'}, Subskills: {'C', 'C++', 'C#'}, Different Contents: 1"
+ID Content Mismatch,35533a5678cf0817a5073ebceb937b67d4b02eb622234fbec655b3ccfd575df9,Data Structures,computer-science,24,"Names: {'Data Structures'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,5fc2f3745b0e9123f6fb0bfb4d53a889267e66a58a90c54358bed3d8b5842fdc,Networking,computer-science,135,"Names: {'Networking'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,93c4e14692a96e9a41b644cbcc1e571491503564e94b94a8090f73ac94d37028,Databases,computer-science,142,"Names: {'Databases'}, Subskills: {'NAN'}, Different Contents: 3"
+ID Content Mismatch,61e9a8e11c19d01d15650e73af0087b705e412a27eb17c239caf16992ea25b72,Design Patterns,computer-science,167,"Names: {'Design Patterns'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,71e30051d086268864aca1aaf5398541719da7dd6defa185e713b410cbbf9e19,Design Patterns,computer-science,168,"Names: {'Design Patterns'}, Subskills: {'GoF Design Patterns'}, Different Contents: 2"
+ID Content Mismatch,188fd76a69c80f657ddfd201cadc75755cf035ebde88bb6cbd959713ade43268,Forms,angular,37,"Names: {'Forms'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,7ca5b6b2465f0d205b7e1490b0c8979ecdd4f8a222e3e1ef025f56a01d51121c,Routing,angular,52,"Names: {'Routing'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,2ea9299691e0c4d6d8e8ed2d9afa8e3869e89d6a5dbabfd9b7cec6e905fc0629,State Management,angular,59,"Names: {'State Management'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,ecb25558fdbb7b2b8d2e94ff880765e75cd90feb01e014fe8cf2d65246c9ae75,Databases,aspnet-core,59,"Names: {'Databases'}, Subskills: {'NoSQL', 'Nosql'}, Different Contents: 2"
+ID Content Mismatch,f7e42b79a6a2fda24a8fccadee5c980da99cf5d0fe953aa5df3699ae19005634,API Clients,aspnet-core,66,"Names: {'API Clients'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,fc6ce9c5d0715da5713ee19d8524afb090f2955147a1de167c9001eecb03820c,API Clients,aspnet-core,67,"Names: {'API Clients'}, Subskills: {'REST'}, Different Contents: 2"
+ID Content Mismatch,2df53941879d1bbcb09916a800b47d2127f6463016fb81688079965e3651e9d5,API Clients,aspnet-core,71,"Names: {'API Clients'}, Subskills: {'Graphql', 'GraphQL'}, Different Contents: 2"
+ID Content Mismatch,0e7f9a7bc077755949fe07fb6d09c1353282adb9a611092601312d7f45617b7a,Template Engines,aspnet-core,74,"Names: {'Template Engines'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,8d823383a4efdf0e435d341ea9df9f4875df8908af633ffaf7680e8c6606476a,Microservices,aspnet-core,133,"Names: {'Microservices'}, Subskills: {'NAN'}, Different Contents: 3"
+ID Content Mismatch,1a756c42b675ceb4f80be0db67bff6a6680e2d30e798d369f4f0ff1b14087ea1,Working with APIs,flutter,49,"Names: {'Working with APIs'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,049af0e5880a044a564ac3411fa8e573649eeed00fe3b651d9b52c7c903004d3,Storage,flutter,54,"Names: {'Storage'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,d8a23a7038eef619c1ce34c838e14acb2d61789541183143fcaf1bc3967ae74b,State Management,flutter,70,"Names: {'State Management'}, Subskills: {'Redux', 'ReduX'}, Different Contents: 2"
+ID Content Mismatch,39ad2eed18f54833ce58ed28235586e0bbff651240e809e7fbdb5265c7c52ed8,Web Frameworks,golang,33,"Names: {'Web Frameworks'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,efcd752a1ef92d82d784f8c0d8cbf608549f87b86ff45dacd3a54828686a02d2,Functions,javascript,63,"Names: {'Functions'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,6f2305c036a2919ea11bb49e6393c750cf555979dd946fc63db0d9a293a97342,Classes,javascript,98,"Names: {'Classes'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,92a00ba6a88f09a00feeafeacc4b1b863c5268eeacb26c06c264447d8eb74c54,Modules,javascript,100,"Names: {'Modules'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,a2e8d92e83a7dad81470b6a78b8d2160c4cc74c255af730d9ca1b3144359eaf3,Transactions,mongodb,90,"Names: {'Transactions'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,ae17fe6e3c66e6e00bf698404a722f8715a6ecb45609936e8f7f2345db24de40,Testing,nodejs,100,"Names: {'Testing'}, Subskills: {'Cypress'}, Different Contents: 2"
+ID Content Mismatch,7d17256846d5d36310ae1db47d7a05bdaa791ed466816f35f2f420e1372f7ab7,Note,python,1,"Names: {'Note'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,b622e9f6b359f758eb6025c6f2ce354447af58ba5f92254986b7e30746908b6b,Advanced Topics,python,27,"Names: {'Advanced Topics'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,692bd412653a4dfc3d66926fd7028245305219f808ff7be3cacfa4e54037d648,Styling,react,29,"Names: {'Styling'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,c2cd0d153d02c6694e6812a86cb82ca0d12f611216a5d38622a24405c6edc628,Introduction,react-native,1,"Names: {'Introduction'}, Subskills: {'NAN'}, Different Contents: 3"
+ID Content Mismatch,6d85f5d8775058fae552dd12f6d2d4fb3c3c7404bbed09ae0405f69b62736c46,Core Components,react-native,28,"Names: {'Core Components'}, Subskills: {'NAN'}, Different Contents: 2"
+ID Content Mismatch,9c17f653696951b6358f5816d1bf14a3023c4566eb2c85ccede051375edb694f,Core Components,react-native,31,"Names: {'Core Components'}, Subskills: {'Button'}, Different Contents: 2"
+ID Content Mismatch,cff3ec763e42c36d9b8b2d2c955623ad10a90785a2c9953971b2abd8144b4c4c,Core Components,react-native,37,"Names: {'Core Components'}, Subskills: {'Modal'}, Different Contents: 2"
+ID Content Mismatch,8317b0cc93189948a0787d1397bcb576c8d25d12cd95b84b2fdb124bea7546b8,Ecosystem,typescript,90,"Names: {'Ecosystem'}, Subskills: {'NAN'}, Different Contents: 2"
+Same Skill In Same Track With Different ID,d0c9c74396bd319b120223f66c941cdb575b9af297dc1cb528cb6524e6e1370d,Internet,frontend,2,"Track: frontend, IDs: ['1cd5904cd7c2245aa912de86135b1ce4a3996aec7087b97e8f8ebc0599282b05', 'd0c9c74396bd319b120223f66c941cdb575b9af297dc1cb528cb6524e6e1370d']"
+Same Skill In Same Track With Different ID,ee691114a2946e91fd1d5d6bc8180d33899dcffe62358ea437926be31b755848,JavaScript,frontend,20,"Track: frontend, IDs: ['6bd81b6efcc3e018cbac928c5d39ef38d1078a913317f9fca7742eca3357391e', 'ee691114a2946e91fd1d5d6bc8180d33899dcffe62358ea437926be31b755848']"
+Same Skill In Same Track With Different ID,d0c9c74396bd319b120223f66c941cdb575b9af297dc1cb528cb6524e6e1370d,Internet,backend,2,"Track: backend, IDs: ['1cd5904cd7c2245aa912de86135b1ce4a3996aec7087b97e8f8ebc0599282b05', 'd0c9c74396bd319b120223f66c941cdb575b9af297dc1cb528cb6524e6e1370d']"
+Same Skill In Same Track With Different ID,76daa849042ed79ccc4b7d4119b8eac3b2d261a9dd1fa97fb88b6acc690b1b97,Blockchain,blockchain,2,"Track: blockchain, IDs: ['7ed0748a783b5a5f9a52260bef990058d7a5a90462d396eb37931ff5c43323ff', '76daa849042ed79ccc4b7d4119b8eac3b2d261a9dd1fa97fb88b6acc690b1b97']"
+Same Skill In Same Track With Different ID,bed6a0704a61efdbacfcfc23ebe91ef49e97f0a5a8769d87ac8dded59258b45d,Processes and Threads,computer-science,134,"Track: computer-science, IDs: ['c559bf9c676a1a981ef3b5efb88c393491f012b18e6175d07143309132ad30fb', 'bed6a0704a61efdbacfcfc23ebe91ef49e97f0a5a8769d87ac8dded59258b45d']"
+Same Skill In Same Track With Different ID,45a89ba1aabb2433fcacfdd9b4f4341457733f032a1639325c5c4569eb3b56a5,C#,aspnet-core,2,"Track: aspnet-core, IDs: ['c5e81fea744752c8636632aafcf57750c6d15976de49436339524bd86f8abf21', '45a89ba1aabb2433fcacfdd9b4f4341457733f032a1639325c5c4569eb3b56a5']"
+Same Skill In Same Track With Different ID,c67171b48c1fd4620b571178af6ad728bd647f8d9f4607018f0e8ef8a4c12924,Developer Tools,mongodb,108,"Track: mongodb, IDs: ['bb2aae0fc49472d7c9f81df37e81f67c3af47b9ee0ad2b9e908e557466bcc739', 'c67171b48c1fd4620b571178af6ad728bd647f8d9f4607018f0e8ef8a4c12924']"
+Same Skill In Same Track With Different ID,75a3d1910b8ba8bd21c43be0ae5ec9f75d4cf3f382ac1ab770978f98e0e51b91,Hooks,react,20,"Track: react, IDs: ['300b2828e56455b5f8d8d2dc1451f332b589912a966877afadd3899893df2ceb', '75a3d1910b8ba8bd21c43be0ae5ec9f75d4cf3f382ac1ab770978f98e0e51b91']"

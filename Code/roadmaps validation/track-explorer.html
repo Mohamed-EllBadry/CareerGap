@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Track Explorer</title>
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--ink:#202738;--muted:#667085;--line:#e4e8ef;--accent:#5576d8;--soft:#edf2ff;--warn:#fff4dc;--bad:#ffe9e9;--sel:#e3eaff}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:22px 26px;background:#202b43;color:white}header h1{margin:0 0 7px;font-size:23px}header p{margin:0;color:#d2daea;font-size:14px}
+main{max-width:1500px;margin:auto;padding:20px;display:grid;grid-template-columns:380px minmax(0,1fr);gap:18px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.side{min-height:75vh}.toolbar{padding:14px;border-bottom:1px solid var(--line);display:grid;gap:9px}
+.toolbar input,.toolbar select{width:100%;padding:10px 11px;border:1px solid var(--line);border-radius:9px;font-size:14px;background:white}
+.btn{border:0;border-radius:9px;background:var(--accent);color:white;padding:10px 12px;font-weight:600;cursor:pointer}
+.btn.secondary{background:#edf0f6;color:#344054}.btn:disabled{opacity:.5;cursor:not-allowed}
+.row{display:flex;gap:8px}.row .btn{flex:1}
+.tree{padding:9px;max-height:calc(100vh - 290px);overflow:auto}
+.tree details{margin:1px 0}.tree summary{cursor:pointer;list-style:none;padding:7px 8px;border-radius:8px;display:flex;gap:7px;align-items:flex-start}
+.tree summary:hover,.leaf:hover{background:#f2f5fb}.tree summary::-webkit-details-marker{display:none}
+.tree summary:before{content:"▸";color:var(--muted);font-size:11px;margin-top:3px;width:10px;flex:none}
+.tree details[open]>summary:before{content:"▾"}
+.indent{margin-left:12px;border-left:1px solid var(--line);padding-left:6px}
+.leaf{padding:7px 8px 7px 25px;border-radius:8px;cursor:pointer;font-size:13.5px;overflow-wrap:anywhere}
+.sel{background:var(--sel)!important}
+.count{margin-left:auto;color:var(--muted);font-size:12px;white-space:nowrap;padding-left:6px}
+.node{font-size:13.5px;overflow-wrap:anywhere}.sec>summary{font-weight:700;font-size:14px}
+.lvl1>summary .node{font-weight:600}.lvl3 .node,.lvl3.leaf{font-size:13px;color:#344054}
+.dot{width:7px;height:7px;border-radius:50%;background:#f0a020;flex:none;margin-top:6px}
+.content{padding:22px}.muted{color:var(--muted)}.small{font-size:12px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}
+.stat{border:1px solid var(--line);border-radius:11px;padding:13px}.stat strong{font-size:22px;display:block}.stat span{font-size:12px;color:var(--muted)}
+.record{border:1px solid var(--line);border-radius:12px;margin:12px 0;padding:14px}
+.record pre{white-space:pre-wrap;word-break:break-word;background:#f7f8fb;padding:11px;border-radius:8px;max-height:300px;overflow:auto;font:13px/1.5 Consolas,monospace}
+.field{margin:12px 0}.field label{font-size:12px;font-weight:700;color:var(--muted);display:block;margin-bottom:4px}
+.field .val{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.55}
+.chip{display:inline-block;background:var(--soft);color:#405eaf;border-radius:20px;padding:3px 9px;font-size:12px;margin:2px 4px 2px 0}
+.chip.warn{background:var(--warn);color:#8a5a00}
+.crumbs{font-size:12px;color:var(--muted);margin-bottom:6px;overflow-wrap:anywhere}
+h2{margin:0 0 6px}h3{margin:0 0 8px}
+.notice{background:var(--warn);padding:12px;border-radius:10px;font-size:13px;margin:10px 0}.error{background:var(--bad)}
+.empty{padding:25px;color:var(--muted);text-align:center}
+.footer{padding:12px 16px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+.resources{display:grid;gap:8px}.resource{border:1px solid var(--line);border-radius:9px;padding:10px;background:#fbfcff}
+.resource-title{font-weight:600;margin-bottom:5px}.resource-url{font-size:12px;overflow-wrap:anywhere;color:#5576d8}
+.resource-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}
+.resource-actions a,.resource-actions button{display:inline-block;border:0;border-radius:7px;padding:7px 10px;background:#edf2ff;color:#405eaf;text-decoration:none;font-size:12px;font-weight:600;cursor:pointer}
+.kids{display:grid;gap:6px}.kid{text-align:left;border:1px solid var(--line);background:#fbfcff;border-radius:9px;padding:9px 11px;cursor:pointer;font-size:13.5px;color:var(--ink)}
+.kid:hover{background:var(--soft)}.kid small{color:var(--muted);margin-left:6px}
+.conf{border:1px solid var(--line);border-radius:10px;padding:11px;margin:8px 0;font-size:13px;line-height:1.5}
+details.raw summary{cursor:pointer;font-size:13px;color:var(--muted);margin:10px 0 6px}
+@media(max-width:900px){main{grid-template-columns:1fr}.side{min-height:auto}.tree{max-height:50vh}.stats{grid-template-columns:1fr 1fr}}
+</style></head>
+<body>
+<header><h1 id="title">Track Explorer</h1><p id="sub">Read-only viewer · Open a single track JSON to browse its skills, subskills, IDs, content, resources, frameworks and related topics</p></header>
+<main>
+<section class="panel side">
+<div class="toolbar">
+<label class="small"><b>1) Select a track JSON file</b></label>
+<input type="file" id="file" accept=".json,application/json">
+<input id="search" placeholder="Search name, ID, content, resource…" disabled>
+<select id="filter" disabled>
+<option value="all">All records</option>
+<option value="nocontent">Missing skill content</option>
+<option value="noresc">Without resources</option>
+<option value="dup">Repeated IDs (in this file)</option>
+</select>
+<div class="row"><button class="btn secondary" id="clear" disabled>Clear</button><button class="btn secondary" id="home" disabled>Track overview</button></div>
+</div>
+<div class="tree" id="tree"><div class="empty">Load a track JSON file to browse it.</div></div>
+<div class="footer" id="foot">The viewer does not edit or save your JSON file.</div>
+</section>
+<section class="panel"><div class="content" id="details">
+<h2>Welcome</h2><p class="muted">Choose one track JSON file (e.g. <code>backend.json</code>). It is read inside this browser tab only and shown as a navigable tree.</p>
+<div class="notice">Read-only: no editing, deleting, or saving back to the source file.</div>
+</div></section>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+const fileInput=$('file'),tree=$('tree'),details=$('details'),search=$('search'),filter=$('filter'),clearBtn=$('clear'),homeBtn=$('home'),foot=$('foot');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const LEVELS={1:'Skill',2:'Subskill',3:'Sub-subskill'};
+let data=null,sections=[],byKey=new Map(),idCount=new Map(),query='',mode='all',selKey=null,uid=0;
+
+function safeUrl(u){try{const x=new URL(String(u||''));return ['http:','https:'].includes(x.protocol)?x.href:''}catch{return ''}}
+const lvlName=l=>LEVELS[l]||('Level '+l);
+const nm=s=>s.skill_name||'(Unnamed)';
+const rscOf=n=>Array.isArray(n.data.rsc)?n.data.rsc:[];
+
+function mk(s,level,section,parent){
+  const n={key:'n'+(uid++),data:s,level,section,parent,children:[],total:0};
+  byKey.set(n.key,n);
+  if(s.skill_id)idCount.set(s.skill_id,(idCount.get(s.skill_id)||0)+1);
+  n.children=(Array.isArray(s.sub_skills)?s.sub_skills:[]).map(c=>mk(c,level+1,section,n));
+  n.total=n.children.reduce((a,c)=>a+c.total+1,0);
+  return n;
+}
+function buildModel(d){
+  byKey=new Map();idCount=new Map();uid=0;sections=[];
+  const add=(key,label,icon,list,extra)=>{
+    const sec={key,label,icon,extra,nodes:[]};
+    sec.nodes=(Array.isArray(list)?list:[]).map(s=>mk(s,1,sec,null));
+    sections.push(sec);
+  };
+  add('main','Track skills','📁',d.skills);
+  (Array.isArray(d.frameworks)?d.frameworks:[]).forEach((f,i)=>add('fw'+i,f.framework_name||f.framework_id||'Framework','🧱',f.skills,{type:'Framework',raw:f}));
+  (Array.isArray(d.related_topics)?d.related_topics:[]).forEach((r,i)=>add('rt'+i,r.related_name||r.related_id||'Related topic','🔗',r.skills,{type:'Related topic',raw:r}));
+}
+function allNodes(){const out=[];const w=n=>{out.push(n);n.children.forEach(w)};sections.forEach(s=>s.nodes.forEach(w));return out}
+
+function textOf(n){
+  const d=n.data;
+  return [d.skill_name,d.skill_id,d.skill_content,...rscOf(n).flatMap(r=>[r.title,r.url,r.content])].join(' ').toLowerCase();
+}
+function selfOk(n){
+  const d=n.data;
+  if(mode==='nocontent'&&d.skill_content)return false;
+  if(mode==='noresc'&&rscOf(n).length)return false;
+  if(mode==='dup'&&!(d.skill_id&&idCount.get(d.skill_id)>1))return false;
+  if(query&&!textOf(n).includes(query))return false;
+  return true;
+}
+function markVis(n){let v=selfOk(n);for(const c of n.children)if(markVis(c))v=true;n._vis=v;return v}
+
+function orderOf(n){const d=n.data;return d.skill_order_in_track??d.skill_order_in_parent??''}
+
+function renderTree(){
+  tree.innerHTML='';
+  const filtering=!!query||mode!=='all';
+  let shown=0;
+  const renderNode=n=>{
+    if(!n._vis)return null;shown++;
+    const missing=!n.data.skill_content;
+    const label=`<span class="node">${esc(nm(n.data))}</span>`;
+    const dot=missing?'<span class="dot" title="No skill content"></span>':'';
+    if(!n.children.length){
+      const el=document.createElement('div');
+      el.className='leaf lvl'+n.level+(n.key===selKey?' sel':'');el.dataset.key=n.key;
+      el.innerHTML=label+dot;
+      return el;
+    }
+    const d=document.createElement('details');d.className='lvl'+n.level;if(filtering)d.open=true;
+    const s=document.createElement('summary');s.dataset.key=n.key;if(n.key===selKey)s.className='sel';
+    s.innerHTML=`${label}${dot}<span class="count">${n.total}</span>`;
+    d.appendChild(s);
+    const ind=document.createElement('div');ind.className='indent';
+    n.children.forEach(c=>{const e=renderNode(c);if(e)ind.appendChild(e)});
+    d.appendChild(ind);return d;
+  };
+  sections.forEach((sec,i)=>{
+    sec.nodes.forEach(markVis);
+    const vis=sec.nodes.filter(n=>n._vis);
+    if(!vis.length&&(filtering||!sec.nodes.length&&i>0))return;
+    const d=document.createElement('details');d.className='sec';if(i===0||filtering)d.open=true;
+    const s=document.createElement('summary');
+    const cnt=vis.reduce((a,n)=>a+n.total+1,0);
+    s.innerHTML=`<span>${sec.icon}</span><span class="node">${esc(sec.label)}</span><span class="count">${sec.extra?esc(sec.extra.type)+' · ':''}${cnt}</span>`;
+    s.addEventListener('click',()=>{if(sec.extra)showSection(sec)});
+    d.appendChild(s);
+    const ind=document.createElement('div');ind.className='indent';
+    vis.forEach(n=>{const e=renderNode(n);if(e)ind.appendChild(e)});
+    if(!vis.length)ind.innerHTML='<div class="empty small">No skills in this section.</div>';
+    d.appendChild(ind);tree.appendChild(d);
+  });
+  if(!shown)tree.innerHTML='<div class="empty">No matching records.</div>';
+}
+
+function rscHtml(list){
+  if(!list.length)return '<div class="muted">No resources available.</div>';
+  return '<div class="resources">'+list.map((x,i)=>{
+    const url=safeUrl(x.url),content=x.content&&String(x.content).toLowerCase()!=='nan'?x.content:'';
+    return `<div class="resource"><div class="resource-title">${esc(x.title||('Resource '+(i+1)))}</div>`+
+      (url?`<div class="resource-url">${esc(url)}</div><div class="resource-actions"><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Open resource ↗</a><button type="button" data-copy="${esc(url)}">Copy link</button></div>`:(x.url?`<div class="muted small">Invalid URL: ${esc(x.url)}</div>`:''))+
+      (content?`<div class="small muted" style="margin-top:6px;white-space:pre-wrap">${esc(content)}</div>`:'')+`</div>`;
+  }).join('')+'</div>';
+}
+
+function showNode(key){
+  const n=byKey.get(key);if(!n)return;selKey=key;
+  document.querySelectorAll('.sel').forEach(e=>e.classList.remove('sel'));
+  const el=tree.querySelector(`[data-key="${key}"]`);
+  if(el){el.classList.add('sel');let p=el.parentElement;while(p&&p!==tree){if(p.tagName==='DETAILS')p.open=true;p=p.parentElement}el.scrollIntoView({block:'nearest'})}
+  const d=n.data,crumbs=[];let p=n.parent;while(p){crumbs.unshift(nm(p.data));p=p.parent}
+  const rs=rscOf(n),dup=d.skill_id&&idCount.get(d.skill_id)>1;
+  details.innerHTML=`<div class="crumbs">${esc([n.section.label,...crumbs].join(' › '))}</div>
+  <h2>${esc(nm(d))}</h2>
+  <div>${d.skill_id?`<span class="chip">ID: ${esc(d.skill_id)}</span>`:''}<span class="chip">${esc(lvlName(n.level))}</span>${orderOf(n)!==''?`<span class="chip">Order: ${esc(orderOf(n))}</span>`:''}<span class="chip">${n.children.length} direct subskill(s)</span><span class="chip">${rs.length} resource(s)</span>${dup?`<span class="chip warn">ID repeated ${idCount.get(d.skill_id)}×</span>`:''}</div>
+  <div class="field"><label>Skill Content</label><div class="val">${d.skill_content?esc(d.skill_content):'<span class="muted">— (no content)</span>'}</div></div>
+  <div class="field"><label>Resources (${rs.length})</label>${rscHtml(rs)}</div>
+  ${n.children.length?`<div class="field"><label>Subskills (${n.children.length})</label><div class="kids">${n.children.map(c=>`<button class="kid" data-go="${c.key}">${esc(nm(c.data))}<small>${c.total?c.total+' below · ':''}${rscOf(c).length} res.</small></button>`).join('')}</div></div>`:''}
+  ${n.parent?`<div class="field"><button class="btn secondary small" data-go="${n.parent.key}">↑ Parent: ${esc(nm(n.parent.data))}</button></div>`:''}
+  <details class="raw"><summary>Show complete original record</summary><pre>${esc(JSON.stringify(d,null,2))}</pre></details>`;
+}
+
+function showSection(sec){
+  const r=sec.extra.raw,rest=Object.entries(r).filter(([k])=>k!=='skills');
+  details.innerHTML=`<h2>${esc(sec.label)}</h2><div><span class="chip">${esc(sec.extra.type)}</span><span class="chip">${sec.nodes.length} top-level skill(s)</span></div>
+  <div class="field"><label>Details</label><div class="val">${rest.map(([k,v])=>`${esc(k)}: ${esc(v===null?'—':typeof v==='object'?JSON.stringify(v):v)}`).join('\n')}</div></div>
+  <div class="field"><label>Skills</label><div class="kids">${sec.nodes.map(c=>`<button class="kid" data-go="${c.key}">${esc(nm(c.data))}<small>${c.total?c.total+' below · ':''}${rscOf(c).length} res.</small></button>`).join('')||'<span class="muted">None</span>'}</div></div>`;
+}
+
+function showOverview(){
+  selKey=null;document.querySelectorAll('.sel').forEach(e=>e.classList.remove('sel'));
+  const nodes=allNodes(),main=sections[0],fw=sections.filter(s=>s.key.startsWith('fw')),rt=sections.filter(s=>s.key.startsWith('rt'));
+  const mainNodes=[];const w=n=>{mainNodes.push(n);n.children.forEach(w)};main.nodes.forEach(w);
+  const res=nodes.reduce((a,n)=>a+rscOf(n).length,0),nocontent=mainNodes.filter(n=>!n.data.skill_content).length;
+  const dupIds=[...idCount].filter(([,c])=>c>1).length;
+  const dc=Array.isArray(data.dependency_conflicts)?data.dependency_conflicts:[];
+  details.innerHTML=`<h2>${esc(data.track_name||'Track')}</h2>
+  <div>${data.track_id?`<span class="chip">Track ID: ${esc(data.track_id)}</span>`:''}</div>
+  <div class="stats">
+  <div class="stat"><strong>${main.nodes.length}</strong><span>Top-level skills</span></div>
+  <div class="stat"><strong>${mainNodes.length}</strong><span>All skills incl. subskills (track only)</span></div>
+  <div class="stat"><strong>${res.toLocaleString()}</strong><span>Resources (whole file)</span></div>
+  <div class="stat"><strong>${fw.length}</strong><span>Frameworks</span></div>
+  <div class="stat"><strong>${rt.length}</strong><span>Related topics</span></div>
+  <div class="stat"><strong>${nocontent}</strong><span>Track skills without content</span></div></div>
+  ${dupIds?`<div class="notice">${dupIds} ID(s) appear more than once in this file. Use the “Repeated IDs” filter to see them.</div>`:''}
+  ${fw.length?`<div class="field"><label>Frameworks</label><div class="kids">${fw.map(s=>`<button class="kid" data-sec="${s.key}">${esc(s.label)}<small>${s.nodes.length} skills</small></button>`).join('')}</div></div>`:''}
+  ${rt.length?`<div class="field"><label>Related topics</label><div class="kids">${rt.map(s=>`<button class="kid" data-sec="${s.key}">${esc(s.label)}<small>${s.nodes.length} skills</small></button>`).join('')}</div></div>`:''}
+  <div class="field"><label>Dependency conflicts (${dc.length})</label>${dc.length?dc.map(c=>{
+    const e=c.ignored_edge;
+    return `<div class="conf">${e?`<b>Ignored edge:</b> ${esc(e.source)} → ${esc(e.target)}<br>`:''}${c.chosen_order?`<b>Chosen order:</b> ${esc(c.chosen_order.join(' → '))}<br>`:''}${c.reason?`<b>Reason:</b> ${esc(c.reason)}`:''}${!e&&!c.chosen_order&&!c.reason?`<pre>${esc(JSON.stringify(c,null,2))}</pre>`:''}</div>`}).join(''):'<div class="muted">None.</div>'}</div>
+  <div class="notice">Viewer only. The JSON was read in memory and is not modified.</div>`;
+}
+
+details.addEventListener('click',e=>{
+  const go=e.target.closest('[data-go]');if(go){showNode(go.dataset.go);return}
+  const sec=e.target.closest('[data-sec]');if(sec){const s=sections.find(x=>x.key===sec.dataset.sec);if(s)showSection(s);return}
+  const b=e.target.closest('button[data-copy]');if(b){navigator.clipboard.writeText(b.dataset.copy).then(()=>{b.textContent='Copied!';setTimeout(()=>b.textContent='Copy link',1300)},()=>{b.textContent='Copy failed'})}
+});
+tree.addEventListener('click',e=>{
+  const t=e.target.closest('[data-key]');if(t)showNode(t.dataset.key);
+});
+
+fileInput.addEventListener('change',async e=>{
+  const f=e.target.files?.[0];if(!f)return;
+  try{
+    const parsed=JSON.parse(await f.text());
+    if(!parsed||Array.isArray(parsed)||!Array.isArray(parsed.skills))throw new Error('This viewer expects one track object with a “skills” array (track_id, track_name, skills, frameworks, related_topics, …).');
+    data=parsed;buildModel(data);query='';mode='all';search.value='';filter.value='all';
+    search.disabled=filter.disabled=clearBtn.disabled=homeBtn.disabled=false;
+    $('title').textContent=data.track_name||'Track Explorer';
+    $('sub').textContent=`${f.name} · Read-only viewer`;
+    renderTree();showOverview();
+    foot.textContent=`${data.track_name||f.name} · ${allNodes().length.toLocaleString()} records · ${sections.length-1} framework/related section(s) · Viewer only`;
+  }catch(err){
+    tree.innerHTML=`<div class="empty error">${esc(err.message)}</div>`;
+    details.innerHTML=`<h2>Unable to load file</h2><p>${esc(err.message)}</p>`;
+  }
+});
+search.addEventListener('input',()=>{query=search.value.trim().toLowerCase();renderTree()});
+filter.addEventListener('change',()=>{mode=filter.value;renderTree()});
+clearBtn.addEventListener('click',()=>{search.value='';filter.value='all';query='';mode='all';renderTree()});
+homeBtn.addEventListener('click',showOverview);
+</script></body></html>
