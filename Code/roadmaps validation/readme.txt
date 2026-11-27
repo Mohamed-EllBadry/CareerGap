@@ -27,14 +27,14 @@ Prerequisites
 -------------
 - Python 3
 - pandas  (pip install pandas)
-- skills_from_roadmaps_with_progress.json in the same folder as main.py
+- skills_from_roadmaps_with_progress.json in the same folder as validate_roadmaps.py
 
 
 How to run
 ----------
-1. Put main.py next to the JSON file.
+1. Put validate_roadmaps.py next to the JSON file.
 2. Close any CSV file that is open in Excel, or Windows will not let the script overwrite it.
-3. Run:  python main.py
+3. Run:  python validate_roadmaps.py
 4. Open validation_issues.csv and duplicate_skills_same_track.csv.
 
 
